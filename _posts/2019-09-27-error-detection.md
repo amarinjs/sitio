@@ -10,7 +10,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .7), rgba(139, 34, 139, .5))'
-    src: https://github.com/alexma2344/peperina/blob/master/assets/images/radiohead.jpg?raw=true"
+    src: https://github.com/alexma2344/peperina/blob/master/assets/images/don-ripper.jpg?raw=true"
 sharing: true
 comment: true
 articles:
@@ -30,10 +30,21 @@ Imagine that the packets we send and receive usually have to go through our loca
 
 **eg** Making a wire transfer and having bits flipped in transit. Could have a big impact on the outcome of the operation.
 
-These are some error detection algorithms used to address the above. Each of them very differnt from the other.
+These are some error detection (ED) algorithms used to address the above. Each of them very differnt from the other.
 - Checksums
 - Cyclic redundancy codes (CRCs)
 - Message authentication codes (MACs)
+
+Ethernet and TLS appends ED to the payload. 
+
+
+
+
+Whereas IP prepends a checksum on its header.
+
+
+
+
 
 ## Checksum
 
