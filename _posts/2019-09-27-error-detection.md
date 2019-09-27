@@ -43,6 +43,7 @@ Ethernet and TLS appends ED to the payload.
 
 	f(Data) = ED
 
+
 Whereas IP prepends a checksum on its header.
 
 	ED = f(Data)
