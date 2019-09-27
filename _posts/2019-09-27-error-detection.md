@@ -30,7 +30,7 @@ Imagine that the packets we send and receive usually have to go through our loca
 
 eg Making a wire transfer and having bits flipped in transit. Could have a big impact on the outcome of the operation.
 
-These are some error detection algorithms used to address the above.
+These are some error detection algorithms used to address the above. Each of them very differnt from the other.
 - Checksums
 - Cyclic redundancy codes (CRCs)
 - Message authentication codes (MACs)
