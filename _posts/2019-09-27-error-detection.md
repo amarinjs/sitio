@@ -53,7 +53,7 @@ Whereas IP prepends a checksum on its header.
 
 It adds up all the values in the packet (IP,TCP)
 
-<a class="button button--primary button--rounded button--xs" href="">PROS</a> Fast and cheap (Even in software)
+<a class="button button--success button--rounded button--xs" href="">PROS</a> Fast and cheap (Even in software)
 
 <a class="button button--primary button--rounded button--xs" href="">CONS</a> Not very robust (Weak error detection guarantees)
 
@@ -63,7 +63,7 @@ Easy to cheat, with as few as 2 bit errors. eg If 1 bit error adds 16 and anothe
 
 Computes remainder of a polynomial (Ethernet)
 
-<a class="button button--primary button--rounded button--xs" href="">PROS</a> More robust, protects against any 2 bit error
+<a class="button button--success button--rounded button--xs" href="">PROS</a> More robust, protects against any 2 bit error
 
 <a class="button button--primary button--rounded button--xs" href="">CONS</a> More expensive in computation terms than checksum (Easy in HW)
 
@@ -75,8 +75,10 @@ eg A CRC that is ***c*** bits long, can detect any 1, 2 bit errors, any burst **
 
 Cryptographic transformation of data (TLS)
 
-<a class="button button--primary button--rounded button--xs" href="">PROS</a> Robust to malicious modifications
+<a class="button button--success button--rounded button--xs" href="">PROS</a> Robust to malicious modifications
 
 <a class="button button--primary button--rounded button--xs" href="">CONS</a> Not so robust to errors
 
 MAC is not as good as CRC
+
+
