@@ -13,6 +13,8 @@ article_header:
     src: https://github.com/alexma2344/peperina/blob/master/assets/images/don-ripper.jpg?raw=true"
 sharing: true
 comment: true
+mathjax: true
+mathjax_autoNumber: true
 articles:
   excerpt_type: html
 tags: computer-networks
@@ -39,19 +41,11 @@ The following are some error detection (ED) algorithms used to address the above
 
 Ethernet and TLS appends ED to the payload. 
 
-<div class="grid">
-  <div class="cell cell--8">Data</div>
-  <div class="cell cell--auto">ED</div>
-</div>
-
+	f(Data) = ED
 
 Whereas IP prepends a checksum on its header.
 
-<div class="grid">
-  <div class="cell cell--8">Data</div>
-  <div class="cell cell--auto">ED</div>
-</div>
-
+	ED = f(Data)
 
 
 ## Checksum
