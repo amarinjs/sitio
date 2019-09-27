@@ -69,7 +69,7 @@ Computes remainder of a polynomial (Ethernet)
 
 Because robust CRCs are used at the Link Layer, in some sense the IP layer can get away with Checksums.
 
-eg A CRC that is ***c*** bits long, can detect any 1, 2 bit errors and any burst ***≤ c*** 
+eg A CRC that is ***c*** bits long, can detect any 1, 2 bit errors, any burst ***≤ c***, any odd number of errors. 
 
 ## MAC
 
