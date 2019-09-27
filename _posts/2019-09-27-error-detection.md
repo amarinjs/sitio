@@ -41,12 +41,12 @@ The following are some error detection (ED) algorithms used to address the above
 
 Ethernet and TLS appends ED to the payload. 
 
-	f(Data) = ED
+***f(Data) = ED***
 
 
 Whereas IP prepends a checksum on its header.
 
-	ED = f(Data)
+***ED = f(Data)***
 
 
 ## Checksum
@@ -67,7 +67,9 @@ Computes remainder of a polynomial (Ethernet)
 
 <a class="button button--primary button--rounded button--xs" href="">CONS</a> More expensive in computation terms than checksum (Easy in HW)
 
-Because robust CRCs are used at the Link Layer, in some sense the IP layer can get away with Checksums
+Because robust CRCs are used at the Link Layer, in some sense the IP layer can get away with Checksums.
+
+eg A CRC that is ***c*** bits long, can detect any 1, 2 bit errors and any burst ***≤ c*** 
 
 ## MAC
 
