@@ -21,3 +21,9 @@ tags: computer-networks
 <!--more-->
 
 ---
+
+## Checksum
+
+## CRC
+
+## MAC
