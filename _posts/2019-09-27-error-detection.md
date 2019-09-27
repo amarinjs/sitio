@@ -32,7 +32,7 @@ Imagine that the packets we send and receive usually have to go through our loca
 
 Could have a big impact on the outcome of the operation.
 
-These are some error detection (ED) algorithms used to address the above. Each of them very differnt from the other.
+The following are some error detection (ED) algorithms used to address the above. Each of them very differnt from the other.
 - Checksums
 - Cyclic redundancy codes (CRCs)
 - Message authentication codes (MACs)
