@@ -50,6 +50,13 @@ Whereas IP prepends a checksum on its header.
 
 ## Checksum
 
+It adds up all the values in the packet (IP,TCP)
+[BUTTON](#){:.button.button--primary.button--rounded.button--xs}
+<a class="button button--primary button--rounded button--xs" href="">PROS</a> Fast and cheap even in software
+[BUTTON](#){:.button.button--primary.button--rounded.button--xs}
+<a class="button button--primary button--rounded button--xs" href="">CONS</a> Not very robust
+
+
 ## CRC
 
 ## MAC
