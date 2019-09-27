@@ -40,14 +40,17 @@ The following are some error detection (ED) algorithms used to address the above
 Ethernet and TLS appends ED to the payload. 
 
 <div class="grid">
-  <div class="cell cell--8">2Data</div>
+  <div class="cell cell--8">Data</div>
   <div class="cell cell--auto">ED</div>
 </div>
 
 
 Whereas IP prepends a checksum on its header.
 
-
+<div class="grid">
+  <div class="cell cell--8">Data</div>
+  <div class="cell cell--auto">ED</div>
+</div>
 
 
 
