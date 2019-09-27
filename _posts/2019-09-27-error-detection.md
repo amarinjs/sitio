@@ -28,7 +28,9 @@ The chances of errors on the transmissions over the network are always latent.
 
 Imagine that the packets we send and receive usually have to go through our local network, to an ISP maintained physical medium, trough different jumps on internet nodes, and to the server located on a remote infrastructure.
 
-**eg** Making a wire transfer and having bits flipped in transit. Could have a big impact on the outcome of the operation.
+**eg** Making a wire transfer and having bits flipped in transit.
+
+Could have a big impact on the outcome of the operation.
 
 These are some error detection (ED) algorithms used to address the above. Each of them very differnt from the other.
 - Checksums
