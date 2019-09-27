@@ -59,11 +59,15 @@ It adds up all the values in the packet (IP,TCP)
 
 ## CRC
 
+Computes remainder of a polynomial (Ethernet)
+
 <a class="button button--primary button--rounded button--xs" href="">PROS</a> More robust, protects against any 2 bit error
 
 <a class="button button--primary button--rounded button--xs" href="">CONS</a> More expensive than checksum (easy in HW)
 
 ## MAC
+
+Cryptographic transformation of data (TLS)
 
 <a class="button button--primary button--rounded button--xs" href="">PROS</a> Robust to malicious modifications
 
