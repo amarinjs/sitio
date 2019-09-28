@@ -9,8 +9,7 @@ article_header:
   theme: dark
   background_color: '#203028'
   background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87, .4), rgba(139, 34, 139, .4))'
-    src: https://github.com/alexma2344/peperina/blob/master/assets/images/radiohead.jpg?raw=true"
+    gradient: 'linear-gradient(313deg, rgba(2,0,36, .3) 0%, rgba(76,76,194, .3) 47%, rgba(0,212,255, .6) 100%)'
 sharing: true
 comment: true
 articles:
