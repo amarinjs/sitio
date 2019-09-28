@@ -25,16 +25,12 @@ tags: about info
   <div class="card__image">
     <img class="image" src="https://github.com/alexma2344/peperina/blob/master/assets/images/profile2.PNG?raw=true"/>
   </div>
-  <div class="item__content">
-    <div class="item__header">
-      <h4>Alejandro Marin</h4>
-    </div>
-    <div class="item__description">
-      <p>Computer networks / IT infrastructure, Alejandro is a network engineer currently working with NetBrain Technologies. His advice and implementation practices adhere to industry standards and he is always eager to discover new ways and tools to carry out work in the infrastructure. Keen reader of IEEE standards and RFCs  </p>
+  <div class="card__content">
+    <div class="card__header">
+      <h4>Photograph</h4>
     </div>
   </div>
 </div>
-
 
 ## Purpose
 
