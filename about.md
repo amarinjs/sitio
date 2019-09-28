@@ -21,8 +21,8 @@ tags: about info
 
 ---
 
-<div class="item">
-  <div class="item__image">
+<div class="card">
+  <div class="card__image">
     <img class="image" src="https://github.com/alexma2344/peperina/blob/master/assets/images/profile2.PNG?raw=true"/>
   </div>
   <div class="item__content">
