@@ -2,10 +2,6 @@
 layout: article
 title: About
 ---
-<!--more-->
-
----
-
 <div class="card">
   <div class="card__image">
     <img class="image" src="https://github.com/alexma2344/peperina/blob/master/assets/images/profile2.PNG?raw=true"/>
