@@ -22,13 +22,20 @@ tags: about info
 ---
 
 
-<a href="https://www.linkedin.com/in/alejandro-marin-768833117/">
+<a href="https://www.linkedin.com/in/alejandro-marin-768833117">
   <div class="card card--clickable">
     <div class="card__image">
       <img class="image" src="https://github.com/alexma2344/peperina/blob/master/assets/images/profile2.PNG?raw=true"/>
     </div>
   </div>
 </a>
+
+
+https://www.youracclaim.com/badges/c83cac69-ad34-4732-88b6-ba325d588946/linked_in_profile
+
+
+https://www.youracclaim.com/badges/033cd1be-08c9-4ea6-894e-c496e57b83c8/linked_in_profile
+
 
 
 
