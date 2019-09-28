@@ -36,14 +36,6 @@ tags: about info
 </div>
 
 
-https://www.youracclaim.com/badges/c83cac69-ad34-4732-88b6-ba325d588946/linked_in_profile
-
-
-https://www.youracclaim.com/badges/033cd1be-08c9-4ea6-894e-c496e57b83c8/linked_in_profile
-
-
-
-
 ## Purpose
 
 To melt multiple sources into comprehensible guides. 
