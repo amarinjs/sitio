@@ -51,13 +51,15 @@ Whereas IP prepends a checksum on its header.
 
 ## Checksum
 
-It adds up all the values in the packet (IP,TCP)
+It adds up all the values in the packet (IP,TCP,UDP)
 
-<a class="button button--primary button--rounded button--xs" href="">PROS</a> Fast and cheap (Even in software)
+<a class="button button--primary button--rounded button--xs" href="">PROS</a> Fast and cheap (Motivated by earlier software implementations)
 
-<a class="button button--primary button--rounded button--xs" href="">CONS</a> Not very robust (Weak error detection guarantees)
+<a class="button button--primary button--rounded button--xs" href="">CONS</a> Not very robust (Only guarantees single bit ED)
 
-Easy to cheat, with as few as 2 bit errors. eg If 1 bit error adds 16 and another substracts 16, the checksum won't catch the error. 
+Easy to cheat, with as few as 2 bit errors. eg If 1 bit error adds 16 and another 1 bit error substracts 16, the checksum won't catch the error. 
+
+
 
 ## CRC
 
@@ -80,3 +82,4 @@ Cryptographic transformation of data (TLS)
 <a class="button button--primary button--rounded button--xs" href="">CONS</a> Not so robust to errors
 
 MAC is not as good as CRC
+
