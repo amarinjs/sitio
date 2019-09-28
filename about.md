@@ -17,6 +17,20 @@ articles:
   excerpt_type: html
 tags: about info
 ---
+<!--more-->
+
+---
+
+
+<a href="https://www.linkedin.com/in/alejandro-marin-768833117/">
+  <div class="card card--clickable">
+    <div class="card__image">
+      <img class="image" src="https://github.com/alexma2344/peperina/blob/master/assets/images/profile2.PNG?raw=true"/>
+    </div>
+  </div>
+</a>
+
+
 
 ## Purpose
 
