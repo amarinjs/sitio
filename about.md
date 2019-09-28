@@ -21,14 +21,19 @@ tags: about info
 
 ---
 
-
-<a href="https://www.linkedin.com/in/alejandro-marin-768833117">
-  <div class="card card--clickable">
-    <div class="card__image">
-      <img class="image" src="https://github.com/alexma2344/peperina/blob/master/assets/images/profile2.PNG?raw=true"/>
+<div class="item">
+  <div class="item__image">
+    <img class="image" src="https://github.com/alexma2344/peperina/blob/master/assets/images/profile2.PNG?raw=true"/>
+  </div>
+  <div class="item__content">
+    <div class="item__header">
+      <h4>Alejandro Marin</h4>
+    </div>
+    <div class="item__description">
+      <p>Computer networks / IT infrastructure, Alejandro is a network engineer currently working with NetBrain Technologies. His advice and implementation practices adhere to industry standards and he is always eager to discover new ways and tools to carry out work in the infrastructure. Keen reader of IEEE standards and RFCs  </p>
     </div>
   </div>
-</a>
+</div>
 
 
 https://www.youracclaim.com/badges/c83cac69-ad34-4732-88b6-ba325d588946/linked_in_profile
