@@ -27,7 +27,7 @@ tags: about info
   </div>
   <div class="card__content">
     <div class="card__header">
-      <h4>Photograph</h4>
+      <h4>Alejandro Marin</h4>
     </div>
   </div>
 </div>
