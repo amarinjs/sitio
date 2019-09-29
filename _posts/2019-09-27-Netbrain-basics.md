@@ -1,6 +1,6 @@
 ---
 layout: article
-title: NetBrain Overview
+title: NetBrain Essentials
 mode: immersive
 header:
   theme: dark
@@ -23,6 +23,15 @@ tags: computer-networks netbrain
 ---
 
 # NetBrain Overview
+
+Netbrain is an adaptative network automation [platform](https://en.wikipedia.org/wiki/Computing_platform). That brings dynamic maps and runbooks to our day to day IT operations.
+
+#### Dynamic Maps
+
+A dynamic map is an interactive depiction that emphasizes the relationship between **elements** in a **space**.
+
+Our **Elements**: Network nodes
+Our **Space**: Geographic locations
 
 ## Dynamic Mapping
 
