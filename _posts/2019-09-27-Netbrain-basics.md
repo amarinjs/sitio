@@ -26,7 +26,8 @@ tags: computer-networks netbrain
 
 Netbrain is an adaptative network automation [platform](https://en.wikipedia.org/wiki/Computing_platform). That brings dynamic maps and runbooks to our day to day IT operations.
 
-#### Dynamic Maps
+
+## Dynamic Mapping
 
 A dynamic map is an interactive depiction, that emphasizes the relationship between **elements** on a **space**. 
 
@@ -34,10 +35,12 @@ In our case:
 - **Elements**: Network nodes
 - **Space**: Geographic locations
 
-## Dynamic Mapping
-
 ## Runbook Troubleshooting
 
+
+
 ## Single pane of glass
+
+
 
 ## Notes
