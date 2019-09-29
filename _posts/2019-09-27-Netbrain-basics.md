@@ -64,8 +64,20 @@ Data-views pull information onto the map from multiple data sources:
 - Controller
 - API-sourced information
 
-Creating a single pane of glass.
+Data can be pulled fromthe network, or third-party apps via RESTful API.
 
 **Note:** Single pane of glass doesn't necessarily means that all the information is displayed on one screen, instead, is an attempt to provide access to all the information from a single screen. (Links, Bookmarks, tabs etc)
 
-## Notes
+## Qapp
+
+### Quick automation application
+
+These applications, are built on top of the "Qapp Automation Framework". They collect data using multiple sources. eg SNMP, CLI, Configuration files, APIs, etc.
+
+The data is analyzed and annotated in different ways.
+
+A few examples are:
+- Monitor attributes and create alarms based on thresholds (eg iface; cpu; ram; utilization)
+- Highlight interfaces and devices based on a conditional logic (if this, then that)
+- Update device attributes on the Netbrain database (plaform details)
+- Perform neighbor checks to ensure matching values (eg *K* EIGRP values, FHRP values etc)
