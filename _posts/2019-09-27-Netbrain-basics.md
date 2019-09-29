@@ -37,23 +37,24 @@ In our case:
 
 Dynamic maps use data from multiple sources that can update documentation either on schedule or in real time. 
 
-**Note:**If required, you can export these dynamic maps to a static Visio map.
+**Note:** If required, you can export these dynamic maps to a static Visio map.
 
 ## Runbook Troubleshooting
 
+### Runbook Automation (RBA)
 Runbooks are a collection of procedures that we execute from within the Netbrain platform.
 
 These runbooks can define the processes we need, and collect information throughout its execution.
 
 
-### Data view
-#### Pre-decoded network data
+## Data view
+### Pre-decoded network data
 
 A Data view presents information on our dynamic maps in the form of layers.
 
-Any desired "Data view" can be shown at the map depending on what we need to see. Most diagramming applications are either limited or complicated to setup when it comes to layering the information, eg [Visio](http://networkdiagram101.com/?page_id=113)
+Any desired "Data view" can be shown at the map depending on what we need to see. Most diagramming applications are either limited or complicated to setup when it comes to layering the information, eg [MS Visio](http://networkdiagram101.com/?page_id=113)
 
-Give visio example
+The best part is that dataviews can be updated automatically. When a change happens on the network, the data is automatically updated. So that we have a more authentic, integral map
 
 
 ## Single pane of glass
