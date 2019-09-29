@@ -28,7 +28,7 @@ Netbrain is an adaptative network automation [platform](https://en.wikipedia.org
 
 #### Dynamic Maps
 
-A dynamic map is an interactive depiction that emphasizes the relationship between **elements** in a **space**.
+A dynamic map is an interactive depiction, that emphasizes the relationship between **elements** on a **space**.
 
 Our **Elements**: Network nodes
 Our **Space**: Geographic locations
