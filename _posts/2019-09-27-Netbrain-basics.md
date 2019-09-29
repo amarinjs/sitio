@@ -49,16 +49,23 @@ These runbooks can define the processes we need, and collect information through
 
 ## Data view
 ### Pre-decoded network data
-
 A Data view presents information on our dynamic maps in the form of layers.
 
-Any desired "Data view" can be shown at the map depending on what we need to see. Most diagramming applications are either limited or complicated to setup when it comes to layering the information, eg [MS Visio](http://networkdiagram101.com/?page_id=113)
+Any desired "Data view" can be shown at the map depending on what we need to see. In other diagramming applications, layering the information is either limited or too complicated, eg [MS Visio](http://networkdiagram101.com/?page_id=113)
 
-The best part is that dataviews can be updated automatically. When a change happens on the network, the data is automatically updated. So that we have a more authentic, integral map
-
-
-## Single pane of glass
+The best part is that dataviews can be updated automatically. When a change happens on the network, the data is automatically updated. So that we have a more consistent map.
 
 
+### Single Pane of Glass
+
+Data-views pull information onto the map from multiple data sources:
+- Database (Benchmark)
+- Parser
+- Controller
+- API-sourced information
+
+Creating a single pane of glass.
+
+**Note:** Single pane of glass doesn't necessarily means that all the information is displayed on one screen, instead, is an attempt to provide access to all the information from a single screen. (Links, Bookmarks, tabs etc)
 
 ## Notes
