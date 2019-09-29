@@ -35,6 +35,10 @@ In our case:
 - **Elements**: Network nodes
 - **Space**: Geographic locations
 
+Dynamic maps use data from multiple sources that can update documentation either on schedule or in real time. 
+
+**Note:**If required, you can export these dynamic maps to a static Visio map.
+
 ## Runbook Troubleshooting
 
 
