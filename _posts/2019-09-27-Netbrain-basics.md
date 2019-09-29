@@ -22,7 +22,7 @@ tags: computer-networks netbrain
 
 ---
 
-# NetBrain Overview
+# NetBrain Essentials
 
 Netbrain is an adaptative network automation [platform](https://en.wikipedia.org/wiki/Computing_platform). That brings dynamic maps and runbooks to our day to day IT operations.
 
