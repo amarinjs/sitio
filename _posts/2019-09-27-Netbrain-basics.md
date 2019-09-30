@@ -53,7 +53,7 @@ Runbooks are a collection of procedures that we execute from within the Netbrain
 
 eg A single route suddently dissapears from your network and becomes unreachable, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple routing tables? While looking at a static visio diagram , all of these and more can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster. Again, reducing MTTR.
 
-These runbooks can define the processes we need, and collect information throughout its execution.
+These runbooks can define the processes we need, and collect meaningful information throughout its execution.
 
 
 ## Data view
