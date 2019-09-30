@@ -84,3 +84,11 @@ A few examples are:
 - Update device attributes on the Netbrain database (plaform details)
 - Perform neighbor checks to ensure matching values (eg *K* EIGRP values, FHRP values etc)
 
+### Instant Qapp
+
+A simplified version of a full Qapp, you can drag-n-drop retreieval of data using the parser lib. 
+
+You can setup alerts and color codes to help visualize the data for the task at hand. 
+
+These can be saved into a regular Qapp for further reporting.
+
