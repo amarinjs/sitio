@@ -44,6 +44,8 @@ Dynamic maps use data from multiple sources that can update documentation either
 ### Runbook Automation (RBA)
 Runbooks are a collection of procedures that we execute from within the Netbrain platform.
 
+eg An eigrp neighbor goes down, which steps do you take to troubleshoot this incident? show commands? comparisons?, these can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster.
+
 These runbooks can define the processes we need, and collect information throughout its execution.
 
 
@@ -81,3 +83,4 @@ A few examples are:
 - Highlight interfaces and devices based on a conditional logic (if this, then that)
 - Update device attributes on the Netbrain database (plaform details)
 - Perform neighbor checks to ensure matching values (eg *K* EIGRP values, FHRP values etc)
+
