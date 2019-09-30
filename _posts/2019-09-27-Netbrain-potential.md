@@ -21,3 +21,15 @@ tags: computer-networks netbrain
 <!--more-->
 
 ---
+
+## Use the Netbrain platform to reduce these metrics within your environment:
+
+#### Mean Time To Repair (MTTR)
+
+#### Mean Time Between Failures (MTBF)
+
+#### Mean time to discover a security incident
+
+#### Mean time to contain or mitigate a security incident
+
+#### Automating the provisioning of IT resources
