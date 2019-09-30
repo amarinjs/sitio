@@ -51,7 +51,7 @@ Dynamic maps use data from multiple sources that can update documentation either
 ### Runbook Automation (RBA)
 Runbooks are a collection of procedures that we execute from within the Netbrain platform.
 
-eg A route goes dissapears in your network all the suddent, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple routing tables? While looking at your static visio diagram , all of these and more can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster. Again, reducing MTTR.
+eg A route suddently dissapears from your network and becomes unreachable, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple routing tables? While looking at your static visio diagram , all of these and more can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster. Again, reducing MTTR.
 
 These runbooks can define the processes we need, and collect information throughout its execution.
 
