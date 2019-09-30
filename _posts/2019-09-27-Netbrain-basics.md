@@ -26,6 +26,9 @@ tags: computer-networks netbrain
 
 Netbrain is an adaptative network automation [platform](https://en.wikipedia.org/wiki/Computing_platform). That brings dynamic maps and runbooks to our day to day IT operations.
 
+With this platform you can reduce:
+- Mean time to repair (MTTR)
+- Mean time between failures (MTBF)
 
 ## Dynamic Mapping
 
