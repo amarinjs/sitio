@@ -39,6 +39,18 @@ Dynamic maps use data from multiple sources that can update documentation either
 
 **Note:** If required, you can export these dynamic maps to a static Visio map.
 
+### Single Pane of Glass
+
+Data-views pull information onto the map from multiple data sources:
+- Database (Benchmark)
+- Parser
+- Controller
+- API-sourced information
+
+Data can be pulled fromthe network, or third-party apps via RESTful API.
+
+**Note:** Single pane of glass doesn't necessarily means that all the information is displayed on one screen, instead, is an attempt to provide access to all the information from a single screen. (Links, Bookmarks, tabs etc)
+
 ## Runbook Troubleshooting
 
 ### Runbook Automation (RBA)
@@ -57,18 +69,6 @@ Any desired "Data view" can be shown at the map depending on what we need to see
 
 The best part is that dataviews can be updated automatically. When a change happens on the network, the data is automatically updated. So that we have a more consistent map.
 
-
-### Single Pane of Glass
-
-Data-views pull information onto the map from multiple data sources:
-- Database (Benchmark)
-- Parser
-- Controller
-- API-sourced information
-
-Data can be pulled fromthe network, or third-party apps via RESTful API.
-
-**Note:** Single pane of glass doesn't necessarily means that all the information is displayed on one screen, instead, is an attempt to provide access to all the information from a single screen. (Links, Bookmarks, tabs etc)
 
 ## Qapp
 
@@ -91,4 +91,3 @@ A simplified version of a full Qapp, you can drag-n-drop retreieval of data usin
 You can setup alerts and color codes to help visualize the data for the task at hand. 
 
 These can be saved into a regular Qapp for further reporting.
-
