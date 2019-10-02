@@ -1,6 +1,6 @@
 ---
 layout: article
-title: NetBrain Potential
+title: NetBrain * in 2
 mode: immersive
 header:
   theme: dark
