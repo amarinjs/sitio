@@ -24,14 +24,14 @@ tags: computer-networks netbrain
 
 # NetBrain Essentials
 
-Netbrain is an adaptative network automation [platform](https://en.wikipedia.org/wiki/Computing_platform). That brings dynamic maps and runbooks to our day to day IT operations.
+Netbrain is a network automation [platform](https://en.wikipedia.org/wiki/Computing_platform). That brings dynamic maps and runbooks to our day to day IT operations.
 
 With this platform you can reduce metrics such as:
 - Mean time to repair (MTTR)
 - Mean time between failures (MTBF)
-- Mean time to discover a security incident
 - Mean time to contain or mitigate a security incident
 - Automating the provisioning of IT resources
+
 
 ## Dynamic Mapping
 
@@ -43,22 +43,16 @@ In our case:
 
 Dynamic maps use data from multiple sources that can update documentation either on schedule or in real time. 
 
+In Nebrain, every network task begins with a data driven dynamic map.
+
 **Note:** If required, you can export these dynamic maps to a static Visio map.
 
 
-## Runbook Troubleshooting
-
-### Runbook Automation (RBA)
-Runbooks are a collection of procedures that we execute from within the Netbrain platform.
-
-eg A single route suddently dissapears from your network and becomes unreachable, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple routing tables? While looking at a static visio diagram , all of these and more can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster. Again, reducing MTTR.
-
-These runbooks can define the processes we need, and collect meaningful information throughout its execution.
-
-
-## Data view
+## Data Views
 ### Pre-decoded network data
-A Data view presents information on our dynamic maps in the form of layers.
+A Data view presents information that helps us understand the design of real newtworks.
+
+It can integrate with third party systems and can become the single pane of glass for your network.
 
 Any desired "Data view" can be shown at the map depending on what we need to see. In other diagramming applications, layering the information is either limited or too complicated, eg [MS Visio](http://networkdiagram101.com/?page_id=113)
 
@@ -75,6 +69,17 @@ Data-views pull information onto the map from multiple data sources:
 Data can be pulled fromthe network, or third-party apps via RESTful API.
 
 **Note:** Single pane of glass doesn't necessarily means that all the information is displayed on one screen, instead, is an attempt to provide access to all the information from a single screen. (Links, Bookmarks, tabs etc)
+
+
+## Runbook Troubleshooting
+
+### Runbook Automation (RBA)
+Runbooks are a collection of procedures that we execute from within the Netbrain platform.
+
+eg A single route suddently dissapears from your network and becomes unreachable, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple routing tables? While looking at a static visio diagram , all of these and more can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster. Again, reducing MTTR.
+
+These runbooks can define the processes we need, and collect meaningful information throughout its execution.
+
 
 ## Qapp
 
