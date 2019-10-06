@@ -84,7 +84,7 @@ These runbooks can define the processes we need, and collect meaningful informat
 
 ## Qapp
 
-### Quick automation application
+### Quick Applications
 
 These applications collect data using multiple sources. eg SNMP, CLI, Configuration files, APIs, etc.
 
@@ -106,8 +106,6 @@ With instant Qapps we can visualize [parser](https://en.wikipedia.org/wiki/Parsi
         Instant Qapp parsing data on our map. 
     </span>
 </div>
-
-A simplified version of a full Qapp, you can drag-n-drop retreieval of data using the parser lib. 
 
 You can setup alerts and color codes to help visualize the data for the task you're performing.
 
