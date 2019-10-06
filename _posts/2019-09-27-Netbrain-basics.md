@@ -9,8 +9,8 @@ article_header:
   theme: dark
   background_color: '#203028'
   background_image:
-    gradient: 'linear-gradient(313deg, rgba(2,0,36,1) 0%, rgba(76,76,194,1) 47%, rgba(0,212,255,1) 100%)'
-    src: https://github.com/alexma2344/peperina/blob/master/assets/images/radiohead.jpg?raw=true"
+    gradient: 'linear-gradient(313deg, rgba(2,0,36,1 0.30) 0%, rgba(76,76,194,1 0.30) 47%, rgba(0,212,255,1 0.30) 100%)'
+    src: https://github.com/alexma2344/peperina/blob/master/assets/images/gross-clinic.jpg?raw=true"
 sharing: true
 comment: true
 articles:
