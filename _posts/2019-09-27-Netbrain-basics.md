@@ -75,12 +75,11 @@ Data can be pulled fromthe network, or third-party apps via RESTful API.
 ## Runbook Troubleshooting
 
 ### Runbook Automation (RBA)
-Runbooks are a collection of procedures that we execute from within the Netbrain platform.
+Runbooks are the series of steps that we take to troubleshoot an issue.
 
-eg A single route suddently dissapears from your network and becomes unreachable, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple routing tables? While looking at a static visio diagram , all of these and more can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster. Again, reducing MTTR.
+eg A service on the network becomes unreachable, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple config files?, all of these and more can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster. Again, reducing MTTR.
 
 These runbooks can define the processes we need, and collect meaningful information throughout its execution.
-
 
 ## Qapp
 
