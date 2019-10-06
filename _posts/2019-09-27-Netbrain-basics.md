@@ -86,7 +86,7 @@ These runbooks can define the processes we need, and collect meaningful informat
 
 ### Quick automation application
 
-These applications, are built on top of the "Qapp Automation Framework". They collect data using multiple sources. eg SNMP, CLI, Configuration files, APIs, etc.
+These applications collect data using multiple sources. eg SNMP, CLI, Configuration files, APIs, etc.
 
 The data is analyzed and annotated in different ways.
 
@@ -98,8 +98,10 @@ A few examples are:
 
 ### Instant Qapp
 
+With instant Qapps we can visualize [parser](https://en.wikipedia.org/wiki/Parsing) variables on a map
+
 A simplified version of a full Qapp, you can drag-n-drop retreieval of data using the parser lib. 
 
-You can setup alerts and color codes to help visualize the data for the task at hand. 
+You can setup alerts and color codes to help visualize the data for the task you're performing.
 
 These can be saved into a regular Qapp for further reporting.
