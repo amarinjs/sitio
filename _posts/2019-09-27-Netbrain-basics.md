@@ -37,10 +37,6 @@ With this platform you can reduce metrics such as:
 
 A dynamic [map](https://en.wikipedia.org/wiki/Map) is an interactive depiction, that emphasizes the relationship between **elements** on a **space**. 
 
-In our case:
-- **Elements**: Network nodes
-- **Space**: Geographic locations
-
 Dynamic maps use data from multiple sources that can update documentation either on schedule or in real time. 
 
 In Nebrain, every network task begins with a data driven dynamic map.
