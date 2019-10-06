@@ -75,7 +75,7 @@ Data can be pulled fromthe network, or third-party apps via RESTful API.
 ## Runbook Troubleshooting
 
 ### Runbook Automation (RBA)
-Runbooks are the series of steps that we take to troubleshoot an issue.
+Runbooks are the series of steps that we take to troubleshoot an issue. In Netbrain, represents an automated workflow.
 
 eg A service on the network becomes unreachable, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple config files?, all of these and more can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster. Again, reducing MTTR.
 
