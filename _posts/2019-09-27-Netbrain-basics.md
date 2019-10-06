@@ -41,7 +41,12 @@ Dynamic maps use data from multiple sources that can update documentation either
 
 In Nebrain, every network task begins with a data driven dynamic map.
 
-**Note:** If required, you can export these dynamic maps to a static Visio map.
+<center><img src="https://github.com/alexma2344/peperina/blob/master/assets/images/?raw=true"></center>
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        example of an A to B path task. 
+    </span>
+</div>
 
 
 ## Data Views
