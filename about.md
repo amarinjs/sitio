@@ -23,3 +23,4 @@ To melt multiple sources into comprehensible guides.
 I have missplaced most of the study notes I had in paper, and lost that one HDD that had everything.
 
 The site acts as a single source of truth, accessible from anywhere, hosted on [github pages](https://github.com/alexma2344/peperina), and backed up on a [free & open source unified file and block storage, VM, and Docker system](https://www.freenas.org/)
+
