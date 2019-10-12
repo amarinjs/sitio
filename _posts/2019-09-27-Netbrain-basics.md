@@ -24,7 +24,7 @@ tags: computer-networks netbrain
 
 # NetBrain Essentials
 
-Netbrain is a network automation [platform](https://en.wikipedia.org/wiki/Computing_platform). That brings dynamic maps and runbooks to our day to day IT operations.
+Netbrain is a network [automation](https://en.wikipedia.org/wiki/Automation#targetText=Automation%20is%20the%20technology%20by,performed%20with%20minimal%20human%20assistance.) [platform](https://en.wikipedia.org/wiki/Computing_platform). That brings dynamic maps and runbooks to our day to day IT operations.
 
 With this platform you can reduce metrics such as:
 - Mean time to repair (MTTR)
@@ -75,11 +75,11 @@ Data can be pulled fromthe network, or third-party apps via RESTful API.
 ## Runbook Troubleshooting
 
 ### Runbook Automation (RBA)
-Runbooks are the series of steps that we take to troubleshoot an issue. In Netbrain, represents an automated workflow.
+Runbooks are the series of steps that we take to troubleshoot an issue. In Netbrain, we document our runbooks to **standarize** our approach to incident solving.
 
-eg A service on the network becomes unreachable, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple config files?, all of these and more can be automatically performed by Netbrain's runbook so that you can pinpoint the issue much faster. Again, reducing MTTR.
+eg A service on the network becomes unreachable, which steps do you take to troubleshoot this incident? Logging information? traceroutes? ping? comparisons between multiple routing tables? using netbrain all of these take seconds and are much more precise than a human operator.
 
-These runbooks can define the processes we need, and collect meaningful information throughout its execution.
+These runbooks can define the processes we need, pluse they collects meaningful information throughout its execution.
 
 ## Qapp
 
@@ -87,13 +87,13 @@ These runbooks can define the processes we need, and collect meaningful informat
 
 These applications collect data using multiple sources. eg SNMP, CLI, Configuration files, APIs, etc.
 
-The data is analyzed and annotated in different ways.
+The data is analyzed and annotated on a more didactic way.
 
 A few examples are:
 - Monitor attributes and create alarms based on thresholds (eg iface; cpu; ram; utilization)
 - Highlight interfaces and devices based on a conditional logic (if this, then that)
 - Update device attributes on the Netbrain database (plaform details)
-- Perform neighbor checks to ensure matching values (eg *K* EIGRP values, FHRP values etc)
+- Perform neighbor checks to ensure matching values (eg *K* EIGRP values, keepalives, FHRP values etc)
 
 ### Instant Qapp
 
