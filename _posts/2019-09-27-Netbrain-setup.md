@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Netbrain end user setup
+title: Netbrain Sites + MPLS definition
 mode: immersive
 header:
   theme: dark
@@ -15,9 +15,18 @@ sharing: true
 comment: true
 articles:
   excerpt_type: html
-tags: netbrain
+tags: netbrain MPLS
 ---
 
 <!--more-->
 
 ---
+
+## Sites
+
+Sites in Netbrain allows us to scope our network on a geographical basis.
+
+The two types of sites are:
+- Container Site (parent), can contain leaf sites and other containers, and cannot nest devices if not through a leaf.
+- Leaf Site (child), contains devices. That can be added manually or dynamically
+
