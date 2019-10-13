@@ -30,6 +30,8 @@ The two types of sites are:
 - Container Site (parent), can contain leaf sites and other containers, and cannot nest devices if not through a leaf.
 - Leaf Site (child), contains devices. That can be added manually or dynamically
 
+What's cool about this, is that we can automatically add devices to sites based on conditionals. eg the begining letters of the hostname, that would indicate the city ie LND, SHE, WOR etc
+
 ## MPLS Clouds
 
 The Netbrain system introduces "MPLS Clouds" to simulate MPLS functions, these are taken as devices by the system, and they have virtual routing tables to allow A to B Path calculations.
@@ -40,3 +42,4 @@ The Netbrain system introduces "MPLS Clouds" to simulate MPLS functions, these a
         structure of an mpls cloud.
     </span>
 </div>
+
