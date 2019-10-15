@@ -51,3 +51,9 @@ Search for a section that looks like this
       </customHeaders>
     </httpProtocol>
 ```
+
+And insert the below line, just above the "</customHeaders>" line
+```html
+	<add name="Content-Security-Policy" value="frame-ancestors 'self' http://ite.netbraintech.com"/>
+```
+**Note:** The URL should be the domain name of your netbrain app server
