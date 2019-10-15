@@ -21,3 +21,14 @@ tags: netbrain
 <!--more-->
 
 ---
+
+Netbrain supports integration with web portals
+
+**Note:** iframe size should be 1200 x 800
+
+### Process
+
+Open the **web.config** file from the following location:
+
+	C:\Program Files\NetBrain\Web Server\nb_publish_server\
+
