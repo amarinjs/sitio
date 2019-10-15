@@ -52,7 +52,7 @@ Search for a section that looks like this
     </httpProtocol>
 ```
 
-And insert the below line, just above the "</customHeaders>" line
+And insert the below line on this section
 ```html
 	<add name="Content-Security-Policy" value="frame-ancestors 'self' http://ite.netbraintech.com"/>
 ```
