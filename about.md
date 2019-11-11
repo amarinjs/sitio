@@ -3,7 +3,7 @@ layout: article
 title: About
 header:
   theme: dark
-  background: 'linear-gradient(313deg, rgba(2,0,36,1) 0%, rgba(76,76,194,1) 47%, rgba(0,212,255,1) 100%)'
+  background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,61,74,1) 100%, rgba(0,212,255,1) 100%);'
 ---
 <div class="card">
   <div class="card__image">
