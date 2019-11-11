@@ -43,5 +43,7 @@ The Netbrain system introduces "MPLS Clouds" to simulate MPLS functions, these a
     </span>
 </div>
 
+The MPLS cloud is created from the incoming and outgoing routes being advsertised to and from the Customer Edge (CE)
+
 ## Device Groups
 
