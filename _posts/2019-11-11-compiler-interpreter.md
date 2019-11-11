@@ -22,3 +22,10 @@ tags: programming python
 
 ---
 
+```mermaid
+graph TB;
+    A[Web Application]
+    B[REST API]
+    A--Request-->B;
+    B--Response-->A;
+```
