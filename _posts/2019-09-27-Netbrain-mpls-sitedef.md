@@ -43,7 +43,17 @@ The Netbrain system introduces "MPLS Clouds" to simulate MPLS functions, these a
     </span>
 </div>
 
-The MPLS cloud is created from the incoming and outgoing routes being advsertised to and from the Customer Edge (CE)
+The MPLS cloud virtual routing table is created from the routes being advsertised to and from the Customer Edge (CE) devices
+
+e.g. 
+
+<center><img src="https://github.com/alexma2344/peperina/blob/master/assets/images/MPLS-Routing.PNG?raw=true"></center>
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        structure of an mpls cloud.
+    </span>
+</div>
+
 
 ## Device Groups
 
