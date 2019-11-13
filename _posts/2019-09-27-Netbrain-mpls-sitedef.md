@@ -57,3 +57,6 @@ eg
 
 ## Device Groups
 
+The objects on these groups can be defined statically or dynamically
+
+Dynamically created groups are defined on different factors such as routing protocol area numbers.
