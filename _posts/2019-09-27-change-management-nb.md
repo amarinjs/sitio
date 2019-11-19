@@ -24,7 +24,7 @@ tags: netbrain operations
 
 # Intro
 
-Why read about an already [defined](https://en.wikipedia.org/wiki/Change_management_(ITSM) and “standardized” process?
+Why read about an already [defined](https://en.wikipedia.org/wiki/Change_management_(ITSM)) and “standardized” process?
 
 Companies do try to adhere to ITIL standards when performing network changes, but often are not able to fully adapt them to their environment needs, causing failures and even more lack of documentation.
 
