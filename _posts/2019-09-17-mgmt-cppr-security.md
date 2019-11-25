@@ -29,7 +29,7 @@ tags: cisco ios-xe asa snmp security
 Before snmp config always set a contact and location
 
 	HQ-ISR(config)#snmp-server contact Admin
-	HQ-ISR(config)#snmp-server location 	London HQ
+	HQ-ISR(config)#snmp-server location London HQ
 
 #### configure a SNMPv3 group
 
@@ -37,14 +37,11 @@ Before snmp config always set a contact and location
 
 #### configure a SNMPv3 user
 
-Use [this](https://github.com/alexma2344/peperina/tree/master/docs/assets/snmpv3-parameters.xlsx) table for reference
+Use (this)[https://github.com/alexma2344/peperina/tree/master/docs/assets] table for reference
 
 eg 
 
-	HQ-ISR(config)# snmp-server user admin SECURE-X v3 auth sha Ci5coAdmin priv aes 128 Ci5coAdmin   
-
-
-
+	HQ-ISR(config)# snmp-server user admin MY-GROUP v3 auth sha AUTHKEY123 priv aes 256 PRIVKEY123
 
 
 ## Control Plane Protection
