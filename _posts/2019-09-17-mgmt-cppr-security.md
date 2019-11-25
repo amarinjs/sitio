@@ -37,9 +37,11 @@ Before snmp config always set a contact and location
 
 #### configure a SNMPv3 user
 
-Use this excel table for reference
+Use (this)[https://github.com/alexma2344/peperina/tree/master/docs/assets/snmpv3-parameters.xlsx] table for reference
 
+eg
 <center><img src="https://github.com/alexma2344/peperina/blob/master/assets/images/excel-sheet.PNG?raw=true"></center>
+
 
 
 
