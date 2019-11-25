@@ -24,6 +24,17 @@ tags: cisco ios-xe asa snmp security
 
 ---
 
+## Control Plane Protection
+
+### Attack
+
+Use [snmpwalk](https://linux.die.net/man/1/snmpwalk) to overflow the CPU of the device.
+
+	root@ubuntu-home:~# snmpwalk -v3 -l authPriv -u admin -a SHA -A AUTHKEY123 -x AES -X PRIVKEY123 172.16.2.3 1
+
+
+### Countermeasure
+
 ## SNMPv3 access
 
 Before snmp config set a contact and location
@@ -50,9 +61,9 @@ We define the server to which traps will be sent
 	HQ-ISR(config)# snmp-server enable traps 
 	HQ-ISR(config)# end
 
-### Checks
+#### Verification
 
-On the device see that the user is configured, eg
+On the device see that the user is configured
 
 	HQ-ISR# show snmp user
 	
@@ -65,16 +76,9 @@ On the device see that the user is configured, eg
 
 #### Tools
 
+These are some MIB browsers/snmp testers:
+
 - [Hilisoft](https://download.cnet.com/HiliSoft-MIB-Browser/3000-2651_4-10698289.html) 
 - [Paessler](https://www.paessler.com/tools/snmptester)
 - [snmpwalk](https://linux.die.net/man/1/snmpwalk)
 
-
-## Control Plane Protection
-
-
-[TeXt][TeXt] is a super customizable Jekyll theme.
-
-[TeXt]: https://github.com/kitian616/jekyll-TeXt-theme/ "TeXt"
-
-[TeXt](https://github.com/kitian616/jekyll-TeXt-theme/ "TeXt")
