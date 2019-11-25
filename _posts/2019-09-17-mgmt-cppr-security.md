@@ -42,5 +42,6 @@ Use [this](https://github.com/alexma2344/peperina/tree/master/docs/assets) table
 
 	HQ-ISR(config)# snmp-server user admin MY-GROUP v3 auth sha AUTHKEY123 priv aes 256 PRIVKEY123
 
+<div>{%- include extensions/youtube.html id='wbY97-hdD5c' -%}</div>
 
 ## Control Plane Protection
