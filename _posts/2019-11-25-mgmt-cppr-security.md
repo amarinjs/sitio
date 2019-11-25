@@ -17,7 +17,7 @@ mathjax: true
 mathjax_autoNumber: true
 articles:
   excerpt_type: html
-tags: cisco ios-xe asa snmp security
+tags: cisco ios-xe asa snmp security ssh
 ---
 
 <!--more-->
@@ -26,28 +26,39 @@ tags: cisco ios-xe asa snmp security
 
 ## Intro
 
-I'm writing down a cheatsheet for future reference on management and control plane security.
+When we open management doors to the infrastructure, attack vectors are also created. We'll first write down how to configure management access, then exploit the introduced weaknesses, and finally address them with countermeasures (control plane policing).
 
-When we open management access to the infrastructure, attack vectors/vulnerabilities are also created. This will be addressed on the Countermeasure section to show a use case of Control Plane Policing.
-
-Here are some [best practices](https://tools.cisco.com/security/center/resources/copp_best_practices) from Cisco.
+Here are some [best practices](https://tools.cisco.com/security/center/resources/copp_best_practices) from Cisco (more complete content).
 
 **Note:**The examples are being done on Cisco platforms but do apply to network infrastructure in general.
 
-## Control Plane Protection
-
-### Attack
-
-Use [snmpwalk](https://linux.die.net/man/1/snmpwalk) to overflow the CPU of the device.
-
-	root@ubuntu-home:~# snmpwalk -v3 -l authPriv -u admin -a SHA -A AUTHKEY123 -x AES -X PRIVKEY123 172.16.2.3 1
-
-
-### Countermeasure
-
 ## SSH access
 
+Set a domain name and generate an RSA key pair:
+	
+	HQ-ISR(config)# ip domain name secure-x.local 
+	HQ-ISR(config)# crypto key generate rsa modulus 2048
+	% You already have RSA keys defined named HQ-ISR.secure-x.local.
+	% They will be replaced.
+	
+	% The key modulus size is 2048 bits
+	% Generating 2048 bit RSA keys, keys will be non-exportable...
+	[OK] (elapsed time was 1 seconds)
 
+Enable ssh version 2 for [enhanced security](https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x)):
+
+	HQ-ISR(config)# ip ssh version 2
+
+Then allow only ssh on the virtual teletype (VTY) lines:
+
+	HQ-ISR(config)#line vty 0 98
+	HQ-ISR(config-line)#transport input ssh
+
+**Note:** An ACL can be added to the VTY lines with the *access-class* command, in the case of the ASA, subnet filtering is part of the standard config, eg
+
+	asav(config)# ssh 192.168.25.0 255.255.255.224 mgmt
+
+ASA(config)#ssh  
 
 ## SNMPv3 access
 
@@ -62,7 +73,7 @@ Set a contact and location
 
 #### Configure a SNMPv3 user
 
-Use [this](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) table for reference
+Use [this table](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) for reference
 
 
 	HQ-ISR(config)# snmp-server user admin MY-GROUP v3 auth sha AUTHKEY123 priv aes 256 PRIVKEY123
@@ -88,7 +99,19 @@ On the device see that the user is configured
 	Privacy Protocol: AES256
 	Group-name: MY-GROUP
 
-#### Tools
+
+## Control Plane Protection
+
+### Attack
+
+Use [snmpwalk](https://linux.die.net/man/1/snmpwalk) to overflow the CPU of the device.
+
+	root@ubuntu-home:~# snmpwalk -v3 -l authPriv -u admin -a SHA -A AUTHKEY123 -x AES -X PRIVKEY123 172.16.2.3 1
+
+
+### Countermeasure
+
+### Tools
 
 These are some MIB browsers/snmp testers:
 
