@@ -37,7 +37,7 @@ Before snmp config always set a contact and location
 
 #### configure a SNMPv3 user
 
-Use [this](https://github.com/alexma2344/peperina/tree/master/docs/assets) table for reference
+Use [this](https://github.com/alexma2344/peperina/tree/master/docs/assets/snmpv3-template) table for reference
 
 
 	HQ-ISR(config)# snmp-server user admin MY-GROUP v3 auth sha AUTHKEY123 priv aes 256 PRIVKEY123
