@@ -39,8 +39,10 @@ Before snmp config always set a contact and location
 
 Use (this)[https://github.com/alexma2344/peperina/tree/master/docs/assets/snmpv3-parameters.xlsx] table for reference
 
-eg
-<center><img src="https://github.com/alexma2344/peperina/blob/master/assets/images/excel-sheet.PNG?raw=true"></center>
+eg 
+
+	HQ-ISR(config)# snmp-server user admin SECURE-X v3 auth sha Ci5coAdmin priv aes 128 Ci5coAdmin   
+
 
 
 
