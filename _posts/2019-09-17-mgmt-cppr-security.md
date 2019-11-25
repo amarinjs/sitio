@@ -57,11 +57,11 @@ On the device see that the user is configured, eg
 	HQ-ISR# show snmp user
 	
 	User name: admin
-	Engine ID: 800000090300B0FAEB64B388
+	Engine ID: 800000090300B0FEEB64B388
 	storage-type: nonvolatile        active
 	Authentication Protocol: SHA
-	Privacy Protocol: AES128
-	Group-name: SECURE-X
+	Privacy Protocol: AES256
+	Group-name: MY-GROUP
 
 #### Tools
 
