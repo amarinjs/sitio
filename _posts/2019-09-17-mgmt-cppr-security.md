@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Control and Management plane security
+title: Management and Control plane security
 mode: immersive
 header:
   theme: dark
