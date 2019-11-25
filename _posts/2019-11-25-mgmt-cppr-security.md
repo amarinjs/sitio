@@ -28,7 +28,7 @@ tags: cisco ios-xe asa snmp security
 
 I'm writing down a cheatsheet for future reference on management and control plane security.
 
-When we open management access to the infrastructure, atack vectors/vulnerabilities are also created. This will be addressed on the Countermeasure section to show a use case of Control Plane Policing.
+When we open management access to the infrastructure, attack vectors/vulnerabilities are also created. This will be addressed on the Countermeasure section to show a use case of Control Plane Policing.
 
 Here are some [best practices](https://tools.cisco.com/security/center/resources/copp_best_practices) from Cisco.
 
@@ -45,9 +45,13 @@ Use [snmpwalk](https://linux.die.net/man/1/snmpwalk) to overflow the CPU of the 
 
 ### Countermeasure
 
+## SSH access
+
+
+
 ## SNMPv3 access
 
-Before snmp config set a contact and location
+Set a contact and location
 
 	HQ-ISR(config)#snmp-server contact Admin
 	HQ-ISR(config)#snmp-server location London HQ
@@ -91,4 +95,3 @@ These are some MIB browsers/snmp testers:
 - [Hilisoft](https://download.cnet.com/HiliSoft-MIB-Browser/3000-2651_4-10698289.html) 
 - [Paessler](https://www.paessler.com/tools/snmptester)
 - [snmpwalk](https://linux.die.net/man/1/snmpwalk)
-
