@@ -56,7 +56,7 @@ Then allow only ssh on the virtual teletype (VTY) lines:
 
 **Note:** An ACL can be added to the VTY lines to specify allowed subnets, in the case of the ASA, a subnet filter is part of the standard config, eg
 
-	asav(config)# ssh 192.168.25.0 255.255.255.224 mgmt
+	asav(config)# ssh 192.168.25.0 255.255.255.0 mgmt
 
 ASA(config)#ssh  
 
@@ -67,24 +67,28 @@ Set a contact and location
 	HQ-ISR(config)#snmp-server contact Admin
 	HQ-ISR(config)#snmp-server location London HQ
 
-#### Configure a SNMPv3 group
+#### Configure a SNMPv3 group:
 
 	HQ-ISR(config)# snmp-server group MY-GROUP v3 priv
 
-#### Configure a SNMPv3 user, specify which protocols to use for authentication and encrytion and write them down.
+#### Configure a SNMPv3 user: 
+
+specify which protocols to use for authentication and encrytion and write them down.
 
 Use [this table](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) for documentation.
 
 
 	HQ-ISR(config)# snmp-server user admin MY-GROUP v3 auth sha AUTHKEY123 priv aes 256 PRIVKEY123
 
-#### Set an SNMP server
+#### Set an SNMP server:
 
 We define the server to which traps will be sent
 
 	HQ-ISR(config)# snmp-server host 10.10.2.40 version 3 priv admin
 	HQ-ISR(config)# snmp-server enable traps 
 	HQ-ISR(config)# end
+
+On the other end (Monitoring tool), use the created [table](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) and make sure everything matches.
 
 #### Verification
 
@@ -99,6 +103,10 @@ On the device see that the user is configured
 	Privacy Protocol: AES256
 	Group-name: MY-GROUP
 
+
+From the montoring tool I would run Wireshark or tcpdump to look for snmp traffic.
+
+**Note:** You can decrypt SNMPv3 in wireshark to see OID information in transit, [guide here](https://hi.service-now.com/kb_view.do?sysparm_article=KB0716409)
 
 ## Control Plane Protection
 
