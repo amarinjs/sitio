@@ -10,7 +10,7 @@ article_header:
   background_color: '#4c4cc2'
   background_image:
     gradient: 'linear-gradient(313deg, rgba(2,0,36, .6) 0%, rgba(76,76,194, .6) 47%, rgba(0,212,255, .6) 100%)'
-    src: https://github.com/alexma2344/peperina/blob/master/assets/images/rainbows.jpg?raw=true"
+    src: https://github.com/alexma2344/sitio/blob/master/assets/images/rainbows.jpg?raw=true"
 sharing: true
 comment: true
 mathjax: true
@@ -58,7 +58,7 @@ Before snmp config set a contact and location
 
 #### Configure a SNMPv3 user
 
-Use [this](https://github.com/alexma2344/peperina/tree/master/docs/assets/snmpv3-template) table for reference
+Use [this](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) table for reference
 
 
 	HQ-ISR(config)# snmp-server user admin MY-GROUP v3 auth sha AUTHKEY123 priv aes 256 PRIVKEY123

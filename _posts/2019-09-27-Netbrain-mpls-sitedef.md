@@ -10,7 +10,7 @@ article_header:
   background_color: '#4c4cc2'
   background_image:
     gradient: 'linear-gradient(313deg, rgba(2,0,36, .3) 0%, rgba(76,76,194, .3) 47%, rgba(0,212,255, .6) 100%)'
-    src: https://github.com/alexma2344/peperina/blob/master/assets/images/brain.jpg?raw=true"
+    src: https://github.com/alexma2344/sitio/blob/master/assets/images/brain.jpg?raw=true"
 sharing: true
 comment: true
 articles:
@@ -36,7 +36,7 @@ What's cool about this, is that we can automatically add devices to sites based 
 
 The Netbrain system introduces "MPLS Clouds" to simulate MPLS functions, these are taken as devices by the system, and they have virtual routing tables to allow A to B Path calculations.
 
-<center><img src="https://github.com/alexma2344/peperina/blob/master/assets/images/mpls_cloud_structure.png?raw=true"></center>
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/mpls_cloud_structure.png?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
         structure of an mpls cloud.
@@ -47,7 +47,7 @@ The MPLS cloud virtual routing table is created from the routes being advsertise
 
 eg 
 
-<center><img src="https://github.com/alexma2344/peperina/blob/master/assets/images/MPLS-Routing.PNG?raw=true"></center>
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/MPLS-Routing.PNG?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
         MPLS virtual routing table

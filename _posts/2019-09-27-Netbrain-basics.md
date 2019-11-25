@@ -10,7 +10,7 @@ article_header:
   background_color: '#4c4cc2'
   background_image:
     gradient: 'linear-gradient(313deg, rgba(2,0,36, .3) 0%, rgba(76,76,194, .3) 47%, rgba(0,212,255, .6) 100%)'
-    src: https://github.com/alexma2344/peperina/blob/master/assets/images/brain.jpg?raw=true"
+    src: https://github.com/alexma2344/sitio/blob/master/assets/images/brain.jpg?raw=true"
 sharing: true
 comment: true
 articles:
@@ -41,7 +41,7 @@ Dynamic maps use data from multiple sources that can update documentation either
 
 In Nebrain, every network task begins with a data driven dynamic map.
 
-<center><img src="https://github.com/alexma2344/peperina/blob/master/assets/images/dmap1.PNG?raw=true"></center>
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/dmap1.PNG?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
         example of an A to B path task. 
@@ -99,7 +99,7 @@ A few examples are:
 
 With instant Qapps we can visualize [parser](https://en.wikipedia.org/wiki/Parsing) variables on a map
 
-<center><img src="https://github.com/alexma2344/peperina/blob/master/assets/images/iqappret.png?raw=true"></center>
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/iqappret.png?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
         Instant Qapp parsing data on our map. 
