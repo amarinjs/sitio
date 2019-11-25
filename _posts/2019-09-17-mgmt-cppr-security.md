@@ -26,13 +26,13 @@ tags: cisco ios-xe asa snmp security
 
 ## Intro
 
-I'm writing down a cheatsheet for future reference on management access and control plane security.
+I'm writing down a cheatsheet for future reference on management and control plane security.
 
-The configurations needed to access our devices, are at the same time an attack vector. This will be addressed on the Countermeasure section, to show a use case of Control Plane Policing.
+When we open management access to the infrastructure, atack vectors/vulnerabilities are also created. This will be addressed on the Countermeasure section to show a use case of Control Plane Policing.
 
 Here are some [best practices](https://tools.cisco.com/security/center/resources/copp_best_practices) from Cisco.
 
-**Note:**The examples are being done on Cisco platforms but apply to network infrastructure in general.
+**Note:**The examples are being done on Cisco platforms but do apply to network infrastructure in general.
 
 ## Control Plane Protection
 
