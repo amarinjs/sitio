@@ -36,7 +36,7 @@ Here are some [best practices](https://tools.cisco.com/security/center/resources
 
 Set a domain name and generate an RSA key pair:
 	
-	HQ-ISR(config)# ip domain name secure-x.local 
+	HQ-ISR(config)# ip domain name local.mycompany.com
 	HQ-ISR(config)# crypto key generate rsa modulus 2048
 	% You already have RSA keys defined named HQ-ISR.secure-x.local.
 	% They will be replaced.
