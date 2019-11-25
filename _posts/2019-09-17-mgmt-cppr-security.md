@@ -37,7 +37,7 @@ Before snmp config always set a contact and location
 
 #### configure a SNMPv3 user
 
-Use (this)[https://github.com/alexma2344/peperina/tree/master/docs/assets/snmpv3-parameters.xlsx] table for reference
+Use [this](https://github.com/alexma2344/peperina/tree/master/docs/assets/snmpv3-parameters.xlsx) table for reference
 
 eg 
 
