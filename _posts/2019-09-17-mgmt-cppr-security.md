@@ -26,7 +26,7 @@ tags: cisco ios-xe asa snmp security
 
 ## SNMPv3 access
 
-Before snmp config always set a contact and location
+Before snmp config set a contact and location
 
 	HQ-ISR(config)#snmp-server contact Admin
 	HQ-ISR(config)#snmp-server location London HQ
@@ -71,3 +71,10 @@ On the device see that the user is configured, eg
 
 
 ## Control Plane Protection
+
+
+[TeXt][TeXt] is a super customizable Jekyll theme.
+
+[TeXt]: https://github.com/kitian616/jekyll-TeXt-theme/ "TeXt"
+
+[TeXt](https://github.com/kitian616/jekyll-TeXt-theme/ "TeXt")
