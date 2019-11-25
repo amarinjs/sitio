@@ -63,9 +63,12 @@ On the device see that the user is configured, eg
 	Privacy Protocol: AES128
 	Group-name: SECURE-X
 
-#### MIB browsers
+#### Tools
 
 Use a MIB browser
 - [Hilisoft](https://download.cnet.com/HiliSoft-MIB-Browser/3000-2651_4-10698289.html) 
 - [paessler](https://www.paessler.com/tools/snmptester)
+- [snmpwalk](https://linux.die.net/man/1/snmpwalk)
+
+
 ## Control Plane Protection
