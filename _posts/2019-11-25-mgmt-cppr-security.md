@@ -58,8 +58,6 @@ Then allow only ssh on the virtual teletype (VTY) lines:
 
 	asav(config)# ssh 192.168.25.0 255.255.255.0 mgmt
 
-ASA(config)#ssh  
-
 ## SNMPv3 access
 
 Set a contact and location
