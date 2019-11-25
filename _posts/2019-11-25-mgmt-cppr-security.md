@@ -38,7 +38,7 @@ Set a domain name and generate an RSA key pair:
 	
 	HQ-ISR(config)# ip domain name local.mycompany.com
 	HQ-ISR(config)# crypto key generate rsa modulus 2048
-	% You already have RSA keys defined named HQ-ISR.secure-x.local.
+	% You already have RSA keys defined named HQ-ISR.local.mycompany.com.
 	% They will be replaced.
 	
 	% The key modulus size is 2048 bits
