@@ -9,7 +9,7 @@ article_header:
   theme: dark
   background_color: '#4c4cc2'
   background_image:
-    gradient: 'linear-gradient(313deg, rgba(2,0,36, .3) 0%, rgba(76,76,194, .3) 47%, rgba(0,212,255, .6) 100%)'
+    gradient: 'linear-gradient(313deg, rgba(2,0,36, .6) 0%, rgba(76,76,194, .6) 47%, rgba(0,212,255, .6) 100%)'
     src: https://github.com/alexma2344/peperina/blob/master/assets/images/rainbows.jpg?raw=true"
 sharing: true
 comment: true
