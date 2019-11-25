@@ -30,6 +30,13 @@ When we open management doors to the infrastructure, attack vectors are also cre
 
 Here are some [best practices](https://tools.cisco.com/security/center/resources/copp_best_practices) from Cisco (more complete content).
 
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/device-planes.png?raw=true"></center>
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        Network device planes. 
+    </span>
+</div>
+
 **Note:** The examples are being done on Cisco platforms but do apply to network infrastructure in general.
 
 ## SSH access
