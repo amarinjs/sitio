@@ -30,7 +30,7 @@ When we open management doors to the infrastructure, attack vectors are also cre
 
 Here are some [best practices](https://tools.cisco.com/security/center/resources/copp_best_practices) from Cisco (more complete content).
 
-**Note:**The examples are being done on Cisco platforms but do apply to network infrastructure in general.
+**Note:** The examples are being done on Cisco platforms but do apply to network infrastructure in general.
 
 ## SSH access
 
@@ -45,7 +45,7 @@ Set a domain name and generate an RSA key pair:
 	% Generating 2048 bit RSA keys, keys will be non-exportable...
 	[OK] (elapsed time was 1 seconds)
 
-Enable ssh version 2 for [enhanced security](https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x)):
+Enable ssh version 2 for [enhanced security](https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x):
 
 	HQ-ISR(config)# ip ssh version 2
 
@@ -54,7 +54,7 @@ Then allow only ssh on the virtual teletype (VTY) lines:
 	HQ-ISR(config)#line vty 0 98
 	HQ-ISR(config-line)#transport input ssh
 
-**Note:** An ACL can be added to the VTY lines with the *access-class* command, in the case of the ASA, subnet filtering is part of the standard config, eg
+**Note:** An ACL can be added to the VTY lines to specify allowed subnets, in the case of the ASA, a subnet filter is part of the standard config, eg
 
 	asav(config)# ssh 192.168.25.0 255.255.255.224 mgmt
 
@@ -71,9 +71,9 @@ Set a contact and location
 
 	HQ-ISR(config)# snmp-server group MY-GROUP v3 priv
 
-#### Configure a SNMPv3 user
+#### Configure a SNMPv3 user, specify which protocols to use for authentication and encrytion and write them down.
 
-Use [this table](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) for reference
+Use [this table](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) for documentation.
 
 
 	HQ-ISR(config)# snmp-server user admin MY-GROUP v3 auth sha AUTHKEY123 priv aes 256 PRIVKEY123
