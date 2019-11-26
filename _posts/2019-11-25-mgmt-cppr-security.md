@@ -85,13 +85,14 @@ See that the user is configured
 
 ##### Deleting a user
 
-This one is confusing, I don't know why it happens but won't allow you to delete the user bound to the original engineID
+This one is confusing, I don't know why it happens, it won't allow you to delete the user bound to the original engineID
 
 To delete it:
 
-1. snmp-server engineid local <original engineid>
+1. snmp-server engineid local original engineid
 
-2. no snmp-server user <username> <group> <version>
+2. no snmp-server user username group version
+
 
 From the montoring tool I would run Wireshark or tcpdump to look for snmp traffic.
 
