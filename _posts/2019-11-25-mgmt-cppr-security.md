@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Management and Control plane security
+title: SNMPv3
 mode: immersive
 header:
   theme: dark
@@ -17,7 +17,7 @@ mathjax: true
 mathjax_autoNumber: true
 articles:
   excerpt_type: html
-tags: cisco ios-xe asa snmp security ssh
+tags: cisco ios-xe asa snmp security
 ---
 
 <!--more-->
@@ -26,7 +26,7 @@ tags: cisco ios-xe asa snmp security ssh
 
 ## Intro
 
-When we open management doors to the infrastructure, attack vectors are also created. We'll first write down how to configure management access, then exploit the introduced weaknesses, and finally address them with countermeasures (control plane policing).
+When we open management doors to the infrastructure, attack vectors are also created. We'll first write down how to configure SNMPv3 access, then exploit the introduced weakness, and finally address it with countermeasures (control plane policing).
 
 Here are some [best practices](https://tools.cisco.com/security/center/resources/copp_best_practices) from Cisco (more complete content).
 
@@ -39,31 +39,6 @@ Here are some [best practices](https://tools.cisco.com/security/center/resources
 
 **Note:** The examples are being done on Cisco platforms but do apply to network infrastructure in general.
 
-## SSH access
-
-Set a domain name and generate an RSA key pair:
-	
-	HQ-ISR(config)# ip domain name local.mycompany.com
-	HQ-ISR(config)# crypto key generate rsa modulus 2048
-	% You already have RSA keys defined named HQ-ISR.local.mycompany.com.
-	% They will be replaced.
-	
-	% The key modulus size is 2048 bits
-	% Generating 2048 bit RSA keys, keys will be non-exportable...
-	[OK] (elapsed time was 1 seconds)
-
-Enable ssh version 2 for [enhanced security](https://en.wikipedia.org/wiki/Secure_Shell#Version_2.x):
-
-	HQ-ISR(config)# ip ssh version 2
-
-Then allow only ssh on the virtual teletype (VTY) lines:
-
-	HQ-ISR(config)#line vty 0 98
-	HQ-ISR(config-line)#transport input ssh
-
-**Note:** An ACL can be added to the VTY lines to specify allowed subnets, in the case of the ASA, a subnet filter is part of the standard config, eg
-
-	asav(config)# ssh 192.168.25.0 255.255.255.0 mgmt
 
 ## SNMPv3 access
 
@@ -108,6 +83,15 @@ See that the user is configured
 	Privacy Protocol: AES256
 	Group-name: MY-GROUP
 
+##### Deleting a user
+
+This one is confusing, I don't know why it happens but won't allow you to delete the user bound to the original engineID
+
+To delete it:
+
+1. snmp-server engineid local <original engineid>
+
+2. no snmp-server user <username> <group> <version>
 
 From the montoring tool I would run Wireshark or tcpdump to look for snmp traffic.
 
