@@ -78,7 +78,7 @@ Set a contact and location
 
 #### Configure a SNMPv3 user: 
 
-specify which protocols to use for authentication and encrytion and write them down.
+Specify which protocols to use for authentication and encrytion and write them down.
 
 Use [this table](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) for documentation.
 
@@ -97,7 +97,7 @@ On the other end (Monitoring tool), use the created [table](https://github.com/a
 
 #### Verification
 
-On the device see that the user is configured
+See that the user is configured
 
 	HQ-ISR# show snmp user
 	
