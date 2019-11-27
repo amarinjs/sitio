@@ -37,12 +37,12 @@ Here an extensive guide on [control plane best practices](https://tools.cisco.co
     </span>
 </div>
 
-**Note:** The examples are being done on Cisco platforms but do apply to network infrastructure in general.
+**Note:** The examples are being done on Cisco platforms but still apply to network infrastructure in general.
 
 
 ## SNMPv3 access
 
-Set a contact and location (optional)
+Set a contact and location (optional):
 
 	HQ-ISR(config)# snmp-server contact Admin
 	HQ-ISR(config)# snmp-server location London HQ
