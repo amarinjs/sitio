@@ -42,16 +42,16 @@ Here an extensive guide on [control plane best practices](https://tools.cisco.co
 
 ## SNMPv3 access
 
-Set a contact and location (optional)
+- Set a contact and location (optional)
 
 	HQ-ISR(config)# snmp-server contact Admin
 	HQ-ISR(config)# snmp-server location London HQ
 
-### Configure a SNMPv3 group:
+- Configure a SNMPv3 group:
 
 	HQ-ISR(config)# snmp-server group MY-GROUP v3 priv
 
-### Configure a SNMPv3 user: 
+- Configure a SNMPv3 user: 
 
 Specify which protocols to use for authentication and encrytion and write them down.
 
@@ -62,7 +62,7 @@ Use [this table](https://github.com/alexma2344/sitio/tree/master/docs/assets/snm
 
 **Note:** For some reason the MIB browsers won't be able to retrieve GET when using AES 256, when I change to AES 128 it works... (we should use 256).
 
-### Set an SNMP server:
+- Set an SNMP server:
 
 If you need to send traps somewhere (you can still poll without it).
 
@@ -101,20 +101,16 @@ See that the user is configured
 
 #### Deleting a user
 
-This one is confusing, I don't know why it happens, it won't allow you to delete the user bound to the original engineID
+1. snmp-server engineid local "original engineid"
 
-To delete it:
-
-1. snmp-server engineid local original engineid
-
-2. no snmp-server user username group version
+2. no snmp-server user "username" "group" "version"
 
 
 ## Control Plane Protection
 
 ### Attack
 
-Attack the The control-plane host subinterface (where the snmp process resides)
+Attack the The control-plane host subinterface (that manages SNMP).
 
 Use [snmpwalk](https://linux.die.net/man/1/snmpwalk) to overflow the CPU of the device.
 
@@ -122,9 +118,15 @@ Use [snmpwalk](https://linux.die.net/man/1/snmpwalk) to overflow the CPU of the 
 
 <div>{%- include extensions/youtube.html id='je4GyBj9e9w' -%}</div>
 
-In the above video I'm launching four sessions towards our router and using loads of CPU.
+In the above video I'm launching four sessions towards a non production router, note how the CPU utilization goes to 34% for the SNMP proccess.
+
+This works just as well with the previous flavours of snmp.
 
 ### Countermeasure
+
+We've gathered technical evidence of our vulnerability, now lets address it.
+
+
 
 ### Tools
 
