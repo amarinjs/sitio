@@ -42,16 +42,16 @@ Here an extensive guide on [control plane best practices](https://tools.cisco.co
 
 ## SNMPv3 access
 
-- Set a contact and location (optional)
+Set a contact and location (optional)
 
 	HQ-ISR(config)# snmp-server contact Admin
 	HQ-ISR(config)# snmp-server location London HQ
 
-- Configure a SNMPv3 group:
+Configure a SNMPv3 group:
 
 	HQ-ISR(config)# snmp-server group MY-GROUP v3 priv
 
-- Configure a SNMPv3 user: 
+Configure a SNMPv3 user: 
 
 Specify which protocols to use for authentication and encrytion and write them down.
 
