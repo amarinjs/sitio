@@ -70,7 +70,7 @@ We define the server to which traps will be sent
 
 On the other end (Monitoring tool), use the created [table](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) and make sure everything matches.
 
-#### Verification
+### Verification
 
 See that the user is configured
 
@@ -88,7 +88,7 @@ From the montoring tool run Wireshark or tcpdump to look for snmp traffic.
 
 **Note:** You can decrypt SNMPv3 in wireshark to see OID information in transit, [guide here](https://hi.service-now.com/kb_view.do?sysparm_article=KB0716409)
 
-##### Deleting a user
+#### Deleting a user
 
 This one is confusing, I don't know why it happens, it won't allow you to delete the user bound to the original engineID
 
