@@ -86,7 +86,9 @@ See that the user is configured
 	Group-name: MY-GROUP
 
 
-From the montoring tool host run Wireshark or tcpdump to look for snmp traffic.
+- From the montoring tool host run Wireshark or tcpdump to look for snmp traffic.
+
+- Use an snmp tester like the one below to poll some OIDs
 
 <center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/poll.PNG?raw=true"></center>
 <div style="text-align: center;">
