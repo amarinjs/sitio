@@ -86,7 +86,14 @@ See that the user is configured
 	Group-name: MY-GROUP
 
 
-From the montoring tool run Wireshark or tcpdump to look for snmp traffic.
+From the montoring tool host run Wireshark or tcpdump to look for snmp traffic.
+
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/poll.PNG?raw=true"></center>
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        Polling interfaces from SNMP tester. 
+    </span>
+</div>
 
 **Note:** You can decrypt SNMPv3 in wireshark to see OID information in transit, [guide here](https://hi.service-now.com/kb_view.do?sysparm_article=KB0716409)
 
