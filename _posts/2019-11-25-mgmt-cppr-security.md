@@ -26,9 +26,9 @@ tags: cisco ios-xe asa snmp security
 
 ## Intro
 
-When we open management doors to the infrastructure, attack vectors are also created. We'll first write down how to configure SNMPv3 access, then exploit the introduced weakness, and finally address it with countermeasures (control plane policing).
+When we open management doors to the infrastructure, attack vectors are also created. We'll first write down how to configure SNMPv3 access, then exploit the introduced weakness, and finally address it with countermeasures (control plane policing). 
 
-Here an extensive guide on [control plane best practices](https://tools.cisco.com/security/center/resources/copp_best_practices) from Cisco.
+Here an extensive guide on [control plane best practices](https://tools.cisco.com/security/center/resources/copp_best_practices) from Cisco. My excersise is just a day-to-day task that needs documenting.
 
 <center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/device-planes.png?raw=true"></center>
 <div style="text-align: center;">
