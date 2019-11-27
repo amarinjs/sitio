@@ -91,7 +91,7 @@ From the montoring tool host run Wireshark or tcpdump to look for snmp traffic.
 <center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/poll.PNG?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
-        Polling interfaces from SNMP tester. 
+        Polling interfaces from SNMP tester.
     </span>
 </div>
 
