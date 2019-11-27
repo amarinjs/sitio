@@ -42,7 +42,7 @@ Here are some [best practices](https://tools.cisco.com/security/center/resources
 
 ## SNMPv3 access
 
-Set a contact and location
+Set a contact and location (optional)
 
 	HQ-ISR(config)#snmp-server contact Admin
 	HQ-ISR(config)#snmp-server location London HQ
@@ -83,6 +83,11 @@ See that the user is configured
 	Privacy Protocol: AES256
 	Group-name: MY-GROUP
 
+
+From the montoring tool run Wireshark or tcpdump to look for snmp traffic.
+
+**Note:** You can decrypt SNMPv3 in wireshark to see OID information in transit, [guide here](https://hi.service-now.com/kb_view.do?sysparm_article=KB0716409)
+
 ##### Deleting a user
 
 This one is confusing, I don't know why it happens, it won't allow you to delete the user bound to the original engineID
@@ -94,13 +99,11 @@ To delete it:
 2. no snmp-server user username group version
 
 
-From the montoring tool I would run Wireshark or tcpdump to look for snmp traffic.
-
-**Note:** You can decrypt SNMPv3 in wireshark to see OID information in transit, [guide here](https://hi.service-now.com/kb_view.do?sysparm_article=KB0716409)
-
 ## Control Plane Protection
 
 ### Attack
+
+Attack the The control-plane host subinterface (where the snmp process resides)
 
 Use [snmpwalk](https://linux.die.net/man/1/snmpwalk) to overflow the CPU of the device.
 
