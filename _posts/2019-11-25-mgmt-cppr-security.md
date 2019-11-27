@@ -1,6 +1,6 @@
 ---
 layout: article
-title: SNMPv3
+title: SNMPv3 Cheatsheet
 mode: immersive
 header:
   theme: dark
