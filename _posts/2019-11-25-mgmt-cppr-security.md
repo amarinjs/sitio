@@ -44,8 +44,8 @@ Here an extensive guide on [control plane best practices](https://tools.cisco.co
 
 Set a contact and location (optional)
 
-	HQ-ISR(config)#snmp-server contact Admin
-	HQ-ISR(config)#snmp-server location London HQ
+	HQ-ISR(config)# snmp-server contact Admin
+	HQ-ISR(config)# snmp-server location London HQ
 
 #### Configure a SNMPv3 group:
 
@@ -58,13 +58,15 @@ Specify which protocols to use for authentication and encrytion and write them d
 Use [this table](https://github.com/alexma2344/sitio/tree/master/docs/assets/snmpv3-template) for documentation.
 
 
-	HQ-ISR(config)# snmp-server user admin MY-GROUP v3 auth sha AUTHKEY123 priv aes 256 PRIVKEY123
+	HQ-ISR(config)# snmp-server user admin MY-GROUP v3 auth sha AUTHKEY123 priv aes 128 PRIVKEY123
+
+**Note:** For some reason the MIB browsers won't be able to retrieve GET when using AES 256, when I change to AES 128 it works... (we should use 256).
 
 #### Set an SNMP server:
 
-We define the server to which traps will be sent
+If you need to send traps somewhere (you can still poll without it).
 
-	HQ-ISR(config)# snmp-server host 10.10.2.40 version 3 priv admin
+	HQ-ISR(config)# snmp-server host 172.16.10.12 version 3 priv admin
 	HQ-ISR(config)# snmp-server enable traps 
 	HQ-ISR(config)# end
 
