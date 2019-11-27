@@ -82,7 +82,7 @@ See that the user is configured
 	Engine ID: 800000090300B0FEEB64B388
 	storage-type: nonvolatile        active
 	Authentication Protocol: SHA
-	Privacy Protocol: AES256
+	Privacy Protocol: AES128
 	Group-name: MY-GROUP
 
 
