@@ -120,6 +120,7 @@ Use [snmpwalk](https://linux.die.net/man/1/snmpwalk) to overflow the CPU of the 
 
 	root@ubuntu-home:~# snmpwalk -v3 -l authPriv -u admin -a SHA -A AUTHKEY123 -x AES -X PRIVKEY123 172.16.2.3 1
 
+<div>{%- include extensions/youtube.html id='je4GyBj9e9w' -%}</div>
 
 ### Countermeasure
 
