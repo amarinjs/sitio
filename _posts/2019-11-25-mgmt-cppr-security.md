@@ -1,6 +1,6 @@
 ---
 layout: article
-title: SNMPv3 Cheatsheet
+title: SNMPv3 Cheat-sheet
 mode: immersive
 header:
   theme: dark
@@ -118,9 +118,11 @@ Attack the The control-plane host subinterface (where the snmp process resides)
 
 Use [snmpwalk](https://linux.die.net/man/1/snmpwalk) to overflow the CPU of the device.
 
-	root@ubuntu-home:~# snmpwalk -v3 -l authPriv -u admin -a SHA -A AUTHKEY123 -x AES -X PRIVKEY123 172.16.2.3 1
+	root@ubuntu-home:~# snmpwalk -v3 -l authPriv -u admin -a SHA -A AUTHKEY123 -x AES -X PRIVKEY123 172.16.10.63 1
 
 <div>{%- include extensions/youtube.html id='je4GyBj9e9w' -%}</div>
+
+In the above video I'm launching four sessions towards our router and using loads of CPU.
 
 ### Countermeasure
 
