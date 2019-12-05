@@ -1,0 +1,104 @@
+<script>
+function link(){
+var group ='';
+var output ='';
+group = '${name}' ;
+switch(group) {
+
+	case 'Aurora - UAU':
+    	output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=a23d2a1d-62e0-43c3-b92a-5fb90040ea59" height = "800" width="1200"></iframe>';
+        break;	
+	case 'Basildon - LBD':
+    	output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=e60d66c8-b0d5-4134-bf3a-559a8bcf93db" height = "800" width="1200"></iframe>';
+        break;
+    case 'Basingstoke - BAS':
+    	output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=d1e4bc0a-dd79-4650-a846-c73ed1e46e17" height = "800" width="1200"></iframe>';
+        break;
+    case 'Carteret - CTR':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=a4b540ff-98e0-4b38-beb1-32ea98afff8b" height = "800" width="1200"></iframe>';
+        break;
+    case 'CGC London (Citi Group) - CG':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=57c3ad86-195a-4439-b1ca-fdce631196c3" height = "800" width="1200"></iframe>';
+        break;
+    case 'Chicago - CH1':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=9395053b-b96a-48a7-bad6-666f79ffee82" height = "800" width="1200"></iframe>';
+        break;
+    case 'Colo (Johannesburg) - JSE':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=e7a6f67f-9644-432f-b45c-b650e014a9fc" height = "800" width="1200"></iframe>';
+        break;
+    case 'CommerzBank - 3GS':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=614cb00d-b955-4026-8495-9826c1520f30" height = "800" width="1200"></iframe>';
+        break;
+    case 'CommerzBank - WAT':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=7e60ba26-fb27-410c-b442-f353fb3739b5" height = "800" width="1200"></iframe>';
+        break;
+    case 'Croydon (Deustche Bank) - CROY':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=6a39dcab-cceb-4638-b0ee-9c67c8414fb4" height = "800" width="1200"></iframe>';
+        break;
+    case 'Frankfurt (Equinix) - FR2':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=8dfc9e48-f05a-4775-810d-7191c956aa60" height = "800" width="1200"></iframe>';
+        break;
+    case 'Hong Kong - HKX':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=520fd301-d872-4c59-a20f-7d8285ac9a02" height = "800" width="1200"></iframe>';
+        break;
+    case 'London (Verizon) - UK5':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=428da2a2-fd1e-43bd-b572-511519a8b2b9" height = "800" width="1200"></iframe>';
+        break;
+    case 'London Brick Lane (InterXion) - BL':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=13d9b6d2-fa9b-4cf5-9074-72fdedf18f91" height = "800" width="1200"></iframe>';
+        break;
+    case 'London Hosting Centre - LHC':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=a57a610d-af41-44be-8c4e-489f0e67bdb7" height = "800" width="1200"></iframe>';
+        break;
+    case 'London Olivers Yard - LOY':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=8fd3e0a1-5395-42fe-a995-e510ea47dd77" height = "800" width="1200"></iframe>';
+        break;
+    case 'London Stock Exchange - LSE':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=3ca721be-e266-4a38-b19f-e833a3822f56" height = "800" width="1200"></iframe>';
+        break;
+    case 'London Telehouse - TFM':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=be564248-5b8e-44cf-9a96-18245fad24f8" height = "800" width="1200"></iframe>';
+        break;
+    case 'Madrid - MAD':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=c9e26889-5077-468c-ba2b-73ad8c84987e" height = "800" width="1200"></iframe>';
+        break;
+    case 'Milan (BT Inet) - MIL1':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=d1dcef75-86d0-407b-b7e0-edca96bb9925" height = "800" width="1200"></iframe>';
+        break;
+    case 'Milan (SIA) - MIL2':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=cb74d307-aec8-40f5-a49c-72b277dd0a05" height = "800" width="1200"></iframe>';
+        break;
+    case 'New Jersey Secaucus (Equinix) - NY4':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=6c28b158-bd7d-4e33-9b49-6687a98318f3" height = "800" width="1200"></iframe>';
+        break;
+    case 'Paris - PAR':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=5a4b0660-2849-4a2b-88e9-3c748d80bd18" height = "800" width="1200"></iframe>';
+        break;
+    case 'RDC London (Citi Group) - CG':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=797ebe04-705d-4229-85a6-494f1981c828" height = "800" width="1200"></iframe>';
+        break;
+    case 'Slough (Equinix) - LD4':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=36eb38dc-7cf2-45e6-be71-52018b4380a0" height = "800" width="1200"></iframe>';
+        break;
+    case 'Slough (Equinix) - LD6':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=cf445e8c-8a63-4ddf-aa4e-99d236d3d17b" height = "800" width="1200"></iframe>';
+        break;
+    case 'Stockholm Vasby - STO':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=d7988372-5b63-453f-bfd6-84945681d0f4" height = "800" width="1200"></iframe>';
+        break;
+    case 'Tokyo - JPX':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=3a7c0a06-d7fd-4bed-a11f-fde1e5d97752" height = "800" width="1200"></iframe>';
+        break;
+    case 'Tokyo - TDC':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=fff1649e-199e-4c9c-9d5d-dcc37d3fff02" height = "800" width="1200"></iframe>';
+        break;
+    case 'Zurich -  ZUR':
+        output = '<iframe src="https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=77ad6576-f4bf-4cbf-ad20-5f4bf921a525" height = "800" width="1200"></iframe>';
+        break;
+       }
+	return output
+}
+</script>
+<body>
+<script>document.write(link());</script>
+</body>
