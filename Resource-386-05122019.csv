@@ -1,0 +1,6 @@
+#TYPE PscxDynamicType21
+"ResourceID","ViewID","ViewColumn","Position","ResourceName","ResourceFile","ResourceTitle","ResourceSubTitle"
+"3709","386","2","2","Top XX Interfaces by Relative Multicast Packet Rate","/Orion/Interfaces/Resources/TopXX/RelativeMcastPacketRateTopXX.ascx","Top XX Interfaces by Relative Multicast Packet Rate",""
+"3710","386","1","1","Custom Query","/Orion/NetPerfMon/Resources/Misc/CustomQuery.ascx","Multicast Groups",""
+"3711","386","1","2","Custom Query","/Orion/NetPerfMon/Resources/Misc/CustomQuery.ascx","Rendezvous Points",""
+"3715","386","2","1","Custom Query","/Orion/NetPerfMon/Resources/Misc/CustomQuery.ascx","Source Table",""

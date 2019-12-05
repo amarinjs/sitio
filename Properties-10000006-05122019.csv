@@ -1,0 +1,262 @@
+#TYPE PscxDynamicType11
+"resourceid","ResourceID1","PropertyName","PropertyValue"
+"424","424","MaxEvents","25"
+"424","424","Period","Last Month"
+"427","427","Calculate95thPercentile","1"
+"427","427","CalculateTrendLine","0"
+"427","427","ChartDateSpan","27"
+"427","427","ChartInitialZoom","lastMonth"
+"427","427","ChartName","ContainerAvailability"
+"427","427","ChartSubTitle","${ZoomRange}"
+"427","427","ChartTitle","${Caption}"
+"427","427","NetObjectPrefix","C"
+"427","427","SampleSize","15"
+"427","427","ShowTitle","1"
+"2256","2256","ChartConfiguration","{""charts"": [{""title"": """", ""metrics"": [{""id"": ""Orion.ContainerStatus.PercentMembersAvailability"", ""hideUnit"": false, ""axisLabels"": {""yAxis"": ""Availability""}}], ""isSpark"": false}], ""presetTime"":""last12Hours""}"
+"2256","2256","selector","sw-chart-widget"
+"3698","3698","HTML","<script>
+function link(){
+var group ='';
+var output ='';
+group = '${name}' ;
+switch(group) {
+
+	case 'Aurora - UAU':
+    	output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=a23d2a1d-62e0-43c3-b92a-5fb90040ea59"" height = ""800"" width=""1200""></iframe>';
+        break;	
+	case 'Basildon - LBD':
+    	output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=e60d66c8-b0d5-4134-bf3a-559a8bcf93db"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Basingstoke - BAS':
+    	output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=d1e4bc0a-dd79-4650-a846-c73ed1e46e17"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Carteret - CTR':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=a4b540ff-98e0-4b38-beb1-32ea98afff8b"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'CGC London (Citi Group) - CG':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=57c3ad86-195a-4439-b1ca-fdce631196c3"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Chicago - CH1':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=9395053b-b96a-48a7-bad6-666f79ffee82"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Colo (Johannesburg) - JSE':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=e7a6f67f-9644-432f-b45c-b650e014a9fc"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'CommerzBank - 3GS':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=614cb00d-b955-4026-8495-9826c1520f30"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'CommerzBank - WAT':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=7e60ba26-fb27-410c-b442-f353fb3739b5"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Croydon (Deustche Bank) - CROY':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=6a39dcab-cceb-4638-b0ee-9c67c8414fb4"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Frankfurt (Equinix) - FR2':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=8dfc9e48-f05a-4775-810d-7191c956aa60"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Hong Kong - HKX':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=520fd301-d872-4c59-a20f-7d8285ac9a02"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'London (Verizon) - UK5':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=428da2a2-fd1e-43bd-b572-511519a8b2b9"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'London Brick Lane (InterXion) - BL':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=13d9b6d2-fa9b-4cf5-9074-72fdedf18f91"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'London Hosting Centre - LHC':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=a57a610d-af41-44be-8c4e-489f0e67bdb7"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'London Olivers Yard - LOY':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=8fd3e0a1-5395-42fe-a995-e510ea47dd77"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'London Stock Exchange - LSE':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=3ca721be-e266-4a38-b19f-e833a3822f56"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'London Telehouse - TFM':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=be564248-5b8e-44cf-9a96-18245fad24f8"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Madrid - MAD':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=c9e26889-5077-468c-ba2b-73ad8c84987e"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Milan (BT Inet) - MIL1':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=d1dcef75-86d0-407b-b7e0-edca96bb9925"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Milan (SIA) - MIL2':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=cb74d307-aec8-40f5-a49c-72b277dd0a05"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'New Jersey Secaucus (Equinix) - NY4':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=6c28b158-bd7d-4e33-9b49-6687a98318f3"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Paris - PAR':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=5a4b0660-2849-4a2b-88e9-3c748d80bd18"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'RDC London (Citi Group) - CG':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=797ebe04-705d-4229-85a6-494f1981c828"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Slough (Equinix) - LD4':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=36eb38dc-7cf2-45e6-be71-52018b4380a0"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Slough (Equinix) - LD6':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=cf445e8c-8a63-4ddf-aa4e-99d236d3d17b"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Stockholm Vasby - STO':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=d7988372-5b63-453f-bfd6-84945681d0f4"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Tokyo - JPX':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=3a7c0a06-d7fd-4bed-a11f-fde1e5d97752"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Tokyo - TDC':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=fff1649e-199e-4c9c-9d5d-dcc37d3fff02"" height = ""800"" width=""1200""></iframe>';
+        break;
+    case 'Zurich -  ZUR':
+        output = '<iframe src=""https://10.20.238.7/map.html?t=90464db2-fbc3-ffd1-3adb-bd1897657dda&d=e63aa62e-b7b3-44a7-aea5-d80a355bf8a4&id=77ad6576-f4bf-4cbf-ad20-5f4bf921a525"" height = ""800"" width=""1200""></iframe>';
+        break;
+       }
+	return output
+}
+</script>
+<body>
+<script>document.write(link());</script>
+</body>"
+"3698","3698","IsDynamicLoading","False"
+"3700","3700","RowsPerPage","10"
+"3700","3700","SearchSWQL",""
+"3700","3700","SWQL","select top 10 n.caption as [Node],
+n.detailsurl as [_LinkFor_Node],
+'/Orion/images/StatusIcons/Small-'+n.statusled as [_IconFor_Node],
+i.caption as [Interface],
+i.detailsurl as [_LinkFor_Interface],
+'/Orion/images/StatusIcons/Small-'+i.statusled as [_IconFor_Interface],
+tostring(i.inpercentutil) +'%' as [Rx],
+case when t1.islevel2state = 1 then '/Orion/images/StatusIcons/Small-critical.gif'
+when t1.islevel1state = 1 then '/Orion/images/StatusIcons/Small-warning.gif'
+else '/Orion/images/StatusIcons/Small-up.gif' end as [_IconFor_Rx],
+tostring(i.outpercentutil) + '%' as [Tx],
+case when t2.islevel2state = 1 then '/Orion/images/StatusIcons/Small-critical.gif'
+when t2.islevel1state = 1 then '/Orion/images/StatusIcons/Small-warning.gif'
+else '/Orion/images/StatusIcons/Small-up.gif' end as [_IconFor_Tx]
+
+ from orion.npm.interfaces i inner join orion.nodes n on n.nodeid = i.nodeid
+inner join orion.thresholds t1 on i.interfaceid = t1.instanceid and t1.name = 'NPM.interfaces.Stats.InPercentutilization'
+inner join orion.thresholds t2 on i.interfaceid = t2.instanceid and t2.name = 'NPM.interfaces.Stats.OutPercentutilization'
+where n.nodeid in 
+(select entityid from orion.containermembersnapshots
+where containerid = ${id} and entitydisplayname = 'node')
+order by (i.inpercentutil + i.outpercentutil) desc"
+"3701","3701","rowsperpage","10"
+"3701","3701","searchswql",""
+"3701","3701","swql","select top 10 n.caption as [Node],
+n.detailsurl as [_LinkFor_Node],
+'/Orion/images/StatusIcons/Small-'+n.statusled as [_IconFor_Node],
+tostring(n.percentmemoryused) +'%' as [CPU],
+case when t1.islevel2state = 1 then '/Orion/images/StatusIcons/Small-critical.gif'
+when t1.islevel1state = 1 then '/Orion/images/StatusIcons/Small-warning.gif'
+else  '/Orion/images/StatusIcons/Small-up.gif'
+ end as [_IconFor_CPU]
+ from orion.nodes n
+inner join orion.thresholds t1 on n.nodeid = t1.instanceid and t1.name = 'Nodes.Stats.percentmemoryused'
+where n.nodeid in 
+(select entityid from orion.containermembersnapshots
+where containerid = ${id} and entitydisplayname = 'node')
+order by percentmemoryused desc"
+"3703","3703","ConfigurationData","<TableConfiguration xmlns=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Tables"" xmlns:i=""http://www.w3.org/2001/XMLSchema-instance""><DisplaySubTitle i:nil=""true"" xmlns=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Data""/><DisplayTitle i:nil=""true"" xmlns=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Data""/><RefId xmlns=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Data"">969c882b-d32f-4b17-a287-418861d863fb</RefId><Columns><TableColumn><CellStyle xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""><a:BackgroundColor i:nil=""true""/><a:Borders i:nil=""true""/><a:DisplayName i:nil=""true""/><a:Font i:nil=""true""/><a:Padding i:nil=""true""/><a:RefId>00000000-0000-0000-0000-000000000000</a:RefId><a:TextAlign>Left</a:TextAlign><a:ZebraBackgroundColor i:nil=""true""/></CellStyle><DataColumnName i:nil=""true""/><DisplayName>Node</DisplayName><Field xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Selection""><a:DataTypeInfo xmlns:b=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Data""><b:ApplicationType i:nil=""true""/><b:DataType><b:Data>System.String</b:Data></b:DataType><b:DeclType>Text</b:DeclType><b:DefaultAggregation>NotSpecified</b:DefaultAggregation><b:DefaultDataUnitId i:nil=""true""/><b:DefaultTransformId i:nil=""true""/><b:Description/><b:IsFavorite>false</b:IsFavorite><b:IsFilterBy>true</b:IsFilterBy><b:IsGroupBy>true</b:IsGroupBy><b:IsInherited>false</b:IsInherited><b:IsManaged>true</b:IsManaged><b:IsStatistic>false</b:IsStatistic><b:PreviewValue>UK5SW39</b:PreviewValue><b:Units/><b:UtcTimeIsInLocalTime>false</b:UtcTimeIsInLocalTime></a:DataTypeInfo><a:DisplayName>Node</a:DisplayName><a:NavigationPath i:nil=""true""/><a:OwnerDisplayName i:nil=""true""/><a:RefID><a:Data>Orion.Nodes|Caption|Node</a:Data></a:RefID></Field><FixedWidth i:nil=""true""/><HeaderStyle xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""><a:BackgroundColor i:nil=""true""/><a:Borders i:nil=""true""/><a:DisplayName i:nil=""true""/><a:Font i:nil=""true""/><a:Padding i:nil=""true""/><a:RefId>00000000-0000-0000-0000-000000000000</a:RefId><a:TextAlign>Left</a:TextAlign><a:ZebraBackgroundColor i:nil=""true""/></HeaderStyle><IsHTMLTagsAllowed>false</IsHTMLTagsAllowed><IsHidden>false</IsHidden><PercentWidth i:nil=""true""/><Presenters i:nil=""true"" xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Presentation""/><PropertyName>Node</PropertyName><RefId>39a909d6-598f-1c7e-4282-a6692a2094cc</RefId><Summary><Calculation>NotSpecified</Calculation><CellStyle i:nil=""true"" xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""/></Summary><TransformId/><ValidRange>NotSpecified</ValidRange></TableColumn><TableColumn><CellStyle xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""><a:BackgroundColor i:nil=""true""/><a:Borders i:nil=""true""/><a:DisplayName i:nil=""true""/><a:Font i:nil=""true""/><a:Padding i:nil=""true""/><a:RefId>00000000-0000-0000-0000-000000000000</a:RefId><a:TextAlign>Left</a:TextAlign><a:ZebraBackgroundColor i:nil=""true""/></CellStyle><DataColumnName i:nil=""true""/><DisplayName/><Field xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Selection""><a:DataTypeInfo xmlns:b=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Data""><b:ApplicationType>System.Status.LED</b:ApplicationType><b:DataType><b:Data>System.String</b:Data></b:DataType><b:DeclType>Text</b:DeclType><b:DefaultAggregation>NotSpecified</b:DefaultAggregation><b:DefaultDataUnitId i:nil=""true""/><b:DefaultTransformId i:nil=""true""/><b:Description/><b:IsFavorite>false</b:IsFavorite><b:IsFilterBy>false</b:IsFilterBy><b:IsGroupBy>false</b:IsGroupBy><b:IsInherited>true</b:IsInherited><b:IsManaged>true</b:IsManaged><b:IsStatistic>false</b:IsStatistic><b:PreviewValue>Shutdown.gif</b:PreviewValue><b:Units/><b:UtcTimeIsInLocalTime>false</b:UtcTimeIsInLocalTime></a:DataTypeInfo><a:DisplayName>StatusInterface</a:DisplayName><a:NavigationPath i:nil=""true""/><a:OwnerDisplayName i:nil=""true""/><a:RefID><a:Data>Orion.NPM.Interfaces|StatusLED|StatusInterface</a:Data></a:RefID></Field><FixedWidth i:nil=""true""/><HeaderStyle xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""><a:BackgroundColor i:nil=""true""/><a:Borders i:nil=""true""/><a:DisplayName i:nil=""true""/><a:Font i:nil=""true""/><a:Padding i:nil=""true""/><a:RefId>00000000-0000-0000-0000-000000000000</a:RefId><a:TextAlign>Left</a:TextAlign><a:ZebraBackgroundColor i:nil=""true""/></HeaderStyle><IsHTMLTagsAllowed>false</IsHTMLTagsAllowed><IsHidden>false</IsHidden><PercentWidth>6.452</PercentWidth><Presenters xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Presentation""><a:PresenterRef><a:PresenterId>orion.core.image.status</a:PresenterId><a:Values xmlns:b=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Data""><b:ContextValue><b:Name>imageFormat</b:Name><b:Value>/orion/images/statusicons/small-{0}</b:Value></b:ContextValue></a:Values></a:PresenterRef></Presenters><PropertyName>StatusInterface</PropertyName><RefId>57dc73e7-170a-1fce-e5f6-f67dacf58940</RefId><Summary><Calculation>NotSpecified</Calculation><CellStyle i:nil=""true"" xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""/></Summary><TransformId/><ValidRange>NotSpecified</ValidRange></TableColumn><TableColumn><CellStyle xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""><a:BackgroundColor i:nil=""true""/><a:Borders i:nil=""true""/><a:DisplayName i:nil=""true""/><a:Font i:nil=""true""/><a:Padding i:nil=""true""/><a:RefId>00000000-0000-0000-0000-000000000000</a:RefId><a:TextAlign>Left</a:TextAlign><a:ZebraBackgroundColor i:nil=""true""/></CellStyle><DataColumnName i:nil=""true""/><DisplayName>Interface</DisplayName><Field xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Selection""><a:DataTypeInfo xmlns:b=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Data""><b:ApplicationType i:nil=""true""/><b:DataType><b:Data>System.String</b:Data></b:DataType><b:DeclType>Text</b:DeclType><b:DefaultAggregation>NotSpecified</b:DefaultAggregation><b:DefaultDataUnitId i:nil=""true""/><b:DefaultTransformId i:nil=""true""/><b:Description/><b:IsFavorite>false</b:IsFavorite><b:IsFilterBy>false</b:IsFilterBy><b:IsGroupBy>false</b:IsGroupBy><b:IsInherited>false</b:IsInherited><b:IsManaged>true</b:IsManaged><b:IsStatistic>false</b:IsStatistic><b:PreviewValue>Ethernet2 ? SPARE PORT</b:PreviewValue><b:Units/><b:UtcTimeIsInLocalTime>false</b:UtcTimeIsInLocalTime></a:DataTypeInfo><a:DisplayName>Interface</a:DisplayName><a:NavigationPath i:nil=""true""/><a:OwnerDisplayName i:nil=""true""/><a:RefID><a:Data>Orion.NPM.Interfaces|Caption|Interface</a:Data></a:RefID></Field><FixedWidth i:nil=""true""/><HeaderStyle xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""><a:BackgroundColor i:nil=""true""/><a:Borders i:nil=""true""/><a:DisplayName i:nil=""true""/><a:Font i:nil=""true""/><a:Padding i:nil=""true""/><a:RefId>00000000-0000-0000-0000-000000000000</a:RefId><a:TextAlign>Left</a:TextAlign><a:ZebraBackgroundColor i:nil=""true""/></HeaderStyle><IsHTMLTagsAllowed>false</IsHTMLTagsAllowed><IsHidden>false</IsHidden><PercentWidth>55.054</PercentWidth><Presenters xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Presentation""><a:PresenterRef><a:PresenterId>orion.core.link.entity</a:PresenterId><a:Values xmlns:b=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Data""/></a:PresenterRef></Presenters><PropertyName>Interface</PropertyName><RefId>ac9a1b14-c093-f996-ba0a-856f751dbc12</RefId><Summary><Calculation>NotSpecified</Calculation><CellStyle i:nil=""true"" xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""/></Summary><TransformId/><ValidRange>NotSpecified</ValidRange></TableColumn><TableColumn><CellStyle xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""><a:BackgroundColor i:nil=""true""/><a:Borders i:nil=""true""/><a:DisplayName i:nil=""true""/><a:Font i:nil=""true""/><a:Padding i:nil=""true""/><a:RefId>00000000-0000-0000-0000-000000000000</a:RefId><a:TextAlign>Left</a:TextAlign><a:ZebraBackgroundColor i:nil=""true""/></CellStyle><DataColumnName i:nil=""true""/><DisplayName>Last Change</DisplayName><Field xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Selection""><a:DataTypeInfo xmlns:b=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Data""><b:ApplicationType i:nil=""true""/><b:DataType><b:Data>System.DateTime</b:Data></b:DataType><b:DeclType>DateTime</b:DeclType><b:DefaultAggregation>NotSpecified</b:DefaultAggregation><b:DefaultDataUnitId i:nil=""true""/><b:DefaultTransformId i:nil=""true""/><b:Description/><b:IsFavorite>false</b:IsFavorite><b:IsFilterBy>false</b:IsFilterBy><b:IsGroupBy>false</b:IsGroupBy><b:IsInherited>false</b:IsInherited><b:IsManaged>true</b:IsManaged><b:IsStatistic>false</b:IsStatistic><b:PreviewValue>7/5/2019 12:27:00 PM</b:PreviewValue><b:Units/><b:UtcTimeIsInLocalTime>false</b:UtcTimeIsInLocalTime></a:DataTypeInfo><a:DisplayName>Last Change</a:DisplayName><a:NavigationPath i:nil=""true""/><a:OwnerDisplayName i:nil=""true""/><a:RefID><a:Data>Orion.NPM.Interfaces|LastChange|Last Change</a:Data></a:RefID></Field><FixedWidth i:nil=""true""/><HeaderStyle xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""><a:BackgroundColor i:nil=""true""/><a:Borders i:nil=""true""/><a:DisplayName i:nil=""true""/><a:Font i:nil=""true""/><a:Padding i:nil=""true""/><a:RefId>00000000-0000-0000-0000-000000000000</a:RefId><a:TextAlign>Left</a:TextAlign><a:ZebraBackgroundColor i:nil=""true""/></HeaderStyle><IsHTMLTagsAllowed>false</IsHTMLTagsAllowed><IsHidden>false</IsHidden><PercentWidth>30.753</PercentWidth><Presenters i:nil=""true"" xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Presentation""/><PropertyName>Last Change</PropertyName><RefId>314f1233-fa66-5d74-1212-53b631bfd1d3</RefId><Summary><Calculation>NotSpecified</Calculation><CellStyle i:nil=""true"" xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""/></Summary><TransformId/><ValidRange>NotSpecified</ValidRange></TableColumn></Columns><DefaultStyle i:nil=""true"" xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""/><Filter xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Selection""><a:Expression i:nil=""true""/><a:Limit><a:Count i:nil=""true""/><a:Mode>ShowAll</a:Mode><a:OrionServerIDsToIgnore i:nil=""true""/><a:Percentage i:nil=""true""/></a:Limit></Filter><Indents><TableIndentEntry><ColumnId>39a909d6-598f-1c7e-4282-a6692a2094cc</ColumnId><HeaderStyle i:nil=""true"" xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Styles""/><IncludeSummaryRow>false</IncludeSummaryRow></TableIndentEntry></Indents><Sorts xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Selection""><a:SortEntry><a:Direction>Descending</a:Direction><a:QFieldRefID>314f1233-fa66-5d74-1212-53b631bfd1d3</a:QFieldRefID></a:SortEntry></Sorts><SummarizeMode>NoDataSummarization</SummarizeMode><TimeField i:nil=""true"" xmlns:a=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Selection""/></TableConfiguration>"
+"3703","3703","DataSource","<DataSource xmlns:i=""http://www.w3.org/2001/XMLSchema-instance"" xmlns=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Selection"">
+  <CommandText>select n.caption as [Node],
+ i.caption as [Interface],
+i.detailsurl as [DetailsUrl],
+i.statusled as [StatusInterface],
+ i.lastchange as [Last Change]
+from orion.npm.interfaces i inner join orion.nodes n on n.nodeid = i.nodeid
+where n.nodeid in 
+(select entityid from orion.containermembersnapshots
+where containerid = ${id} and entitydisplayname = 'node')
+and i.status = 2</CommandText>
+  <DynamicSelectionType>Undefined</DynamicSelectionType>
+  <EntityUri xmlns:d2p1=""http://schemas.microsoft.com/2003/10/Serialization/Arrays"" />
+  <Filter i:nil=""true"" />
+  <MasterEntity>Orion.Groups</MasterEntity>
+  <Name>Interfaces</Name>
+  <NetObjectId>C:246</NetObjectId>
+  <RefId>639c6e39-7793-4d99-a7d3-556b932771f3</RefId>
+  <Type>CustomSWQL</Type>
+</DataSource>"
+"3703","3703","DynamicDataSource","False"
+"3703","3703","SubTitle",""
+"3703","3703","TimeFrame","<TimeFrame xmlns:i=""http://www.w3.org/2001/XMLSchema-instance"" xmlns=""http://schemas.datacontract.org/2004/07/SolarWinds.Reporting.Models.Timing"">
+  <DisplayName>Today</DisplayName>
+  <IsStatic>false</IsStatic>
+  <RefId>49166115-2fb2-49d5-9c29-b3b2b702e4f4</RefId>
+  <Relative>
+    <NamedTimeFrame>Today</NamedTimeFrame>
+    <Unit>NotSpecified</Unit>
+    <UnitCount>0</UnitCount>
+  </Relative>
+  <Static i:nil=""true"" />
+</TimeFrame>"
+"3703","3703","Title","Down Interfaces"
+"3704","3704","rowsperpage","10"
+"3704","3704","searchswql",""
+"3704","3704","swql","select top 10 n.caption as [Node],
+n.detailsurl as [_LinkFor_Node],
+'/Orion/images/StatusIcons/Small-'+n.statusled as [_IconFor_Node],
+tostring(n.cpuload) +'%' as [CPU],
+case when t1.islevel2state = 1 then '/Orion/images/StatusIcons/Small-critical.gif'
+when t1.islevel1state = 1 then '/Orion/images/StatusIcons/Small-warning.gif'
+else  '/Orion/images/StatusIcons/Small-up.gif'
+ end as [_IconFor_CPU]
+ from orion.nodes n
+inner join orion.thresholds t1 on n.nodeid = t1.instanceid and t1.name = 'Nodes.Stats.CPuload'
+where n.nodeid in 
+(select entityid from orion.containermembersnapshots
+where containerid = ${id} and entitydisplayname = 'node')
+order by cpuload desc"
+"3705","3705","rowsperpage","10"
+"3705","3705","searchswql",""
+"3705","3705","swql","select top 10 n.caption as [Node],
+n.detailsurl as [_LinkFor_Node],
+'/Orion/images/StatusIcons/Small-'+n.statusled as [_IconFor_Node],
+i.caption as [Interface],
+i.detailsurl as [_LinkFor_Interface],
+'/Orion/images/StatusIcons/Small-'+i.statusled as [_IconFor_Interface],
+tostring(i.inerrorsthishour) +'pkts' as [Rx],
+case when t1.islevel2state = 1 then '/Orion/images/StatusIcons/Small-critical.gif'
+when t1.islevel1state = 1 then '/Orion/images/StatusIcons/Small-warning.gif'
+else '/Orion/images/StatusIcons/Small-up.gif' end as [_IconFor_Rx],
+tostring(i.outerrorsthishour) + 'pkts' as [Tx],
+case when t2.islevel2state = 1 then '/Orion/images/StatusIcons/Small-critical.gif'
+when t2.islevel1state = 1 then '/Orion/images/StatusIcons/Small-warning.gif'
+else '/Orion/images/StatusIcons/Small-up.gif' end as [_IconFor_Tx]
+
+ from orion.npm.interfaces i inner join orion.nodes n on n.nodeid = i.nodeid
+inner join orion.thresholds t1 on i.interfaceid = t1.instanceid and t1.name = 'NPM.interfaces.Stats.InErrorsDiscards'
+inner join orion.thresholds t2 on i.interfaceid = t2.instanceid and t2.name = 'NPM.interfaces.Stats.OutErrorsDiscards'
+where n.nodeid in 
+(select entityid from orion.containermembersnapshots
+where containerid = ${id} and entitydisplayname = 'node')
+and (i.inerrorsthishour + i.outerrorsthishour) <>0
+order by (i.inerrorsthishour + i.outerrorsthishour) desc"
+"3706","3706","rowsperpage","10"
+"3706","3706","searchswql",""
+"3706","3706","swql","select top 10 n.caption as [Node],
+n.detailsurl as [_LinkFor_Node],
+'/Orion/images/StatusIcons/Small-'+n.statusled as [_IconFor_Node],
+i.caption as [Interface],
+i.detailsurl as [_LinkFor_Interface],
+'/Orion/images/StatusIcons/Small-'+i.statusled as [_IconFor_Interface],
+tostring(i.indiscardsthishour) +'pkts' as [Rx],
+case when t1.islevel2state = 1 then '/Orion/images/StatusIcons/Small-critical.gif'
+when t1.islevel1state = 1 then '/Orion/images/StatusIcons/Small-warning.gif'
+else '/Orion/images/StatusIcons/Small-up.gif' end as [_IconFor_Rx],
+tostring(i.outdiscardsthishour) + 'pkts' as [Tx],
+case when t2.islevel2state = 1 then '/Orion/images/StatusIcons/Small-critical.gif'
+when t2.islevel1state = 1 then '/Orion/images/StatusIcons/Small-warning.gif'
+else '/Orion/images/StatusIcons/Small-up.gif' end as [_IconFor_Tx]
+
+ from orion.npm.interfaces i inner join orion.nodes n on n.nodeid = i.nodeid
+inner join orion.thresholds t1 on i.interfaceid = t1.instanceid and t1.name = 'NPM.interfaces.Stats.InErrorsDiscards'
+inner join orion.thresholds t2 on i.interfaceid = t2.instanceid and t2.name = 'NPM.interfaces.Stats.OutErrorsDiscards'
+where n.nodeid in 
+(select entityid from orion.containermembersnapshots
+where containerid = ${id} and entitydisplayname = 'node')
+and (i.indiscardsthishour + i.outdiscardsthishour) <>0
+order by (i.indiscardsthishour + i.outdiscardsthishour) desc"

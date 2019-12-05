@@ -1,0 +1,4 @@
+#TYPE PscxDynamicType9
+"ViewID","ViewKey","ViewTitle","ViewGroupName","ViewGroup","ViewType","ViewGroupPosition","ViewIcon","Columns","Column1Width","Column2Width","Column3Width","Column4Width","Column5Width","Column6Width","System","Customizable","LimitationID","NOCView","NOCViewRotationInterval"
+"53","Group Details","Summary","Group  Details","10000006","GroupDetails","1","Overview.png","4","400","450","533","1220","0","0","Y","N","0","False","0"
+"272","MapStaticSubview53","Map","Group  Details","10000006","MapsStaticSubview","2","Network03.png","1","-1","0","0",,,,"Y","N","0","False",
