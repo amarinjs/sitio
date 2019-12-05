@@ -85,5 +85,5 @@ def getData(param):
     return json.dumps(rtn)
 
 
-param = {'deviceName': 'LD4SW2.fixnetix.com', 'endpoint': 'http://10.20.238.72', 'password': 'Netbrain!1', 'query': 'SELECT NodeID,IPAddress,CPULoad,PercentMemoryUsed,Uri FROM Orion.Nodes WHERE SysName LIKE @id', 'username': 'netbrain'}
+param = {'deviceName': 'device.com', 'endpoint': 'http://10.20.238.72', 'password': '*****', 'query': 'SELECT NodeID,IPAddress,CPULoad,PercentMemoryUsed,Uri FROM Orion.Nodes WHERE SysName LIKE @id', 'username': 'netbrain'}
 print(getData(param))
