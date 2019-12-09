@@ -20,6 +20,6 @@ header:
 
 To melt multiple sources into comprehensible guides. 
 
-I have missplaced most of the study notes I had in paper, and lost that one HDD that had everything.
+I have missplaced most of the study notes I had in paper, and lost that one HDD that had everything on it.
 
-The site acts as a single source of truth, accessible from anywhere, hosted on [github pages](https://github.com/alexma2344/sitio), and backed up on a [free & open source unified file and block storage, VM, and Docker system](https://www.freenas.org/)
+This site is hosted for free on [github pages](https://github.com/alexma2344/sitio).
