@@ -27,6 +27,6 @@ This site is hosted for free on [github pages](https://github.com/alexma2344/sit
 <center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/sitio-def.PNG?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
-        URI syntax diagram 
+        Definicion de sitio en diferentes lugares.
     </span>
 </div>
