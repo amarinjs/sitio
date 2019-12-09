@@ -20,6 +20,13 @@ header:
 
 To melt multiple sources into comprehensible guides. 
 
-I have missplaced most of the study notes I had in paper, and lost that one HDD that had everything on it.
+I have missplaced most of the study notes I had in paper, and lost that one HDD that had everything on it. 
 
 This site is hosted for free on [github pages](https://github.com/alexma2344/sitio).
+
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/sitio-def.PNG?raw=true"></center>
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        URI syntax diagram 
+    </span>
+</div>
