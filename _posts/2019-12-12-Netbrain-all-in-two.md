@@ -167,6 +167,8 @@ Install any missing dependencies and re run **./install.sh**
 | Redis uses SSL         | no | 
 |-----------------+------------|
 
+**Note:** The passwords are all the same and correspond to the "admin" name created for NetBrain
+
 NetBrain Web API service URL:   http://x.x.x.x/ServicesAPI
 
 Do you want to continue using these parameters? [yes]
