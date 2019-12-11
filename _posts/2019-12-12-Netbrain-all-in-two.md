@@ -122,7 +122,7 @@ Install any missing dependencies and re run **./install.sh**
 
 - data path for NetBrain **/var/lib/netbrain**
 
-	*"The free space in the path is less than 100GB. It may result in insufficient disk space after a period of use. Do you want to continue?*
+	*"The free space in the path is less than 100GB. It may result in insufficient disk space after a period of use. Do you want to continue?* --> yes
 
 
 - log parh for Netbrain **/var/log/netbrain**
