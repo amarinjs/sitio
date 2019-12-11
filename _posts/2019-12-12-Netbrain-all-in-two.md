@@ -172,3 +172,7 @@ NetBrain Web API service URL:   http://x.x.x.x/ServicesAPI
 Do you want to continue using these parameters? [yes]
 
 
+> WARNING: The specified directory has less than 50GB free space, which may result in abnormal use after the Elasticsearch runs for a period time.
+
+This being a demo environment, we can increase disk size later.
+
