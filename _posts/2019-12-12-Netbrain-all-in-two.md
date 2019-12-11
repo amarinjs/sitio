@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Netbrain all-in-two Installation
+title: Netbrain all-in-two setup
 mode: immersive
 header:
   theme: dark
@@ -24,9 +24,11 @@ tags: netbrain centos mongodb redis rabbitmq elasticsearch
 
 ---
 
-## Version IE 8.0
+## Database and Application servers
 
 [Original copy](https://netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
+
+**Version:** 8.0
 
 ### Pre-Installation Tasks
 
@@ -39,9 +41,8 @@ Centos version:
 
 ##### Socat
 
-Socat [man page](https://linux.die.net/man/1/socat)
+[man page](https://linux.die.net/man/1/socat)
 
-Look for it:
 
 	rpm -qa | grep socat
 
@@ -52,13 +53,33 @@ If not installed:
 
 ##### Logrotate
 
-Logrotate [man page](https://linux.die.net/man/8/logrotate)
+[man page](https://linux.die.net/man/8/logrotate)
 
-Look for it:
 
 	rpm -qa | grep logrotate
 
 If not installed:
 
 	yum -y install logrotate
+
+#### Service monitor agent 3rd party dependencies:
+
+- package: ***zlib-devel readline-devel bzip2-devel ncurses-devel gdbm-devel xz-devel tk-devel openssl-devel libffi-devel***
+
+Check if installed:
+
+	rpm -qa|grep -E "zlibdevel|readline-devel|bzip2-devel|ncurses-devel|gdbm-devel|xz-devel|tk-devel|openssldevel|libffi-devel"
+
+If not installed:
+
+	yum -y install zlib-devel readline-devel bzip2-devel ncurses-devel gdbmdevel xz-devel tk-devel openssl-devel libffi-devel
+
+
+#### Numactl recommended
+
+[man page](https://linux.die.net/man/8/numactl)
+
+	rpm -qa|grep numactl
+
+	yum install numactl
 
