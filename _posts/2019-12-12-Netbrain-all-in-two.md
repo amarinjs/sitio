@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Netbrain all-in-two setup
+title: Netbrain Two-Server Deployments
 mode: immersive
 header:
   theme: dark
