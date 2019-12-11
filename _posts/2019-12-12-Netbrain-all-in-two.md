@@ -127,7 +127,7 @@ Install any missing dependencies and re run **./install.sh**
 
 - log parh for Netbrain **/var/log/netbrain**
 
-	*The free space in the path is less than 50GB. It may result in insufficient disk space after a period of use. Do you want to continue?*
+	*The free space in the path is less than 50GB. It may result in insufficient disk space after a period of use. Do you want to continue?* --> yes
 
 - ip address of this machine **x.x.x.x**
 - netbrain service name **admin**
