@@ -102,3 +102,19 @@ If not installed:
 	# Run ./install.sh to install netbrain linux components
 ---
 	# Accept EULA
+
+#### Issues
+
+You might get errors such as:
+
+>ERROR: To perform all's installation, following dependencies are required.
+>Missing dependencies: gdbm-devel
+>Please choose one of the following two options to install the dependencies.
+>  1) Online install:
+>      Run "yum -y install gdbm-devel" to download the dependencies online and install them.
+>  2) Offline install:
+>      Download the dependency package from an internet-enabled server using "http://download.netbraintech.com/dependencies-centos7.6-8.0.tar.gz".
+>      Copy the downloaded dependency package from the other server to this server.
+>      Run tar -zxvf dependencies-centos7.6-8.0.tar.gz to decompress the package
+>      Run offline-install.sh within the decompressed directory to install the dependencies.
+>Re-run the install.sh or upgrade.sh after installing all of the dependencies. The installation aborted.
