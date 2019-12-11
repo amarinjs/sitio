@@ -206,7 +206,8 @@ Check the following services:
 - systemctl status redis
 - systemctl status netbrainagent
 
-### Configuration files
+
+**Note:** If you have customized any port, you must add it to the corresponding configuration file:
 
 |-----------------+------------|
 | Service Name |  File Name |
@@ -220,3 +221,11 @@ Check the following services:
 
 **Path:** /etc/netbrain/nbagent/checks
 
+This is in yaml so you need to be very specific on alignment, punctuation and spaces **eg**
+
+	init_config:
+	instances:
+	 - name: default
+	   port: 27000
+
+Use the above as reference.
