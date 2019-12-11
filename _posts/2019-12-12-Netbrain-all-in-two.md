@@ -188,7 +188,7 @@ The final outputs should be,
 > All the NetBrain Linux components have been installed successfully.
 > Please restart the operating system to make kernel settings of MongoDB to take effect.
 
-#### Reboot the OS
+##### Reboot the OS
 
 Check the following services:
 
@@ -198,4 +198,16 @@ Check the following services:
 - systemctl status rabbitmq-server
 - systemctl status redis
 - systemctl status netbrainagent
+
+#### Configuration files
+
+|-----------------+------------|
+| Service Name |  File Name |
+|:-----------------|:-----------|
+| MongoDB | mongodb.yaml |
+| License Agent | license.yaml |
+| Elasticsearch | elasticsearch.yaml |
+| RabbitMQ | rabbitmq.yaml |
+| Redis | redis.yaml |
+|-----------------+------------|
 
