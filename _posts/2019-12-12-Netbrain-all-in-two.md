@@ -139,42 +139,26 @@ Install any missing dependencies and re run **./install.sh**
 - ip address of this machine **x.x.x.x**
 - netbrain service name **admin**
 - netbrain service password: *****
+	*These credentials will apply to all the services and the communication between them.*
 - Use SSL on NetBrain Services?: **no**
 - Use customized server ports?: **no**
 - Please enter the URL (must end with /) to call NetBrain Web API service for the Service Monitor [http(s)://<IP address or hostname of NetBrain Application Server>/]: http://x.x.x.x/
 
 
-### Parameters review
+### Paths and Ports
 
 |-----------------+------------|
 | Parameter | Value |
 |:-----------------|:-----------|
 | Data path | /var/lib/netbrain |
 | Log path     | /var/log/netbrain |
-| MongoDB IP address      | x.x.x.x |
-| MongoDB port | 27017 |
-| MongoDB username | admin |
-| MongoDB password | ****** |
-| MongoDB uses SSL | no |    
-| License Agent port     | 27654 | 
-| License Agent uses SSL | no | 
-| Elasticsearch address  | x.x.x.x | 
+| MongoDB port 			 | 27017 | 
+| License Agent port     | 27654 |  
 | Elasticsearch port     |  9200 | 
-| Elasticsearch username | admin| 
-| Elasticsearch password | ******| 
-| Elasticsearch uses SSL | no | 
-| RabbitMQ address       | x.x.x.x| 
 | RabbitMQ port          | 5672| 
-| RabbitMQ username      | admin| 
-| RabbitMQ password      | ******| 
-| RabbitMQ uses SSL      | no | 
-| Redis address          | x.x.x.x| 
 | Redis port             | 6379 | 
-| Redis password         | ******| 
-| Redis uses SSL         | no | 
 |-----------------+------------|
 
-**Note:** The passwords are all the same and correspond to the "admin" name created for NetBrain
 
 **Note:** Keep notes of the user name and password because it will be used for validating the connections with:
 - MongoDB, Elasticsearch, RabbitMQ, and Redis when installing NetBrain Application Server
