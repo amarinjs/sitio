@@ -211,3 +211,4 @@ Check the following services:
 | Redis | redis.yaml |
 |-----------------+------------|
 
+**Path:** /etc/netbrain/nbagent/checks
