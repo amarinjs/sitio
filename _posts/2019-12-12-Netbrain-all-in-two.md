@@ -19,9 +19,13 @@ articles:
   excerpt_type: html
 tags: netbrain centos mongodb redis rabbitmq elasticsearch
 ---
+<!--more-->
+
 ---
 
 ## Version IE 8.0
+
+[Original copy](netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
 
 ### Pre-Installation Tasks
 
