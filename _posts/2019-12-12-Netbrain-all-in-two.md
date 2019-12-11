@@ -90,17 +90,12 @@ If not installed:
 
 	# Create and access dir under **/opt** to download the installation package
 	mkdir /opt/netbraintemp
----
 	# Download the package
 	wget http://download.netbraintech.com/netbrain-all-in-two-linux-x86_64-rhel7-8.0.tar.gz
-----
 	# Extract installation files
 	tar -zxvf netbrain-all-in-two-linux-x86_64-rhel7-8.0.tar.gz
----
 	# Access the netbrain-all-in-two-linux-8.0.1 dir
----
 	# Run ./install.sh to install netbrain linux components
----
 	# Accept EULA
 
 #### Issues
