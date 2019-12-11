@@ -139,30 +139,6 @@ Install any missing dependencies and re run **./install.sh**
 
 #### Parameters review
 
-License Agent port             
-License Agent uses SSL         no
-
-Elasticsearch address          x.x.x.x
-Elasticsearch port             9200
-Elasticsearch username         admin
-Elasticsearch password         ******
-Elasticsearch uses SSL         no
-
-RabbitMQ address               x.x.x.x
-RabbitMQ port                  5672
-RabbitMQ username              admin
-RabbitMQ password              ******
-RabbitMQ uses SSL              no
-
-Redis address                  x.x.x.x
-Redis port                     6379
-Redis password                 ******
-Redis uses SSL                 no
-
-NetBrain Web API service URL:   http://x.x.x.x/ServicesAPI
-
-Do you want to continue using these parameters? [yes]
-
 |-----------------+------------|
 | Parameter | Value |
 |:-----------------|:-----------|
@@ -190,3 +166,9 @@ Do you want to continue using these parameters? [yes]
 | Redis password         | ******| 
 | Redis uses SSL         | no | 
 |-----------------+------------|
+
+NetBrain Web API service URL:   http://x.x.x.x/ServicesAPI
+
+Do you want to continue using these parameters? [yes]
+
+
