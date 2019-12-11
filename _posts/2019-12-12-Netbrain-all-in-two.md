@@ -28,11 +28,11 @@ tags: netbrain centos mongodb redis rabbitmq elasticsearch
 
 Find SW/HW requirements on [original copy](https://netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
 
-**Version:** 8.0
+**NetBrain Version:** 8.0
 
 ## Pre-Installation Tasks
 
-Centos version:
+CentOS version should be 7.6,
 
 	rpm -qa centos-release
 
@@ -98,7 +98,7 @@ If not installed:
 	# Run ./install.sh to install netbrain linux components
 	# Accept EULA
 
-#### Issues
+### Issues
 
 You might get errors such as:
 
@@ -137,7 +137,7 @@ Install any missing dependencies and re run **./install.sh**
 - Please enter the URL (must end with /) to call NetBrain Web API service for the Service Monitor [http(s)://<IP address or hostname of NetBrain Application Server>/]: http://x.x.x.x/
 
 
-#### Parameters review
+### Parameters review
 
 |-----------------+------------|
 | Parameter | Value |
@@ -183,7 +183,7 @@ Do you want to continue using these parameters? [yes]
 
 This being a demo environment, we can worry about free space later or when we note performance issues.
 
-The final outputs should be,
+The final outputs should be:
 
 > All the NetBrain Linux components have been installed successfully.
 > Please restart the operating system to make kernel settings of MongoDB to take effect.
@@ -199,7 +199,7 @@ Check the following services:
 - systemctl status redis
 - systemctl status netbrainagent
 
-#### Configuration files
+### Configuration files
 
 |-----------------+------------|
 | Service Name |  File Name |
