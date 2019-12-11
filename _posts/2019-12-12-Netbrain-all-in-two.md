@@ -116,7 +116,7 @@ You might get errors such as:
 
 > Re-run the install.sh or upgrade.sh after installing all of the dependencies. The installation aborted.
 
-Just read the output and follow the instructions
+Install any missing dependencies and re run **./install.sh**
 
 #### Important parameters
 
