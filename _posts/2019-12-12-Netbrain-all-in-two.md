@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Netbrain all-in-two Install
+title: Netbrain all-in-two Installation
 mode: immersive
 header:
   theme: dark
@@ -26,7 +26,7 @@ tags: netbrain centos mongodb redis rabbitmq elasticsearch
 
 ## Version IE 8.0
 
-[Original copy](netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
+[Original copy](https://netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
 
 ### Pre-Installation Tasks
 
