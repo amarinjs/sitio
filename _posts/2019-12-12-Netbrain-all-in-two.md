@@ -24,20 +24,20 @@ tags: netbrain centos mongodb redis rabbitmq elasticsearch
 
 ---
 
-## Database and Application servers
+# Database and Application servers setup
 
 [Original copy](https://netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
 
 **Version:** 8.0
 
-### Pre-Installation Tasks
+## Pre-Installation Tasks
 
 Centos version:
 
 	rpm -qa centos-release
 
 
-#### RabbitMQ 3rd party dependencies:
+### RabbitMQ 3rd party dependencies:
 
 ##### Socat
 
@@ -62,7 +62,7 @@ If not installed:
 
 	yum -y install logrotate
 
-#### Service monitor agent 3rd party dependencies:
+### Service monitor agent 3rd party dependencies:
 
 - package: ***zlib-devel readline-devel bzip2-devel ncurses-devel gdbm-devel xz-devel tk-devel openssl-devel libffi-devel***
 
@@ -75,7 +75,7 @@ If not installed:
 	yum -y install zlib-devel readline-devel bzip2-devel ncurses-devel gdbmdevel xz-devel tk-devel openssl-devel libffi-devel
 
 
-#### Numactl recommended
+### Numactl recommended
 
 [man page](https://linux.die.net/man/8/numactl)
 
@@ -83,3 +83,15 @@ If not installed:
 
 	yum install numactl
 
+
+## Install Database Server
+
+1. Login to CentOS as root
+
+2. Create dir under **/opt** to download the installation package
+
+**eg** mkdir /opt/netbraintemp
+
+3. Download the package
+
+**wget http://download.netbraintech.com/netbrain-all-in-two-linux-x86_64-rhel7-8.0.tar.gz**
