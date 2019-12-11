@@ -107,9 +107,25 @@ You might get errors such as:
 >Please choose one of the following two options to install the dependencies.
 >  1) Online install:
 >      Run "yum -y install gdbm-devel" to download the dependencies online and install them.
+
 >  2) Offline install:
 >      Download the dependency package from an internet-enabled server using "http://download.netbraintech.com/dependencies-centos7.6-8.0.tar.gz".
 >      Copy the downloaded dependency package from the other server to this server.
 >      Run tar -zxvf dependencies-centos7.6-8.0.tar.gz to decompress the package
 >      Run offline-install.sh within the decompressed directory to install the dependencies.
->Re-run the install.sh or upgrade.sh after installing all of the dependencies. The installation aborted.
+
+> Re-run the install.sh or upgrade.sh after installing all of the dependencies. The installation aborted.
+
+Just read the output and follow the instructions
+
+#### Important parameters
+
+- data path for NetBrain **/var/lib/netbrain**
+
+	*"The free space in the path is less than 100GB. It may result in insufficient disk space after a period of use. Do you want to continue?*
+
+
+- log parh for Netbrain **/var/log/netbrain**
+- ip address of this machine **x.x.x.x**
+- netbrain service name **admin**
+- netbrain service password: *****
