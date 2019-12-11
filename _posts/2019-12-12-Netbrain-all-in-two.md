@@ -26,7 +26,7 @@ tags: netbrain centos mongodb redis rabbitmq elasticsearch
 
 # Database and Application servers setup
 
-[Original copy](https://netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
+Find SW/HW requirements on [original copy](https://netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
 
 **Version:** 8.0
 
