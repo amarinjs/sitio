@@ -30,6 +30,13 @@ Find SW/HW requirements on [original copy](https://netbraintech.com/docs/ie80/Ne
 
 **NetBrain Version:** 8.0
 
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/dsa.PNG?raw=true"></center>
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        System overview. 
+    </span>
+</div>
+
 ## Pre-Installation Tasks
 
 CentOS version should be 7.6,
