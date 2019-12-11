@@ -90,7 +90,7 @@ If not installed:
 
 2. Create dir under **/opt** to download the installation package
 
-**eg** mkdir /opt/netbraintemp
+	**eg** mkdir /opt/netbraintemp
 
 3. Download the package
 
