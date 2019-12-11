@@ -169,6 +169,11 @@ Install any missing dependencies and re run **./install.sh**
 
 **Note:** The passwords are all the same and correspond to the "admin" name created for NetBrain
 
+**Note:** Keep notes of the user name and password because it will be used for validating the connections with:
+- MongoDB, Elasticsearch, RabbitMQ, and Redis when installing NetBrain Application Server
+- Front Server Controller when setting up the system
+- Service Monitor Agent when communicating with Web API Server
+
 NetBrain Web API service URL:   http://x.x.x.x/ServicesAPI
 
 Do you want to continue using these parameters? [yes]
@@ -177,4 +182,9 @@ Do you want to continue using these parameters? [yes]
 > WARNING: The specified directory has less than 50GB free space, which may result in abnormal use after the Elasticsearch runs for a period time.
 
 This being a demo environment, we can worry about free space later or when we note performance issues.
+
+The final outputs should be,
+
+> All the NetBrain Linux components have been installed successfully.
+> Please restart the operating system to make kernel settings of MongoDB to take effect.
 
