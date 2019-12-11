@@ -86,12 +86,19 @@ If not installed:
 
 ## Install Database Server
 
-1. Login to CentOS as root
+#### Login to CentOS as root
 
-2. Create dir under **/opt** to download the installation package
+	#Create dir under **/opt** to download the installation package
+	mkdir /opt/netbraintemp
+---
+	#Download the package
+	wget http://download.netbraintech.com/netbrain-all-in-two-linux-x86_64-rhel7-8.0.tar.gz
+----
+	#Extract installation files
+	tar -zxvf netbrain-all-in-two-linux-x86_64-rhel7-8.0.tar.gz
+---
+	#Access the netbrain-all-in-two-linux-8.0.1 dir
+	cd netbrain-all-in-two-linux-8.0.1
+---
+	#Run ./install.sh to install netbrain linux components
 
-	**eg** mkdir /opt/netbraintemp
-
-3. Download the package
-
-**wget http://download.netbraintech.com/netbrain-all-in-two-linux-x86_64-rhel7-8.0.tar.gz**
