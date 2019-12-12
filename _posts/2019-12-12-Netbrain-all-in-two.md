@@ -136,7 +136,7 @@ Install any missing dependencies and re run **./install.sh**
 
 	*The free space in the path is less than 50GB. It may result in insufficient disk space after a period of use. Do you want to continue?* --> yes, this is a demo.
 
-- ip address of this machine **x.x.x.x**
+- ip address of this machine **x.x.x.x** (127.0.0.1 not supported)
 - netbrain service name **admin**
 - netbrain service password: *****
 	*These credentials will apply to all the services and the communication between them.*
@@ -156,7 +156,7 @@ Install any missing dependencies and re run **./install.sh**
 | License Agent port     | 27654 |  
 | Elasticsearch port     |  9200 | 
 | RabbitMQ port          | 5672| 
-| Redis port             | 6379 | 
+| Redis port             | 6379, 7000 (SSL) | 
 |-----------------+------------|
 
 
