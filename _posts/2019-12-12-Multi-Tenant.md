@@ -25,6 +25,9 @@ tags: netbrain tenant
 ---
 
 
+# Admin Framework
+
+
 <center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/tenant.PNG?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
@@ -33,3 +36,16 @@ tags: netbrain tenant
 </div>
 
 
+There are three structural levels to a NetBrain IE deployment:
+
+- System
+- Tenant
+- Domain
+
+
+The **system** level is the deployment as a whole. Each **Tenant** has an entirely separate database (for data segregation). And each **Domain** contains different topologies, which can be applied to separate parts of the same network.
+
+
+### Purpose
+
+This per tenant framework was made having MSPs in mind. So that they can manage multiple customers, each of which will belong to a unique database.
