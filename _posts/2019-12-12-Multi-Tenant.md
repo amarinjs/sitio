@@ -31,7 +31,7 @@ tags: netbrain tenant
 <center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/tenant.PNG?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
-        Network device planes. 
+        Netbrain admin framework. 
     </span>
 </div>
 
