@@ -91,7 +91,7 @@ If not installed:
 	yum install numactl
 
 
-## Install Database Server
+## Database Server
 
 #### Login to CentOS as root
 
@@ -214,3 +214,7 @@ This is in yaml so you need to be very specific on alignment, punctuation and sp
 	   port: 27000
 
 Use the above as reference.
+
+
+## Application Server
+
