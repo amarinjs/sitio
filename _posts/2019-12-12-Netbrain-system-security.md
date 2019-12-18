@@ -64,3 +64,9 @@ Domain Management --> Advanced settings.
 ### CentOS / RH Linux
 
 - Use [Encrypted Storage Engine](https://docs.mongodb.com/manual/core/security-encryption-at-rest/)
+- Keep the OS [updated](https://phoenixnap.com/kb/how-to-update-upgrade-centos)
+- [Backup](https://kb.vmware.com/s/article/2006202) the server regularly
+- Enforce security policies
+- Do not use a GUI
+- Disable root login after installation
+- Disable IPv6 if not in use
