@@ -27,3 +27,10 @@ tags: netbrain tenant
 ## Why?
 
 Because it uses [IPSec](https://en.wikipedia.org/wiki/IPsec#IETF_documentation), and with it can get any two or more networks next to each other, over public networks or private MPLS.
+
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/ipsec-framework.jpg?raw=true"></center>
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        IPSec Framework.
+    </span>
+</div>
