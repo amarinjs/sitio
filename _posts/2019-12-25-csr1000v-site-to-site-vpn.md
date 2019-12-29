@@ -28,6 +28,9 @@ tags: netbrain tenant
 
 Because it uses [IPSec](https://en.wikipedia.org/wiki/IPsec#IETF_documentation), and with it can get any two or more subnets next to each other, over the internet or an MPLS cloud.
 
+IPsec is an open framework that allows for the exchange of security protocols as new technologies and
+encryption algorithms are developed.
+
 <center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/ipsec-framework.jpg?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
