@@ -38,3 +38,11 @@ encryption algorithms are developed.
     </span>
 </div>
 
+
+## Configuration
+
+#### Verify reachability between the two sites
+
+There are two central configuration elements in the implementation of an IPsec VPN:
+- Implement Internet Key Exchange (IKE) parameters.
+- Implement IPsec parameters.
