@@ -40,7 +40,7 @@ encryption algorithms are developed.
 
 ### Documents:
 
-[Best practice/business case](https://github.com/alexma2344/sitio/blob/master/assets/images/vpn_cg.pdf)
+[Best practices, Business scenarios](https://github.com/alexma2344/sitio/blob/master/assets/images/vpn_cg.pdf)
 
 There are two central configuration elements in the implementation of an IPsec VPN:
 
@@ -51,6 +51,5 @@ There are two central configuration elements in the implementation of an IPsec V
 
 ### Verify reachability between the two sites
 
-
-###  
+### 
 
