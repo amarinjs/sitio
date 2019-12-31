@@ -49,7 +49,6 @@ There are two central configuration elements in the implementation of an IPsec V
 
 ## Configuration
 
-### Verify reachability between the two sites
+#### Verify reachability between the two sites
 
 ### 
-
