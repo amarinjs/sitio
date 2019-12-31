@@ -1,6 +1,6 @@
 ---
 layout: article
-title: csr1000v Site-to-Site VPN
+title: Site-to-Site VPN
 mode: immersive
 header:
   theme: dark
@@ -17,7 +17,7 @@ mathjax: true
 mathjax_autoNumber: true
 articles:
   excerpt_type: html
-tags: netbrain tenant
+tags: cisco router vpn ipsec ike
 ---
 
 <!--more-->
@@ -42,13 +42,15 @@ encryption algorithms are developed.
 
 [Best practice/business case](https://github.com/alexma2344/sitio/blob/master/assets/images/vpn_cg.pdf)
 
-## Configuration
-
-#### Verify reachability between the two sites
-
 There are two central configuration elements in the implementation of an IPsec VPN:
+
 1. Implement Internet Key Exchange (IKE) parameters.
 2. Implement IPsec parameters.
 
+## Configuration
 
-1. IKE
+### Verify reachability between the two sites
+
+
+###  
+
