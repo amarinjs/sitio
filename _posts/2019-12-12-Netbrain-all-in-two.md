@@ -24,9 +24,22 @@ tags: netbrain centos mongodb redis rabbitmq elasticsearch
 
 ---
 
-# Database and Application servers setup
+## Preliminary checks/docs to review
 
 Find SW/HW requirements on [original copy](https://netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
+
+[System Setup Guide (Two-Server Deployment)](https://www.netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
+[System Setup Guide (Distributed Deployment)](https://www.netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Distributed_Deployment.pdf)
+
+[System Upgrade Guide (for 8.0 Two-Server Deployment)](https://www.netbraintech.com/docs/ie80/NetBrain_System_Upgrade_Guide_Two-Server_Deployment_8.0.pdf)
+
+- Server Setup (Windows/Linux 7.5/7.6/7.7) – keep in mind to have the 3rd party dependencies package for Linux downloaded (Setup Guide)
+- Ping/SNMP/CLI Access (SSH/Telnet) from Windows Server
+- restAPI access from Windows Server
+- adjustment of ACL on devices which prevent access via Ping/SNMP/CLI/restAPI to a device
+- Firewalls – need more attention to be prepared to have access ready
+
+
 
 **NetBrain Version:** 8.0
 
