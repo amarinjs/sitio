@@ -146,6 +146,15 @@ Install any missing dependencies and re run **./install.sh**
 - Please enter the URL (must end with /) to call NetBrain Web API service for the Service Monitor [http(s)://<IP address or hostname of NetBrain Application Server>/]: http://x.x.x.x/
 
 
+>  Note:
+> The username and password cannot contain any of the following
+> special characters, and their lengths cannot exceed 64 characters.
+> { } [ ] : " , ' | < > @ & ^ % \ and spaces
+
+> Note:
+> The username and password cannot be empty and it cannot start with ! or #. 
+
+
 ### Paths and Ports
 
 |-----------------+------------|
