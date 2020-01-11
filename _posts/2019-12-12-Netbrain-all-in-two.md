@@ -229,3 +229,8 @@ Use the above as reference.
 
 ## Application Server
 
+
+To set the IP and DNS from PS:
+
+	netsh interface ip set address name="Ethernet0" static 192.168.4.10 255.255.255.0 192.168.4.1
+	netsh interface ip set dns "Ethernet0" static 192.168.1.50
