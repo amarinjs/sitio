@@ -153,7 +153,9 @@ Install any missing dependencies and re run **./install.sh**
 |:-----------------|:-----------|
 | Data path | /var/lib/netbrain |
 | Log path     | /var/log/netbrain |
-| MongoDB port 			 | 27017 | 
+| License Agent port     | 27654 |  
+| Netbrain Service Username     |  admin | 
+| Netbrain Service Password 	 | password123 | 
 | License Agent port     | 27654 |  
 | Elasticsearch port     |  9200 | 
 | RabbitMQ port          | 5672| 
