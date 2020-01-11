@@ -30,6 +30,7 @@ Find SW/HW requirements on [original copy](https://netbraintech.com/docs/ie80/Ne
 
 - [System Setup Guide (Two-Server Deployment)](https://www.netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Two-Server_Deployment.pdf)
 - [System Setup Guide (Distributed Deployment)](https://www.netbraintech.com/docs/ie80/NetBrain_System_Setup_Guide_Distributed_Deployment.pdf)
+	- Download this [text file](https://github.com/alexma2344/work-projects/blob/master/Distributed%20install/wget%20distributed%20install.txt) with wget -i
 - [System Upgrade Guide (for 8.0 Two-Server Deployment)](https://www.netbraintech.com/docs/ie80/NetBrain_System_Upgrade_Guide_Two-Server_Deployment_8.0.pdf)
 
 - Server Setup (Windows/Linux 7.5/7.6/7.7) – keep in mind to have the 3rd party dependencies package for Linux downloaded (Setup Guide)
