@@ -239,7 +239,7 @@ To set the IP and DNS from PS:
 Complete the following steps with administrative privileges:
 
 1. Download the netbrain-all-in-two-windows-x86_64-8.0.zip file from
-http://download.netbraintech.com/netbrain-all-in-two-windows-x86_64-8.0.zip and save it in your local folder.
+(http://download.netbraintech.com/netbrain-all-in-two-windows-x86_64-8.0.zip) and save it in your local folder.
 2. Extract files from the netbrain-all-in-two-windows-x86_64-8.0.zip file.
 3. Navigate to the netbrain-all-in-two-windows-x86_64-8.0 folder, right-click the netbrain-application-8.0.1.exe file
 and then select Run as administrator to launch the Installation Wizard.
