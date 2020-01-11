@@ -184,12 +184,12 @@ The final outputs should be:
 
 Check the following services:
 
-- systemctl status mongod
-- systemctl status netbrainlicense
-- systemctl status elasticsearch
-- systemctl status rabbitmq-server
-- systemctl status redis
-- systemctl status netbrainagent
+	systemctl status mongod
+	systemctl status netbrainlicense
+	systemctl status elasticsearch
+	systemctl status rabbitmq-server
+	systemctl status redis
+	systemctl status netbrainagent
 
 
 **Note:** If you have customized any port, you must add it to the corresponding configuration file:
