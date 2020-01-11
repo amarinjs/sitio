@@ -52,10 +52,12 @@ Find SW/HW requirements on [original copy](https://netbraintech.com/docs/ie80/Ne
 
 ## Pre-Installation Tasks
 
-CentOS version should be 7.6,
+CentOS checks
 
 	rpm -qa centos-release
-
+	lscpu
+	lsmem
+	df -lh
 
 ### RabbitMQ 3rd party dependencies:
 
