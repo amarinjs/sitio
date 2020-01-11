@@ -229,8 +229,17 @@ Use the above as reference.
 
 ## Application Server
 
+- Disable IE enhanced security
 
 To set the IP and DNS from PS:
 
 	netsh interface ip set address name="Ethernet0" static 192.168.4.10 255.255.255.0 192.168.4.1
 	netsh interface ip set dns "Ethernet0" static 192.168.1.50
+
+Complete the following steps with administrative privileges:
+
+1. Download the netbrain-all-in-two-windows-x86_64-8.0.zip file from
+http://download.netbraintech.com/netbrain-all-in-two-windows-x86_64-8.0.zip and save it in your local folder.
+2. Extract files from the netbrain-all-in-two-windows-x86_64-8.0.zip file.
+3. Navigate to the netbrain-all-in-two-windows-x86_64-8.0 folder, right-click the netbrain-application-8.0.1.exe file
+and then select Run as administrator to launch the Installation Wizard.
