@@ -258,3 +258,15 @@ Complete the following steps with administrative privileges:
 2. Extract files from the netbrain-all-in-two-windows-x86_64-8.0.zip file.
 3. Navigate to the netbrain-all-in-two-windows-x86_64-8.0 folder, right-click the netbrain-application-8.0.1.exe file
 and then select Run as administrator to launch the Installation Wizard.
+
+
+#### Customer Information:
+
+|-----------------+------------|
+| Username |  Company Name |
+|:-----------------|:-----------|
+| Administrator | MyCompany |
+|-----------------+------------|
+
+
+
