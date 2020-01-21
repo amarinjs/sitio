@@ -268,5 +268,3 @@ and then select Run as administrator to launch the Installation Wizard.
 | Administrator | MyCompany |
 |-----------------+------------|
 
-
-
