@@ -33,8 +33,7 @@ tags: netbrain documentation
 
 	eg 
 
-<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/security_network_chart.jpg?raw=true"></center>
-<div style="text-align: center;">
+<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/security_network_chart.jpg?raw=true">
     <span style="font-size:11px; color:grey">
         Whiteboard spaghetti. 
     </span>
@@ -44,8 +43,7 @@ tags: netbrain documentation
 - Error prone
 	- Humans aren't designed to interpret large amounts of raw data (CLI output). Even if well trained can make mistakes.
 
-<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/nat-ts-asa.jpg?raw=true"></center>
-<div style="text-align: center;">
+<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/nat-ts-asa.jpg?raw=true">
     <span style="font-size:11px; color:grey">
         raw output. 
     </span>
@@ -61,10 +59,15 @@ tags: netbrain documentation
 	- Multi layering on Visio is hard.
 	- Too much info or not enough.
 
-## 5 Steps for Automation
+### 5 Steps for Automation
 
 1. Discover the network
 2. Populate containers (Sites, Device groups)
+<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/network-category.jpg?raw=true">
+    <span style="font-size:11px; color:grey">
+        Categories. 
+    </span>
+</div>
 3. Create Data Views and Templates
 4. Schedule recurrent updates
 	- Create Benchmark task
@@ -72,6 +75,8 @@ tags: netbrain documentation
 5. Enhance multi-vendor experience
 
 ## Use sites and device groups
+
+
 
 ## Build an application path map
 
