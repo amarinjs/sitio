@@ -33,7 +33,18 @@ tags: netbrain documentation
 
 	eg 
 
-<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/security_network_chart?raw=true"></center>
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/security_network_chart.jpg?raw=true"></center>
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        Network device planes. 
+    </span>
+</div>
+
+
+- Error prone
+	- Humans aren't designed to interpret large amounts of raw data (CLI output). Even if well trained can make mistakes.
+
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/nat-ts-asa.jpg?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
         Network device planes. 
