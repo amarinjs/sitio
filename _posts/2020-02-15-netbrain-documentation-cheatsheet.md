@@ -37,7 +37,6 @@ tags: netbrain documentation
     <span style="font-size:11px; color:grey">
         Whiteboard spaghetti. 
     </span>
-</div>
 
 
 - Error prone
@@ -47,7 +46,6 @@ tags: netbrain documentation
     <span style="font-size:11px; color:grey">
         raw output. 
     </span>
-</div>
 
 
 - After a few months will be outdated.
@@ -62,12 +60,13 @@ tags: netbrain documentation
 ### 5 Steps for Automation
 
 1. Discover the network
+
 2. Populate containers (Sites, Device groups)
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/network-category.jpg?raw=true">
     <span style="font-size:11px; color:grey">
         Categories. 
     </span>
-</div>
+
 3. Create Data Views and Templates
 4. Schedule recurrent updates
 	- Create Benchmark task
