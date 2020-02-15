@@ -62,10 +62,8 @@ tags: netbrain documentation
 1. Discover the network
 
 2. Populate containers (Sites, Device groups)
-<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/network-category.jpg?raw=true">
-    <span style="font-size:11px; color:grey">
-        Categories. 
-    </span>
+
+<div>{%- include extensions/youtube.html id='DcC2TTgrFBQ' -%}</div>
 
 3. Create Data Views and Templates
 4. Schedule recurrent updates
