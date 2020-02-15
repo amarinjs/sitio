@@ -51,6 +51,13 @@ tags: netbrain documentation
     </span>
 </div>
 
+
+- After a few months will be outdated.
+	- Do you keep up with this?
+	- If so how many resources do you spend.
+
+
+
 ## Use sites and device groups
 
 ## Build an application path map
