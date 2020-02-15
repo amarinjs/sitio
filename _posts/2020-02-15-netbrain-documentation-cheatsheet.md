@@ -57,6 +57,9 @@ tags: netbrain documentation
 	- If so how many resources do you spend.
 
 
+- Static data
+	- Multi layering on Visio is hard.
+	- Too much info or not enough.
 
 ## Use sites and device groups
 
