@@ -59,17 +59,17 @@ tags: netbrain documentation
 
 ### 5 Steps for Automation
 
-1. Discover the network
+- Discover the network
 
-2. Populate containers (Sites, Device groups)
+- Populate containers (Sites, Device groups)
 
 <div>{%- include extensions/youtube.html id='DcC2TTgrFBQ' -%}</div>
 
-3. Create Data Views and Templates
-4. Schedule recurrent updates
+- Create Data Views and Templates
+- Schedule recurrent updates
 	- Create Benchmark task
 	- Create Discovery task
-5. Enhance multi-vendor experience
+- Enhance multi-vendor experience
 
 ## Use sites and device groups
 
