@@ -36,7 +36,7 @@ tags: netbrain documentation
 <center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/security_network_chart.jpg?raw=true"></center>
 <div style="text-align: center;">
     <span style="font-size:11px; color:grey">
-        hand made diagram. 
+        Whiteboard spaghetti. 
     </span>
 </div>
 
@@ -64,7 +64,7 @@ tags: netbrain documentation
 ## 5 Steps for Automation
 
 1. Discover the network
-2. Populate containers(Sites, Device groups)
+2. Populate containers (Sites, Device groups)
 3. Create Data Views and Templates
 4. Schedule recurrent updates
 	- Create Benchmark task
