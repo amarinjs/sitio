@@ -26,6 +26,20 @@ tags: netbrain documentation
 
 ## Argument for using netbrain
 
+### Documentation challenges:
+
+- Time consuming
+	- It takes hours/days/months to document a network with traditional methods
+
+	eg 
+
+<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/security_network_chart?raw=true"></center>
+<div style="text-align: center;">
+    <span style="font-size:11px; color:grey">
+        Network device planes. 
+    </span>
+</div>
+
 ## Use sites and device groups
 
 ## Build an application path map
