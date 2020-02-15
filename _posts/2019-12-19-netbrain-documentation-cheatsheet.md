@@ -24,3 +24,14 @@ tags: netbrain documentation
 
 ---
 
+## Argument for using netbrain
+
+## Use sites and device groups
+
+## Build an application path map
+
+## Use Data Views to decode the network
+
+## Collect and analyze live network information
+
+## Export to MS Visio for compliance
