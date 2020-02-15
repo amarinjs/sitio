@@ -61,6 +61,16 @@ tags: netbrain documentation
 	- Multi layering on Visio is hard.
 	- Too much info or not enough.
 
+## 5 Steps for Automation
+
+1. Discover the network
+2. Populate containers(Sites, Device groups)
+3. Create Data Views and Templates
+4. Schedule recurrent updates
+	- Create Benchmark task
+	- Create Discovery task
+5. Enhance multi-vendor experience
+
 ## Use sites and device groups
 
 ## Build an application path map
