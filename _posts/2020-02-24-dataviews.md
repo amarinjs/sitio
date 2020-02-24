@@ -26,7 +26,7 @@ tags: netbrain dataview
 
 *"A visual representation of data sets, created using CLI, SNMP and/or API"*
 
-It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Visio with Dynamic Views. (This saves hours of manual labour).
+It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Visio with Dynamic Views. (It saves manual labour).
 
 
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/dataviews-improvement.jpg?raw=true">
@@ -48,8 +48,12 @@ It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Vi
 
 ### Global and Local
 
+The diference between the two, is where the data is gathered from.
+
 #### Local
-Only visible on the current map
+Only visible on the current map.
+It has a set of static values, that don't change because they were generated based on a "snapshot" at a given time.
 
 #### Global
 Visible from any map (where data is available for the devices).
+Gets its information from the current baseline.
