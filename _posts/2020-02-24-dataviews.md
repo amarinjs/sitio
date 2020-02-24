@@ -32,7 +32,7 @@ It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Vi
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/dataviews-improvement.jpg?raw=true">
 
 
-## Hows to
+## Implementation
 
 - Instant Qapp
 	- a **local** data view is created using a parser.
@@ -46,7 +46,7 @@ It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Vi
 - Data View Template
 	- on-demand view that will use the latest data in the DB (not live network)
 
-### Global and Local
+### Global vs Local
 
 The diference between the two, is where the data is gathered from.
 
