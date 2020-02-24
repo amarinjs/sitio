@@ -26,17 +26,9 @@ tags: netbrain dataview
 
 *"A visual representation of data sets, created using CLI, SNMP and/or API"*
 
-It replaces static worksheets in Visio with Dynamic Views.
+It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Visio with Dynamic Views.
 
 
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/dataviews-improvement.jpg?raw=true">
 
 
-
-## 
-
-*A server that you can use to retrieve and send data using code.*
-
-It enables two pieces of software to communicate with each other, and its most commonly used to retrieve data.
-
-Just like other network services, the API listens on a given port and [URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier). To which you target your requests.
