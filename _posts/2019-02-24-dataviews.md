@@ -28,10 +28,9 @@ tags: netbrain dataview
 
 It replaces static worksheets in Visio with Dynamic Views.
 
-eg:
-- Routing
-- QoS design
-- STP
+
+<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/dataviews-improvement.jpg?raw=true">
+
 
 
 ## 
