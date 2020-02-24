@@ -26,7 +26,7 @@ tags: netbrain dataview
 
 *"A visual representation of data sets, created using CLI, SNMP and/or API"*
 
-It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Visio with Dynamic Views. (Big time saver).
+It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Visio with Dynamic Views. (This saves hours of manual labour).
 
 
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/dataviews-improvement.jpg?raw=true">
