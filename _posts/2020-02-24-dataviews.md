@@ -32,3 +32,16 @@ It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Vi
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/dataviews-improvement.jpg?raw=true">
 
 
+## Hows to
+
+- Instant Qapp
+	- a **local** data view is created using a parser.
+
+- On-demand Qapp
+	- a Qapp is run on a map
+
+- Scheduled Qapp
+	- Creates a **Global** data view
+
+- Data View Template
+	- on-demand view that will use the latest data in the DB (not live network)
