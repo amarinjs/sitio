@@ -45,3 +45,11 @@ It replaces [static worksheets](http://networkdiagram101.com/?page_id=113) in Vi
 
 - Data View Template
 	- on-demand view that will use the latest data in the DB (not live network)
+
+### Global and Local
+
+#### Local
+Only visible on the current map
+
+#### Global
+Visible from any map (where data is available for the devices).
