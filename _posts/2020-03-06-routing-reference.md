@@ -37,7 +37,5 @@ Routing algorithms can be grouped into two clases:
 
 ## Link State
 
->ERROR: To perform all's installation, following dependencies are required.
->Missing dependencies: gdbm-devel
->Please choose one of the following two options to install the dependencies.
->  1) Online install:
+> Distance vector was used in ARPANET untill 1979, then replaced by link state.
+> A main reason was that distance vector took too long to convert after a topology change (count to infinity problem).
