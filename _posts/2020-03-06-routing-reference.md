@@ -53,7 +53,7 @@ parts. Each router must do the following things to make it work:
 
 When a router is booted its first task is to learn who its neighbors are.
 
-So it sends **'HELLO'** packets on each of its lines. The router on the other end is expected to reply giving its name.
+So it sends **HELLO** packets on each of its lines. The router on the other end is expected to reply giving its name.
 
 When we have multiple routers on a single broadcast domain *Figure 5-11(a)*, it leads to wasteful messages.
 
@@ -76,9 +76,9 @@ A common choice is to make the **cost** inversely proportional to the bandwidth 
 
 Then for a geographically spread out network, **Delay** is factored into the cost, so that shorter links are better choices.
 
-To determine the delay a **"ECHO"** packet is sent over the line, the other side replies immediately. By meassuring the round-trip time and dividing it by two, we get an estimated delay. 
+To determine the delay a **ECHO** packet is sent over the line, the other side replies immediately. By meassuring the round-trip time and dividing it by two, we get an estimated delay. 
 
-If we ping from London to Buenos Aires the round trip time is 245 miliseconds, divided by two is 122 miliseconds.
+If we ping from London to Buenos Aires the round trip time is 245 miliseconds, divided by two is 122 miliseconds. Quick maths.
 
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/rtt-average.jpg?raw=true">
 
