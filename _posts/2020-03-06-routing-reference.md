@@ -66,8 +66,17 @@ So instead we consider the LAN as a node itself: **N** *Figure 5-11(b)*, then on
 
 Link state requires each link to have a cost metric (distance), so it can find the shortest path.
 
+#### Bandwidth
+
 A common choice is to make the **cost** inversely proportional to the bandwidth of the link. So that higher capacity paths are better choices.
 
 **eg** 1Gbps Ethernet may have a cost of **1**, then 100Mbps Eth a cost of **10**. 
 
+#### Delay
+
 Then for a geographically spread out network, **Delay** is factored into the cost, so that shorter links are better choices.
+
+To determine the delay a **"ECHO"** packet is sent over the line, the other side replies immediately. By meassuring the round-trip time and dividing it by two, we get an estimated delay. 
+
+<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/rtt-average.jpg?raw=true">
+
