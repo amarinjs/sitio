@@ -48,3 +48,10 @@ parts. Each router must do the following things to make it work:
 3. Construct a packet telling all it has learned on the previous steps.
 4. Send this packet to and receive similar packets from all other routers.
 5. Compute shortest path to every other router
+
+### Learning about neighbors
+
+When a router is booted its first task is to lear who its neighbors are.
+
+So it sends **'HELLO'** packets on each of its lines. The router on the other end is expected to reply giving its name.
+
