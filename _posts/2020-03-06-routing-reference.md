@@ -59,4 +59,15 @@ When we have multiple routers on a single broadcast domain *Figure 5-11(a)*, it 
 
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/fig-5-11.jpg?raw=true">
 
-So instead we consider the LAN as a node itself *Figure 5-11(b)*
+So instead we consider the LAN as a node itself: **N** *Figure 5-11(b)*, then one "designated router" on that LAN is selected to play the role of **N**. So going from A to C will be ANC.
+
+
+### Setting link costs
+
+Link state requires each link to have a cost metric (distance), so it can find the shortest path.
+
+A common choice is to make the **cost** inversely proportional to the bandwidth of the link. So that higher capacity paths are better choices.
+
+**eg** 1Gbps Ethernet may have a cost of **1**, then 100Mbps Eth a cost of **10**. 
+
+Then for a geographically spread out network, **Delay** is factored into the cost, so that shorter links are better choices.
