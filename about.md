@@ -6,12 +6,6 @@ header:
   background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,61,74,1) 100%, rgba(0,212,255,1) 100%);+'
 ---
 
-## Purpose
-
-To melt multiple sources into comprehensible guides. 
-
-I have missplaced most of the study notes I had in paper, and lost that one HDD that had everything on it. 
-
 This site is hosted for free on [github pages](https://github.com/alexma2344/sitio).
 
 <center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/sitio-def.PNG?raw=true"></center>
