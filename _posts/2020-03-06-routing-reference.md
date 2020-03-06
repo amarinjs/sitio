@@ -58,3 +58,5 @@ So it sends **'HELLO'** packets on each of its lines. The router on the other en
 When we have multiple routers on a single broadcast domain *Figure 5-11(a)*, it leads to wasteful messages.
 
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/fig-5-11.jpg?raw=true">
+
+So instead we consider the LAN as a node itself *Figure 5-11(b)*
