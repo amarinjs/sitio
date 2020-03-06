@@ -15,7 +15,7 @@ sharing: true
 comment: true
 articles:
   excerpt_type: html
-tags: netbrain dataview
+tags: computer-networks routing ospf
 ---
 
 <!--more-->
