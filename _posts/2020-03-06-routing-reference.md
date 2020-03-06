@@ -86,10 +86,15 @@ If we ping from London to Buenos Aires the round trip time is 245 miliseconds, d
 
 Once the information needed for the exchange has been collected, each router will build a packet containing all the data.
 
-Packet |
---------|
-Identity of sender | 
-Age | 
-List of neighbors | 
+Packet contains:
 
+- Identity of sender 
+- Sequence number
+- Age  
+- List of neighbors  
+
+<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/lsa.jpg?raw=true">
+
+
+[OSPF packet capture](https://www.cloudshark.org/captures/293956261434)
 
