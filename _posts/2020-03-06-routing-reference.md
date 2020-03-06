@@ -82,7 +82,7 @@ If we ping from London to Buenos Aires the round trip time is 245 miliseconds, d
 
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/rtt-average.jpg?raw=true">
 
-#### Building link state packets
+### Building link state packets
 
 Once the information needed for the exchange has been collected, each router will build a packet containing all the data.
 
@@ -97,4 +97,7 @@ Packet contains:
 
 
 [OSPF packet capture](https://www.cloudshark.org/captures/293956261434)
+
+
+### Distributing link state packets
 
