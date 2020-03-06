@@ -101,3 +101,21 @@ Packet contains:
 
 ### Distributing link state packets
 
+All routers must get all state packets quickly and reliably. If different routers have different versions of the topology, inconsistencies such as loops or unreachable destinations.
+
+#### Flooding
+
+We use flooding to distribute these packets, as a control meassure each packet contains the sequence number (32-bit) that is incremented for each new packet sent.
+
+> With one link state packet per second, it would take 137 years to wrap around, so this possibility can be ignored.
+
+When a new packet comes in, it is checked against the list of packets that arrived earlier, if new, then it is flooded again.
+If is a duplicate then it is discarded.
+
+### Computing the New Routes
+
+When the router has accumulated a full set of link state packets, it can construct the entire network graph, because all links are represented. (Actually links are represented twice, once for each direction, and each direction may have different costs).
+
+Compared to distance vector routing, link state routing requires more memory
+and computation.
+
