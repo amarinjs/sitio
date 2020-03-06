@@ -39,3 +39,12 @@ Routing algorithms can be grouped into two clases:
 
 > Distance vector was used in ARPANET untill 1979, then replaced by link state.
 > A main reason was that distance vector took too long to convert after a topology change (count to infinity problem).
+
+The idea behind link state routing is fairly simple and can be stated as five
+parts. Each router must do the following things to make it work:
+
+1. Discover neighbors and learn their network addresses.
+2. Set the distance or cost metric to each of its neighbors.
+3. Construct a packet telling all it has learned on the previous steps.
+4. Send this packet to and receive similar packets from all other routers.
+5. Compute shortest path to every other router
