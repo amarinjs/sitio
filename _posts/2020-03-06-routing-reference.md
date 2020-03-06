@@ -78,5 +78,7 @@ Then for a geographically spread out network, **Delay** is factored into the cos
 
 To determine the delay a **"ECHO"** packet is sent over the line, the other side replies immediately. By meassuring the round-trip time and dividing it by two, we get an estimated delay. 
 
+If we ping from London to Buenos Aires the round trip time is 245 miliseconds, divided by two is 122 miliseconds.
+
 <img src="https://github.com/alexma2344/sitio/blob/master/assets/images/rtt-average.jpg?raw=true">
 
