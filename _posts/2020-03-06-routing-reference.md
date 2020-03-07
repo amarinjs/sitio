@@ -76,7 +76,7 @@ A common choice is to make the **cost** inversely proportional to the bandwidth 
 
 Then for a geographically spread out network, **Delay** is factored into the cost, so that shorter links are better choices.
 
-To determine the delay a **ECHO** packet is sent over the line, the other side replies immediately. By meassuring the round-trip time and dividing it by two, we get an estimated delay. 
+To determine the delay an **ECHO** packet is sent over the line, the other side replies immediately. By meassuring the round-trip time and dividing it by two, we get an estimated delay. 
 
 If we ping from London to Buenos Aires the round trip time is 245 miliseconds, divided by two is 122 miliseconds. Quick maths.
 
