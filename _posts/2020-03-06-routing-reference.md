@@ -123,4 +123,4 @@ and computation.
 ## Broadcast Routing
 
 > Sending packets to all destinations simultaneously is called **Broadcasting**.
-
+> **Flooding** is a broadcast routing technique.
