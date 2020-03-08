@@ -118,9 +118,3 @@ When the router has accumulated a full set of link state packets, it can constru
 
 Compared to distance vector routing, link state routing requires more memory
 and computation.
-
-
-## Broadcast Routing
-
-> Sending packets to all destinations simultaneously is called **Broadcasting**.
-> **Flooding** is a broadcast routing technique.
