@@ -1,6 +1,6 @@
 ---
 layout: article
-title: NetBrain Use Cases
+title: Why NetBrain? 
 mode: immersive
 header:
   theme: dark
@@ -24,16 +24,31 @@ tags: netbrain
 
 ## Pain Points
 
-These are common and persisten problems.
+The following topics are for the overview demo.
+
 
 ### Inaccurate or incomplete documentation
 
+Expedite pending audits and provide the engineers with accurate/up to date documentation.
+
 ### MTTI/MTTR to slow on outages
+
+Reduce the time to recover from an Incident
+
+> Gartner Research: Averge hourly cost network downtime is USD 300K.
 
 ### Response to security attacks
 
+Too slow to detect inconsistencies, a golden baseline alert can pinpoint these and accelerate risk mitigation time.
+
 ### Self Inflicted outages
+
+Even the most experienced engineers can make mistakes, standarize this process 
 
 ### Lack of Know-how on technology
 
+No knowledge on new technologies like SDN, IOT. NetBrain can help you automate/visualize these things.
+
 ### Lack of collaboration between teams
+
+Use runbooks to troubleshoot, then save them and share with the rest of the team.
