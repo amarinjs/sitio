@@ -61,7 +61,11 @@ The following topics are for the overview demo.
 
 ### Link to Priorities
 
-- What projects have been approved to address pains.
+- What projects have been approved to address existing pain points.
 - Your priorities on these projects
 - What are the KPIs
 
+
+## Projects
+
+These are time bounded and budgeted (budget pools or discretionary founds).
