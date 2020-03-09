@@ -43,7 +43,7 @@ Too slow to detect inconsistencies, a golden baseline alert can pinpoint these a
 
 ### Self Inflicted outages
 
-Even the most experienced engineers can make mistakes, standarize this process 
+Even the most experienced engineers can make mistakes. 
 
 ### Lack of Know-how on technology
 
@@ -52,3 +52,12 @@ No knowledge on new technologies like SDN, IOT. NetBrain can help you automate/v
 ### Lack of collaboration between teams
 
 Use runbooks to troubleshoot, then save them and share with the rest of the team.
+
+
+## Quantify Cost
+
+- How much time and resources does this pain cost the organization.
+- The cost of pain must be large enough to drive initiavive for change.
+
+
+
