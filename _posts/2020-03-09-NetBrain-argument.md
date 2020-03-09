@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Why NetBrain? 
+title: Why NetBrain
 mode: immersive
 header:
   theme: dark
@@ -27,37 +27,41 @@ tags: netbrain
 The following topics are for the overview demo.
 
 
-#### Inaccurate or incomplete documentation
+- Inaccurate or incomplete documentation
 
-Expedite pending audits and provide the engineers with accurate/up to date documentation.
+	- Expedite pending audits and provide the engineers with accurate/up to date documentation.
 
-#### MTTI/MTTR to slow on outages
+- MTTI/MTTR to slow on outages
 
-Reduce the time to recover from an Incident
+	- Reduce the time to recover from an Incident
 
 > Gartner Research: Averge hourly cost network downtime is USD 300K.
 
-#### Response to security attacks
+- Response to security attacks
 
-Too slow to detect inconsistencies, a golden baseline alert can pinpoint these and accelerate risk mitigation time.
+	- Too slow to detect inconsistencies, a golden baseline alert can pinpoint these and accelerate risk mitigation time.
 
-#### Self Inflicted outages
+- Self Inflicted outages
 
-Even the most experienced engineers can make mistakes. 
+	- Even the most experienced engineers can make mistakes. 
 
-#### Lack of Know-how on technology
+- Lack of Know-how on technology
 
-No knowledge on new technologies like SDN, IOT. NetBrain can help you automate/visualize these things.
+	- No knowledge on new technologies like SDN, IOT. NetBrain can help you automate/visualize these things.
 
-#### Lack of collaboration between teams
+- Lack of collaboration between teams
 
-Use runbooks to troubleshoot, then save them and share with the rest of the team.
+	- Use runbooks to troubleshoot, then save them and share with the rest of the team.
 
 
-## Quantify Cost
+### Quantify Cost
 
 - How much time and resources does this pain cost the organization.
 - The cost of pain must be large enough to drive initiavive for change.
 
+### Link to Priorities
 
+- What projects have been approved to address pains.
+- Your priorities on these projects
+- What are the KPIs
 
