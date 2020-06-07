@@ -24,4 +24,18 @@ tags: computer-networks probability
 
 ##Outcomes
 
-> Probability measures the degree of uncertainty about the potential outcomes of a process.
+> Probability measures the degree of uncertainty about the potential *outcomes* of a *process*.
+
+Example:
+
+A rolling six-faced die, the **process** is that of rolling, the **outcome** is number on the upper horizontal page.
+
+Outcome is "mutually exclusive" because there can be only one when rolling the die.
+
+The sample space (S) goes from 1 to 6. 
+
+S = {1, 2, 3, 4, 5, 6}
+
+Its size is |S| = 6
+
+Each outcome is equally likely, and the probability of each outcome 
