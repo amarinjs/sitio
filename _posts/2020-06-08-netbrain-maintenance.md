@@ -36,18 +36,18 @@ Sort any unassigned devices into their corresponding sites (improve criteria for
 
 To be carried on a monthly basis.
 
-1. Maintain data storage; health and status of MongoDB.
+Maintain data storage; health and status of MongoDB.
 
 **Note:** MongoDB disk space utilization <70%
 
 
-2. Task manager --> to be continued.
+Task manager --> to be continued.
 
 
-3. Customize Auto-Update Settings, so that we are always running the latest resources.
+Customize Auto-Update Settings, so that we are always running the latest resources.
 
 
-4. Monitor Server & Service Metrics
+Monitor Server & Service Metrics
 
 Expected results:
 
