@@ -22,11 +22,13 @@ tags: computer-networks probability
 
 ---
 
-##Outcomes
+## Outcomes
 
 > Probability measures the degree of uncertainty about the potential *outcomes* of a *process*.
 
-Example:
+### Examples:
+
+#### Die
 
 A rolling six-faced die, the **process** is that of rolling, the **outcome** is number on the upper horizontal page.
 
@@ -38,4 +40,22 @@ S = {1, 2, 3, 4, 5, 6}
 
 Its size is |S| = 6
 
-Each outcome is equally likely, and the probability of each outcome 
+Each outcome is equally likely, and the probability of each outcome is *1/|S| = 1/6*
+
+#### Infinite sample space and zero probability
+
+If you trow a dart at random on to a dartboard.
+
+**Process:** Throwing a dart.
+**Outcome:** Point where dart hits.
+
+Outcome is mutually exclusive because the dart can only land on one point on the dartboard.
+
+But the difference with the die example, is that in this case. The sample space S is infinite.
+
+So, if every outcome is equally likely and there is an infinite amout of outcomes.
+
+Then the outcomes of this process have a probability of Zero.
+
+## Events
+
