@@ -30,7 +30,7 @@ tags: computer-networks probability
 
 #### Die
 
-A rolling six-faced die, the **process** is that of rolling, the **outcome** is number on the upper horizontal page.
+A rolling six-faced die, the **process** is that of rolling, the **outcome** is number on the upper horizontal face.
 
 Outcome is "mutually exclusive" because there can be only one when rolling the die.
 
@@ -42,7 +42,9 @@ Its size is |S| = 6
 
 Each outcome is equally likely, and the probability of each outcome is *1/|S| = 1/6*
 
-#### Infinite sample space and zero probability
+### Infinite sample space and zero probability
+
+#### Dartboard
 
 If you trow a dart at random on to a dartboard.
 
