@@ -54,3 +54,9 @@ Expected results:
 - servers status = connected
 - services status = running (green)
 - CPU/Mem utilization <70%
+
+
+## Domain Health Report
+
+
+Go to **Operations** --> **Domain Health Report**
