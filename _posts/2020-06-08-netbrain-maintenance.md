@@ -31,6 +31,8 @@ Tune live access so that the system can communicate with everything (different p
 
 Sort any unassigned devices into their corresponding sites (improve criteria for dynamic search).
 
+Export duplicated IP 
+
 
 ## System Maintenance
 
@@ -60,3 +62,4 @@ Expected results:
 
 
 Go to **Operations** --> **Domain Health Report**
+
