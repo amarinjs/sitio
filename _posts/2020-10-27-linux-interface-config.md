@@ -28,3 +28,20 @@ tags: clock ntp computer-networks
 
 ### CentOS
 
+  #go to
+  /etc/sysconfig/network-scripts/ 
+  
+  Edit the ifcfg-INTERFACENAME file
+
+  BOOTPROTO=static
+
+  IPADDR=192.168.1.200
+  NETMASK=255.255.255.0
+  GATEWAY=192.168.1.1
+  DNS1=1.0.0.1
+  DNS2=1.1.1.1
+  DNS3=8.8.4.4
+
+  Restart the network service:
+  systemctl restart network
+
