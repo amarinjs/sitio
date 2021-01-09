@@ -49,17 +49,4 @@ on the protocol side nothing changes, seems like an ease of configuration upgrad
 
 notes on this conversion:
 
-### restrictions for conversions
-
-- You must use the eigrp upgrade-cli command to convert Enhanced Interior Gateway Routing Protocol (EIGRP) configurations from classic mode to named mode. If multiple classic mode configurations exist, you must use this command per EIGRP autonomous system number in classic mode.
-
-- The eigrp upgrade-cli command blocks the router from accepting any other command until the conversion is complete (the console is locked). The time taken to complete the conversion depends on the size of the configuration. However, the conversion is a one-time activity.
-- The eigrp upgrade-cli command is available only under EIGRP classic router configuration mode. Therefore, you can convert configurations from classic mode to named mode but not vice-versa.
-
-- After conversion, the running configuration on the device will show only named mode configurations; you will be unable to see any classic mode configurations. To revert to classic mode configurations, you can reload the router without saving the running configuration to the startup configuration.
-
-- The new configurations are available only in the running configuration; they will not be saved to the startup configuration. If you want to add them to the startup configuration, you must explicitly save them using the write memory or the copy running-config startup-config command.
-
-- After conversion, the copy startup-config running-config command will fail because you cannot have both the classic and named mode for the same autonomous system.
-
-- After conversion, all neighbors (under the converted router EIGRP) will undergo graceful restart and sync all routes.
+[Cisco Link](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_eigrp/configuration/xe-3s/ire-xe-3s-book/ire-classic-to-named.html#:~:text=The%20eigrp%20upgrade%2Dcli%20command,is%20a%20one%2Dtime%20activity.)
