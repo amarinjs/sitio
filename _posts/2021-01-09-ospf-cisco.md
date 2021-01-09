@@ -45,7 +45,3 @@ tags: netbrain tenant
 [**show commands**](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/command/iro-cr-book/ospf-s1.html)
 
 
-
-
-
-
