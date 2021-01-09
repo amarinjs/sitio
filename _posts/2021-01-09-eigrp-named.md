@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Clock and NTP configuration
+title: eigrp named mode
 mode: immersive
 header:
   theme: dark
@@ -17,31 +17,22 @@ mathjax: true
 mathjax_autoNumber: true
 articles:
   excerpt_type: html
-tags: clock ntp computer-networks
+tags: eigrp routing computer-networks
 ---
 
 <!--more-->
 
 ---
 
-## Interface Configuration - Linux
+### benefits
 
-### CentOS
+eigrp named mode is easier to configure than classic mode. if using ipv6 for example you don't need to configure individual interfaces.
 
-  #go to
-  /etc/sysconfig/network-scripts/ 
-  
-  Edit the ifcfg-INTERFACENAME file
+configuration:
 
-  BOOTPROTO=static
+    router eigrp <word>
+      address-family <ipv4|ipv6> autonomous-system <number> 
 
-  IPADDR=192.168.1.200
-  NETMASK=255.255.255.0
-  GATEWAY=192.168.1.1
-  DNS1=1.0.0.1
-  DNS2=1.1.1.1
-  DNS3=8.8.4.4
+With the address family command, our named instance can form adjacencies with neighbors on an AS.
 
-  Restart the network service:
-  systemctl restart network
-
+The network statements are as usual.
