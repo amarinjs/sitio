@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Routing Reference
+title: spanning-tree Reference
 mode: immersive
 header:
   theme: dark
@@ -15,25 +15,15 @@ sharing: true
 comment: true
 articles:
   excerpt_type: html
-tags: computer-networks routing ospf
+tags: computer-networks stp spanning-tree
 ---
 
 <!--more-->
 
 ---
 
-# Routing Algorithms
+A protocol that prevents loops on LANs
 
-A part of the network layer software responsible for deciding the output line for a packet.
-
-Make the distinction between **routing**, which is making the decision which routes to use. 
-And **forwarding**, which is what happens when a packet arrives.
-
-Routing algorithms can be grouped into two clases:
-
-- Nonadaptive algorithms (static routing)
-
-- Adaptive algorithms (dynamic routing)
 
 ## Link State
 
