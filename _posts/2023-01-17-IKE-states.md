@@ -42,12 +42,16 @@ tags: ike security
 
 When a router is performing main mode Internet Key Exchange (IKE) peering, the IKE states will appear in the output of show crypto isakmp sa command in the following order:
 
-
 - MM_NO_STATE
+  Occurs when the Internet Security Association and Key Management Protocol (ISAKMP) security association (SA) has been created but the peers have not yet agreed on ISAKMP SA parameters.
 - MM_SA_SETUP
+  Occurs when the peers have agreed on the ISAKMP SA parameters but have not yet exchanged Diffie-Hellman (DH) public keys.
 - MM_KEY_EXCH
+  Occurs when the peers have exchanged DH public keys and have generated a share secret but the ISAKMP SA has not yet authenticated.
 - MM_KEY_AUTH
+  Occurts when ISAKMP SA authentication is successful; the peer should then immediately transition to the QM_IDLE state.
 - QM_IDLE
+  Is the normal, authenticated state for an ISAKMP SA. When a router is in the QM_IDLE state, the SA can be used for quick mode exchanges with the remote peer.
 
 ### Example
 
