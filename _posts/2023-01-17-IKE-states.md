@@ -36,3 +36,11 @@ tags: ike security
 
 
 [show crypto isakmp sa discussion](https://community.cisco.com/t5/network-security/quot-show-crypto-isakmp-sa-quot-explanation/td-p/1074312#:~:text=The%20output%20of%20show%20cry,isakmp%20SA%20was%20built%20successfuly.)
+
+
+    CA-TOR-R1#show crypto isakmp sa
+    IPv4 Crypto ISAKMP SA
+    dst             src             state          conn-id status
+    103.1.1.1       102.1.1.1       QM_IDLE           1033 ACTIVE
+    101.1.1.1       102.1.1.1       QM_IDLE           1032 ACTIVE
+
