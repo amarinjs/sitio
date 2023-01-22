@@ -1,6 +1,6 @@
 ---
 layout: article
-title: IKE states
+title: switchport modes
 mode: immersive
 header:
   theme: dark
@@ -15,7 +15,7 @@ sharing: true
 comment: true
 articles:
   excerpt_type: html
-tags: ike security architecture
+tags: trunk access port dynamic desirable mode
 ---
 
 <!--more-->
@@ -23,14 +23,12 @@ tags: ike security architecture
 ---
 
 ## Overview
-   The purpose is to negotiate,
-   and provide authenticated keying material for, security associations
-   in a protected manner.
+A layer 2 switch port can be configured to operate in either a static mode or a dynamic mode. When operating in static mode, the switch port is explicitly configured as either an access port or a trunk.
 
-   Processes which implement this memo can be used for negotiating
-   virtual private networks (VPNs) and also for providing a remote user
-   from a remote site (whose IP address need not be known beforehand)
-   access to a secure host or network.
+An access port is a member of a virtual LAN (VLAN) and is tipically connected to an edge device, like a server or a workstation. A trunk port is not a member of any VLAN and is typically connected to a nonedge device, such as a switch or a router.
+By default, an access port on a Cisco switch operates in VLAN 1.
+
+In addition, access ports automatically drop VLAN-tagged frames
 
 [RFC2409](https://datatracker.ietf.org/doc/html/rfc2409#section-2)
 
