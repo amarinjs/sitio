@@ -51,9 +51,11 @@ The *switchport mode dynamic auto* command configures a port to become a trunk p
 
 The *switchport mode dynamic desirable* command configures a port to actively negotiate to become a trunk port. The port will send out DTP frames in an attempt to negotiate trunking mode. If the other end of the link is configured as a trunk port or is set to dynamic auto or dynamic desirable mode, the link will become a trunk link. Cisco recommends that you set both sides of a trunk link to dynamic desirable mode when using DTP. When trunking to a non-Cisco device, you should manually configure the switch port for trunk mode.
 
-The default dynamic mode is dependent on the hardware platform. In general, departmental-level or wiring closet-level switches default to auto mode, whereas backbone-level switches  
-
-
-
 <left><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/trunk-modes.PNG?raw=true"></left>
 
+The default dynamic mode is dependent on the hardware platform. In general, departmental-level or wiring closet-level switches default to auto mode, whereas backbone-level switches default to desirable mode. Because a switch port in auto mode does not actively negotiate to operate in trunk mode, it will form a trunk link only if negotiations are initiated by the neighboring interface. A neighboring interface will initiate negotiations only if it is configured to operate in trunk mode or desirable mode. By contrast, a switch port in desirable mode will actively negotiate to operate in trunk mode and will form a trunk link with a neighboring port that is configured to operate in trunk, desirable, or auto mode.
+
+*switchport nonegotiate* command will disable DTP from the port. A port set to nonegotiate mode will not participate in DTP negotiation, nor will the port send DTP frames. Therefore, *switchport nonegotiate* command disables DTP.
+
+
+Reference: [Configuring VLANs:Trunking](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_55_se/configuration/guide/scg_2960/swvlan.html#pgfId-1096213)
