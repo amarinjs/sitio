@@ -26,38 +26,34 @@ tags: trunk access port dynamic desirable mode
 A layer 2 switch port can be configured to operate in either a static mode or a dynamic mode. When operating in static mode, the switch port is explicitly configured as either an access port or a trunk.
 
 An access port is a member of a virtual LAN (VLAN) and is tipically connected to an edge device, like a server or a workstation. A trunk port is not a member of any VLAN and is typically connected to a nonedge device, such as a switch or a router.
+
 By default, an access port on a Cisco switch operates in VLAN 1.
 
-In addition, access ports automatically drop VLAN-tagged frames
+Access ports automatically drop VLAN-tagged frames.
 
-[RFC2409](https://datatracker.ietf.org/doc/html/rfc2409#section-2)
+The static switchport modes are also referred to as on and off to indicate wether a port has been statically configured as a trunk port or an access port, respectively.
 
+The off keyword in the mode column of the following sample output from the show interfaces trunk command indicates that the FastEthernet 0/5 interface is configured to operate in a static access mode
 
-[show crypto isakmp sa](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/security/s1/sec-s1-cr-book/sec-cr-s3.html#wp5743341910)
+    Port        Mode         Encapsulation  Status        Native vlan
+    Fa0/18      off          802.1q         trunking      1
 
+The *switchport mode access* command will place the switch port into a perma access mode. A port set to acces mode will never become a trunk link.
 
-[Discussion](https://community.cisco.com/t5/network-security/quot-show-crypto-isakmp-sa-quot-explanation/td-p/1074312#:~:text=The%20output%20of%20show%20cry,isakmp%20SA%20was%20built%20successfuly.)
+The *switchport mode trunk* command will place the switch port into perma trunking mode. If the other end of the link is configured as trunk port or is set to dynamic auto or dynamic desirable mode, the link will become a trunk link.
 
-When a router is performing main mode Internet Key Exchange (IKE) peering, the IKE states will appear in the output of show crypto isakmp sa command in the following order:
+When operating in a dynamic mode, a switch port uses Dynamic Trunking protocol (DTP) to negotiate wether it should operate as an access or trunk port. There are two dynamic modes of operation for a switch port:
 
-- MM_NO_STATE
-  Occurs when the Internet Security Association and Key Management Protocol (ISAKMP) security association (SA) has been created but the peers have not yet agreed on ISAKMP SA parameters.
-- MM_SA_SETUP
-  Occurs when the peers have agreed on the ISAKMP SA parameters but have not yet exchanged Diffie-Hellman (DH) public keys.
-- MM_KEY_EXCH
-  Occurs when the peers have exchanged DH public keys and have generated a share secret but the ISAKMP SA has not yet authenticated.
-- MM_KEY_AUTH
-  Occurts when ISAKMP SA authentication is successful; the peer should then immediately transition to the QM_IDLE state.
-- QM_IDLE
-  Is the normal, authenticated state for an ISAKMP SA. When a router is in the QM_IDLE state, the SA can be used for quick mode exchanges with the remote peer.
+- Auto - operates in access mode unless the neighboring interface actively negotiates to operate as a trunk
+- Desirable - operates in access mode unless it can actively negotiate a trunk connection witha neighboring interface
 
-### Example
+The *switchport mode dynamic auto* command configures a port to become a trunk port only if the other link is explicitly configured as a trunk port or is set to dynamic desirable mode. The port will not actively negotiate to become a trunk port
 
-    CA-TOR-R1#show crypto isakmp sa
-    IPv4 Crypto ISAKMP SA
-    dst             src             state          conn-id status
-    103.1.1.1       102.1.1.1       QM_IDLE           1033 ACTIVE
-    101.1.1.1       102.1.1.1       QM_IDLE           1032 ACTIVE
+The *switchport mode dynamic desirable* command configures a port to actively negotiate to become a trunk port. The port will send out DTP frames in an attempt to negotiate trunking mode. If the other end of the link is configured as a trunk port or is set to dynamic auto or dynamic desirable mode, the link will become a trunk link. Cisco recommends that you set both sides of a trunk link to dynamic desirable mode when using DTP. When trunking to a non-Cisco device, you should manually configure the switch port for trunk mode.
+
+The default dynamic mode is dependent on the hardware platform. In general, departmental-level or wiring closet-level switches default to auto mode, whereas backbone-level switches  
 
 
-<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/IKE status.?raw=true"></center>
+
+<left><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/trunk-modes.PNG?raw=true"></left>
+
