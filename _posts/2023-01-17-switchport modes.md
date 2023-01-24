@@ -38,6 +38,8 @@ The off keyword in the mode column of the following sample output from the show 
     Port        Mode         Encapsulation  Status        Native vlan
     Fa0/18      off          802.1q         trunking      1
 
+### Commands
+
 The *switchport mode access* command will place the switch port into a perma access mode. A port set to acces mode will never become a trunk link.
 
 The *switchport mode trunk* command will place the switch port into perma trunking mode. If the other end of the link is configured as trunk port or is set to dynamic auto or dynamic desirable mode, the link will become a trunk link.
