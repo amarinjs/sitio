@@ -36,7 +36,7 @@ Each encryption type is assigned a number. The types of password encryption that
 
 ### Type 0
 
-Are passwords stored without encryption in the running configuration. e.g. **enable password <password>**
+Are passwords stored without encryption in the running configuration. e.g. **enable password <password>** 
 
 
 <left><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/vxlan.png?raw=true"></left>
