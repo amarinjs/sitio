@@ -52,6 +52,21 @@ Encrypted using an MD5 hash algorithm. Currently used for **enable secret**
 If both **enable password** and **enable secret** are configured on the same device, the device will prefer the Type 5 password when a user is prompted for the enable mode password. This is likewise true of any other command that can be configured with secret keyword.
 
 
+### Type 7
+
+This is Cisco propietary encryption. It's aimed at protecting from shoulder surfing. But not really robust once you get a copy of it.
+
+### Type 8
+
+Password-based key derivation function 2 (PBKDF2) with SHA256 are not reversible and are considered stronger than all previous types. You can run **enable secret 8** to configure them.
+
+To configure type 8 passwords as default secret type, issue the **enable algorithm-type sha256** in Cisco IOS later than 15.3(3)M3.
+
+
+### Type 9
+Encrypted in the running configuration by using the scrypt encryption algorithm. Type 9 are the strongest form of encryption available on Cisco devices. Not reversible.
+
+To set type 9 as default secret type issue the **enable algorithm-type scrypt** in Cisco IOS later than 15.3(3)M3.
 
 
 
