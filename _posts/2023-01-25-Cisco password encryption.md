@@ -36,7 +36,23 @@ Each encryption type is assigned a number. The types of password encryption that
 
 ### Type 0
 
-Are passwords stored without encryption in the running configuration. e.g. **enable password <password>** 
+Are passwords stored without encryption in the running configuration. e.g. **enable password** 
+
+
+### Type 4
+
+Encrypted using SHA-256 hash algorithm. Default type of encryption used by **enable secret** in some versions of IOS.
+Type 4 have been deprecated as of IOS 15.3(3).
+
+
+### Type 5
+
+Encrypted using an MD5 hash algorithm. Currently used for **enable secret**
+
+If both **enable password** and **enable secret** are configured on the same device, the device will prefer the Type 5 password when a user is prompted for the enable mode password. This is likewise true of any other command that can be configured with secret keyword.
+
+
+
 
 
 <left><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/vxlan.png?raw=true"></left>
