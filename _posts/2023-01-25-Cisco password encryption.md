@@ -68,9 +68,10 @@ Encrypted in the running configuration by using the scrypt encryption algorithm.
 
 To set type 9 as default secret type issue the **enable algorithm-type scrypt** in Cisco IOS later than 15.3(3)M3.
 
+### Warning
 
+If you plan to downgrade a device to a Cisco IOS version earlier than 15.3(3)M3 and we are using either type 8 or type 9 encryption. you should first issue the **enable algorithm-type md5** command in 15.3(3)M3 and reconfigure the **enable secret** command. Otherwise you will be locked out of the Cisco device after downgrading.
 
-<left><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/vxlan.png?raw=true"></left>
 
 
 
