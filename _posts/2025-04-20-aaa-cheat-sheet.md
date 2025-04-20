@@ -106,13 +106,113 @@ This command defines how users are authenticated when logging in (e.g., via cons
 
 ### 💡 Example Configuration
 
-```bash
+
 username admin privilege 15 secret StrongPass123
 
-aaa new-model
-radius-server host 192.0.2.10 key RadiusSecret
-aaa authentication login default group radius local
+	aaa new-model
+	radius-server host 192.0.2.10 key RadiusSecret
+	aaa authentication login default group radius local
 
-line vty 0 4
- login authentication default
+	line vty 0 4
+	 login authentication default
 
+## Command Breakdown: `aaa authorization exec default group radius local`
+
+This command controls what happens **after a user successfully logs in**. Specifically, it determines **whether the user is allowed to enter EXEC mode** (e.g., shell or CLI access), and where those permissions are verified.
+
+---
+
+### 🔍 Keyword-by-Keyword Breakdown
+
+| **Keyword**       | **Meaning**                                                                 |
+|-------------------|------------------------------------------------------------------------------|
+| `aaa`             | Begins an AAA-related configuration line                                     |
+| `authorization`   | Specifies the configuration is for **authorization** (what you can do)       |
+| `exec`            | Refers to EXEC mode (user shell/CLI access after login)                     |
+| `default`         | Method list name; `default` applies globally unless overridden               |
+| `group radius`    | Try RADIUS server(s) first to authorize the user                             |
+| `local`           | Fallback to local authorization (local user database) if RADIUS fails        |
+
+---
+
+### ⚙️ Available Options
+
+#### After `aaa authorization`:
+- `exec` – Authorize access to EXEC mode
+- `commands <level>` – Authorize individual commands (if supported)
+- `network` – Authorize access to network services
+- `reverse-access` – For reverse Telnet/SSH sessions
+- `configuration` – Authorize config commands
+- Note: **Some options may not be supported on all platforms** (e.g., Catalyst 2960).
+
+#### After `group`:
+- `radius` – Use RADIUS servers
+- `tacacs+` – Use TACACS+ servers
+
+#### Final methods:
+- `local` – Use local user roles/privileges
+- `none` – Allow without any authorization checks (⚠️ not secure)
+
+---
+
+### 💡 Example Configuration
+
+
+	username admin privilege 15 secret StrongPass123
+
+	aaa new-model
+	radius-server host 192.0.2.10 key RadiusSecret
+	aaa authorization exec default group radius local
+
+	line vty 0 4
+ 	authorization exec default
+
+
+ ## Command Breakdown: `aaa accounting connection default start-stop group radius`
+
+This command enables **accounting for network connection sessions** — such as PPP, VPN, or reverse Telnet — and logs both the start and end of those sessions by sending data to a **RADIUS server**.
+
+---
+
+### 🔍 Keyword-by-Keyword Breakdown
+
+| **Keyword**       | **Meaning**                                                                 |
+|-------------------|------------------------------------------------------------------------------|
+| `aaa`             | Begins an AAA-related configuration line                                     |
+| `accounting`      | Specifies this is for **accounting** (tracking and logging activity)         |
+| `connection`      | Tracks **network session connections** (e.g., PPP, VPN, reverse Telnet)      |
+| `default`         | Method list name; applies globally unless overridden                         |
+| `start-stop`      | Sends an accounting record **when the session starts and ends**              |
+| `group radius`    | Sends accounting records to the configured **RADIUS server group**           |
+
+---
+
+### ⚙️ Available Options
+
+#### After `aaa accounting`:
+- `exec` – Account for CLI EXEC sessions
+- `commands <level>` – Account for command executions
+- `connection` – Account for PPP or terminal sessions (e.g., modem, reverse Telnet)
+- `network` – Account for IP/packet-level network usage
+
+#### Method list name:
+- `default` – Applies to all relevant sessions unless overridden
+- Custom names can be used and applied per interface
+
+#### Action types:
+- `start-stop` – Send accounting records at **start and stop**
+- `stop-only` – Only log when the session ends
+- `none` – Disable accounting for this category
+
+---
+
+### 💡 Example Configuration
+
+
+	radius-server host 192.0.2.10 key RadiusSecret
+	
+	aaa new-model
+	aaa accounting connection default start-stop group radius
+	
+	line vty 0 4
+ 	accounting exec default
