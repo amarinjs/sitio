@@ -116,7 +116,7 @@ username admin privilege 15 secret StrongPass123
 	line vty 0 4
 	 login authentication default
 
-## `aaa authorization exec default group radius local`
+## Authorization `aaa authorization exec default group radius local`
 
 This command controls what happens **after a user successfully logs in**. Specifically, it determines **whether the user is allowed to enter EXEC mode** (e.g., shell or CLI access), and where those permissions are verified.
 
