@@ -60,7 +60,9 @@ This approach allows network admins to centrally manage user permissions, enforc
 	aaa accounting exec default start-stop group radius
 
 
-### `aaa authentication login default group radius local`
+### Authentication 
+
+`aaa authentication login default group radius local`
 
 This command defines how users are authenticated when logging in (e.g., via console or VTY) using the `default` method list. It attempts to authenticate via RADIUS first, and if that fails, falls back to the local user database.
 
@@ -116,7 +118,9 @@ username admin privilege 15 secret StrongPass123
 	line vty 0 4
 	 login authentication default
 
-## Authorization `aaa authorization exec default group radius local`
+## Authorization
+
+ `aaa authorization exec default group radius local`
 
 This command controls what happens **after a user successfully logs in**. Specifically, it determines **whether the user is allowed to enter EXEC mode** (e.g., shell or CLI access), and where those permissions are verified.
 
@@ -168,7 +172,9 @@ This command controls what happens **after a user successfully logs in**. Specif
  	authorization exec default
 
 
- ## `aaa accounting connection default start-stop group radius`
+ ## Accounting
+
+ `aaa accounting connection default start-stop group radius`
 
 This command enables **accounting for network connection sessions** — such as PPP, VPN, or reverse Telnet — and logs both the start and end of those sessions by sending data to a **RADIUS server**.
 
