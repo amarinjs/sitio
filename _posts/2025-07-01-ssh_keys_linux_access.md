@@ -122,7 +122,7 @@ sudo systemctl restart ssh
 If key authentication fails, test with verbose output:
 
 ```powershell
-ssh -vvv pi@192.168.1.213
+ssh -vvv username@<ip_address>
 ```
 
 Ensure correct permissions on the Pi:
