@@ -22,8 +22,6 @@ tags: ssh key cryptography
 
 <!--more-->
 
-# Setting Up SSH Key Authentication to Raspberry Pi from Windows (PowerShell)
-
 This guide describes how to set up SSH key-based authentication to a Raspberry Pi using Windows PowerShell.  
 
 ---
@@ -81,8 +79,6 @@ sudo nano /etc/ssh/sshd_config
 Ensure the following lines are set:
 
 ```bash
-Copy
-Edit
 PubkeyAuthentication yes
 AuthorizedKeysFile .ssh/authorized_keys
 PasswordAuthentication yes
