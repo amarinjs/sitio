@@ -1,6 +1,6 @@
 ---
 layout: article
-title: SSH Keys Linux Access
+title: SSH Key Authentication to Linux (Windows Guide)
 mode: immersive
 header:
   theme: dark
