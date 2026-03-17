@@ -32,3 +32,11 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
+
+  - titles:
+      en      : &EN       Contact
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /contact.html
