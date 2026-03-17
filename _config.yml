@@ -16,14 +16,14 @@
 
 ## => Site Settings
 ##############################
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: tomorrow-night-blue # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : # does not include hostname
-title   : sitio
+text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: tomorrow-night-eighties # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+url     : https://alexma2344.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
+baseurl : /sitio # does not include hostname
+title   : Alejandro Marin
 description: >- # this means to ignore newlines until "Language & timezone"
-  Computer Networks
-  IT infrastructure
+  Network Engineer & IT Infrastructure Specialist.
+  Notes, guides, and reference material on networking, security, and systems administration.
 
 
 ## => Language and Timezone
@@ -39,7 +39,7 @@ author:
   name      : Alejandro Marin
   url       : https://alexma2344.github.io/sitio
   avatar    : https://github.com/alexma2344/sitio/blob/master/assets/images/cigarro.jpg # path or url of avatar image (square)
-  bio       : I do things
+  bio       : Network Engineer & IT Infrastructure Specialist
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
