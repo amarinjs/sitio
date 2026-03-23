@@ -1,12 +1,6 @@
 ---
-layout: article
+layout: page
 title: About Me
-header:
-  theme: dark
-  background: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%)'
-key: page-about
-aside:
-  toc: false
 ---
 
 ## Hello, I'm Alejandro Marin
@@ -28,12 +22,6 @@ This site serves as a living notebook. Each post is a technical reference or gui
 - Security hardening and compliance
 - Infrastructure management and automation
 
-### Certifications & Credentials
-
-You can find my certifications in the [assets section](/sitio/assets/) of this site.
-
 ### Connect
 
 Find me on [LinkedIn](https://www.linkedin.com/in/alejandro-marin-768833117), [GitHub](https://github.com/alexma2344), or [StackOverflow](https://stackoverflow.com/users/9938491).
-
-You can also reach out through the [Contact](/sitio/contact.html) page.
