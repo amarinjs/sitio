@@ -1,7 +1,8 @@
 # Site Settings
 url: https://alexma2344.github.io
 baseurl: /sitio
-title: Alejandro Marin
+text_skin: forest
+title: Netgems
 description: >-
   Network Engineer & IT Infrastructure Specialist.
   Notes, guides, and reference material on networking, security, and systems administration.
@@ -12,7 +13,7 @@ timezone: Europe/London
 
 # Author
 author:
-  name: Alejandro Marin
+  name: Netgems
   bio: Network Engineer & IT Infrastructure Specialist
   linkedin: alejandro-marin-768833117
   github: alexma2344
