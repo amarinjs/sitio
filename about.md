@@ -3,9 +3,9 @@ layout: page
 title: About Me
 ---
 
-## Hello, I'm Alejandro Marin
+## Hello, welcome to Netgems
 
-I'm a Network Engineer and IT Infrastructure Specialist with a focus on enterprise networking, security, and systems administration. This site is my personal knowledge base where I document what I learn and share reference material that others might find useful.
+Netgems is a Network Engineering and IT Infrastructure knowledge base with a focus on enterprise networking, security, and systems administration. This site is my personal knowledge base where I document what I learn and share reference material that others might find useful.
 
 ### What I Do
 
