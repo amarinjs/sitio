@@ -1,57 +1,104 @@
 ---
 layout: default
 ---
-<div class="home">
-  <section class="home-hero">
-    <h1 class="home-title">{{ site.title }}</h1>
-    <p class="home-desc">{{ site.description }}</p>
-    <div class="home-search-hint">
-      <kbd>Ctrl</kbd> + <kbd>K</kbd> to search
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-eyebrow">{{ site.author.name }} · {{ site.author.location }}</div>
+    <h1>Network engineer writing about infrastructure, automation, and the road to <em>SRE</em>.</h1>
+    <p class="hero-lede">
+      I work with networks — routing, switching, security — and I'm increasingly interested in how that world meets cloud,
+      observability, and infrastructure-as-code. This site is where I keep my notes in public, so I remember them,
+      and so others might find them useful.
+    </p>
+    <div class="hero-links">
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+      <a href="https://stackoverflow.com/users/{{ site.author.stackoverflow }}">Stack Overflow</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <section class="skills">
+    <div class="skills-title">What I work with</div>
+    <div class="skill-group">
+      <span class="skill-group-label">Networking</span>
+      <div>
+        <span class="chip">Cisco IOS-XE</span>
+        <span class="chip">Routing &amp; switching</span>
+        <span class="chip">OSPF · BGP</span>
+        <span class="chip">VXLAN</span>
+        <span class="chip">IPsec · IKE</span>
+        <span class="chip">SNMP</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <span class="skill-group-label">Systems</span>
+      <div>
+        <span class="chip">Linux</span>
+        <span class="chip">Bash</span>
+        <span class="chip">Python</span>
+        <span class="chip">Git</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <span class="skill-group-label">Learning</span>
+      <div>
+        <span class="chip learning">Terraform</span>
+        <span class="chip learning">AWS</span>
+        <span class="chip learning">Kubernetes</span>
+        <span class="chip learning">Observability</span>
+      </div>
     </div>
   </section>
 
-  <section class="home-section">
-    <h2 class="section-title">Recent Notes</h2>
-    <div class="post-list">
-      {% for post in paginator.posts %}
-      <a class="post-card" href="{{ post.url | relative_url }}">
-        <div class="post-card-inner">
-          <div class="post-card-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-            {% if post.tags.size > 0 %}
-            {% for tag in post.tags limit:2 %}
-            <span class="post-card-tag">{{ tag }}</span>
-            {% endfor %}
-            {% endif %}
+  {% comment %} Featured posts — hand-pick up to 4 by setting `featured: true` in post frontmatter {% endcomment %}
+  {% assign featured = site.posts | where: "featured", true | limit: 4 %}
+  {% if featured.size > 0 %}
+  <section>
+    <h2 class="section-title">
+      <span>Featured writing</span>
+      <a href="{{ '/archive/' | relative_url }}">all posts →</a>
+    </h2>
+    <div class="featured-grid">
+      {% for post in featured %}
+        <a class="featured-card" href="{{ post.url | relative_url }}">
+          <div class="featured-card-eyebrow">
+            {% if post.tags.size > 0 %}{{ post.tags[0] | replace: '-', ' ' }} · {% endif %}{{ post.date | date: "%Y" }}
           </div>
-          <h3 class="post-card-title">{{ post.title }}</h3>
-          {% if post.excerpt %}
-          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+          <div class="featured-card-title">{{ post.title }}</div>
+          {% if post.excerpt_summary %}
+            <div class="featured-card-excerpt">{{ post.excerpt_summary }}</div>
           {% endif %}
-        </div>
-        <span class="post-card-arrow">&rarr;</span>
-      </a>
+        </a>
       {% endfor %}
     </div>
   </section>
-
-  {% if paginator.total_pages > 1 %}
-  <nav class="pagination">
-    {% if paginator.previous_page %}
-    <a class="pagination-link" href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
-    {% else %}
-    <span class="pagination-link disabled">&larr; Newer</span>
-    {% endif %}
-    <span class="pagination-info">{{ paginator.page }} / {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a class="pagination-link" href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
-    {% else %}
-    <span class="pagination-link disabled">Older &rarr;</span>
-    {% endif %}
-  </nav>
   {% endif %}
 
-  <div class="home-browse">
-    <a href="{{ '/archive.html' | relative_url }}" class="browse-link">Browse all notes &rarr;</a>
-  </div>
+  <section>
+    <h2 class="section-title">
+      <span>Recent posts</span>
+      <a href="{{ '/archive/' | relative_url }}">archive →</a>
+    </h2>
+    <ul class="post-list">
+      {% for post in site.posts limit: 8 %}
+        <li class="post-list-item">
+          <span class="post-date">{{ post.date | date: "%Y · %m · %d" }}</span>
+          <div>
+            <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {% if post.tags.size > 0 %}
+              <div class="post-tags">
+                {% for tag in post.tags limit: 4 %}<span>#{{ tag | replace: ' ', '-' | downcase }}</span>{% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
 </div>

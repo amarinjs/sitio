@@ -1,75 +1,74 @@
-# Site Settings
-url: https://alexma2344.github.io
-baseurl: /sitio
-title: Netgems
+# Site
+title: Alejandro Marin
+tagline: Network engineer · notes on infrastructure, automation, and the road to SRE
 description: >-
-  Network Engineer & IT Infrastructure Specialist.
-  Notes, guides, and reference material on networking, security, and systems administration.
-
-# Language & Timezone
+  Personal site and technical notebook of Alejandro Marin — a network engineer based in London,
+  writing about routing, switching, security, and the transition toward SRE and cloud infrastructure.
+url: "https://amarinjs.github.io"
+baseurl: "/sitio"
 lang: en
 timezone: Europe/London
 
 # Author
 author:
   name: Alejandro Marin
-  bio: Network Engineer & IT Infrastructure Specialist
-  linkedin: alejandro-marin-768833117
+  location: London, UK
+  bio: Network engineer moving toward SRE and cloud infrastructure.
+  email: # add if you want it public
   github: alexma2344
-  stackoverflow: 9938491
+  linkedin: alejandro-marin-768833117
+  stackoverflow: "9938491"
+  rss: "/feed.xml"
 
-# Repository
-repository: alexma2344/sitio
-repository_tree: master
-
-# Post
-excerpt_separator: <!--more-->
-permalink: date
-
-# Pagination
-paginate: 8
-paginate_path: /page:num
-
-# Markdown
+# Build
 markdown: kramdown
 highlighter: rouge
+permalink: /posts/:title/
+timezone: Europe/London
 
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    block:
+      line_numbers: false
 
-# Analytics
-google_analytics: "UA-146487120-1"
-
-# Build
-exclude:
-  - CHANGELOG.md
-  - HOW_TO_RELEASE.md
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README-*.md
-  - README.md
-  - gulpfile.js
-  - jekyll-text-theme.gemspec
-  - package-lock.json
-  - package.json
-  - /docs
-  - /node_modules
-  - /screenshots
-  - /test
-  - /vendor
-
+# Collections / defaults
 defaults:
   - scope:
       path: ""
       type: posts
     values:
-      layout: article
+      layout: post
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jemoji
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# SEO
+twitter:
+  card: summary
+social:
+  name: Alejandro Marin
+  links:
+    - https://github.com/alexma2344
+    - https://www.linkedin.com/in/alejandro-marin-768833117

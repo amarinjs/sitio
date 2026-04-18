@@ -1,25 +1,8 @@
 ---
-layout: article
-title: Routing Reference
-mode: immersive
-header:
-  theme: dark
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#4c4cc2'
-  background_image:
-    gradient: 'linear-gradient(313deg, rgba(2,0,36, .6) 0%, rgba(76,76,194, .6) 47%, rgba(0,212,255, .6) 100%)'
-    src: https://github.com/alexma2344/sitio/blob/master/assets/images/rainbows.jpg?raw=true"
-sharing: true
-comment: true
-articles:
-  excerpt_type: html
-tags: computer-networks routing ospf
----
-
-<!--more-->
-
+title: Routing reference
+tags: [computer-networks, routing, ospf]
+excerpt_summary: "A reference for link-state routing: neighbour discovery, cost metrics, flooding, and computing the new paths."
+featured: true
 ---
 
 # Routing Algorithms

@@ -1,10 +1,15 @@
 ---
 layout: default
+title: Not found
 permalink: /404.html
 ---
-<div class="error-page">
-  <div class="error-code">404</div>
-  <h1 class="error-title">Page not found</h1>
-  <p class="error-desc">The page you're looking for doesn't exist or has been moved.</p>
-  <a class="error-link" href="{{ '/' | relative_url }}">Back to home</a>
+
+<div class="wrap error-page">
+  <h1>404</h1>
+  <p>That page doesn't exist — or it moved when the site was rebuilt.</p>
+  <p style="margin-top: 1.5rem;">
+    <a href="{{ '/' | relative_url }}" style="color: var(--accent);">← home</a>
+    &nbsp; · &nbsp;
+    <a href="{{ '/archive/' | relative_url }}" style="color: var(--accent);">archive</a>
+  </p>
 </div>

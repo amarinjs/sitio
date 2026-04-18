@@ -1,27 +1,74 @@
 ---
 layout: page
-title: About Me
+title: About
+permalink: /about/
 ---
 
-## Hello, I'm Alejandro Marin
+I'm a network engineer based in London. My day-to-day is routing, switching, and
+network security — and my evenings are increasingly spent on the tools and
+ideas that bridge networking with cloud and site reliability: Linux, Python,
+Terraform, observability, and the general practice of running systems well.
 
-I'm a Network Engineer and IT Infrastructure Specialist with a focus on enterprise networking, security, and systems administration. This site is my personal knowledge base where I document what I learn and share reference material that others might find useful.
+This site is my notebook in public. Most posts start as notes I took to
+understand something — how DNS really resolves, what's happening inside an IKE
+negotiation, why VXLAN exists — and I've cleaned them up enough to be useful
+to someone else looking for the same answer.
 
-### What I Do
+<div class="about-section">
+  <h2>What I'm focused on</h2>
+  <p>
+    Moving from network engineering toward SRE and cloud infrastructure roles.
+    The overlap is bigger than people often assume — the habits from networking
+    (rigorous troubleshooting, thinking in layers, protocol-level debugging)
+    carry over well. What I'm adding: comfort with infrastructure-as-code,
+    modern observability stacks, containerised workloads, and cloud-native
+    networking.
+  </p>
+</div>
 
-- **Network Engineering** -- Designing, deploying, and troubleshooting enterprise networks with Cisco and multi-vendor environments
-- **Security** -- Implementing security frameworks, access control (AAA, SNMP, SSH hardening), and compliance standards like NIST
-- **Infrastructure** -- Managing IT infrastructure including DNS, NTP, routing, switching, and automation via APIs
+<div class="about-section">
+  <h2>Certifications</h2>
+  <ul class="cert-list">
+    <li>
+      <a href="/assets/NBU-Certificate-Professional%20v3.pdf">Veritas NetBackup — Professional</a>
+      <span class="cert-list-meta">v3 · PDF</span>
+    </li>
+    <li>
+      <a href="/assets/NBU-Certificate-Administrator%20v3.pdf">Veritas NetBackup — Administrator</a>
+      <span class="cert-list-meta">v3 · PDF</span>
+    </li>
+  </ul>
+</div>
 
-### What You'll Find Here
+<div class="about-section">
+  <h2>Elsewhere</h2>
+  <ul class="cert-list">
+    <li>
+      <a href="https://github.com/alexma2344">GitHub</a>
+      <span class="cert-list-meta">@alexma2344</span>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/alejandro-marin-768833117">LinkedIn</a>
+      <span class="cert-list-meta">alejandro-marin</span>
+    </li>
+    <li>
+      <a href="https://stackoverflow.com/users/9938491">Stack Overflow</a>
+      <span class="cert-list-meta">answers &amp; questions</span>
+    </li>
+    <li>
+      <a href="/feed.xml">RSS feed</a>
+      <span class="cert-list-meta">subscribe</span>
+    </li>
+  </ul>
+</div>
 
-This site serves as a living notebook. Each post is a technical reference or guide covering topics like:
-
-- Cisco IOS/IOS-XE configuration and best practices
-- Network protocols and packet forwarding
-- Security hardening and compliance
-- Infrastructure management and automation
-
-### Connect
-
-Find me on [LinkedIn](https://www.linkedin.com/in/alejandro-marin-768833117), [GitHub](https://github.com/alexma2344), or [StackOverflow](https://stackoverflow.com/users/9938491).
+<div class="about-section">
+  <h2>About this site</h2>
+  <p>
+    Built with Jekyll, hosted on GitHub Pages, custom theme. Source is on
+    <a href="https://github.com/alexma2344/sitio">GitHub</a> — pull requests
+    welcome if you spot a typo or think I'm wrong about something. If you'd
+    like to get in touch about work or just to chat about networking, the
+    quickest way is LinkedIn.
+  </p>
+</div>

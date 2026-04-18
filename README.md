@@ -1,89 +1,103 @@
-# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+# amarinjs.github.io
 
-[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
-[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
-[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
-[![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
+Personal site and technical notebook — [amarinjs.github.io/sitio](https://amarinjs.github.io/sitio/).
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+Custom Jekyll site, no external theme. Refined-minimal design with editorial serif
+display type (Newsreader), Geist sans for UI, JetBrains Mono for code, and a teal
+accent. Light and dark modes follow the OS preference.
 
-![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
+---
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+## Running locally
 
-**[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)**
+```bash
+# one-time, uses the GitHub Pages gemset
+bundle install
 
-## Features
+# serve with live reload
+bundle exec jekyll serve
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+# then open http://localhost:4000/sitio/
+```
 
-## Skins
+Note the `/sitio/` path — `baseurl` in `_config.yml` is set to `/sitio` to match
+how GitHub Pages serves this repo.
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+If you just want to build for testing without the full github-pages gem, use
+`Gemfile.local` instead (swap filenames: `mv Gemfile Gemfile.ghpages && mv Gemfile.local Gemfile`).
+Switch back before pushing to GitHub.
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+---
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+## Structure
 
-### Highlight Theme
+```
+_config.yml          — site-wide settings, author info, socials
+_layouts/            — page templates
+  default.html         everything wraps in this (head/header/footer)
+  home.html            landing page with hero + skills + featured + recent
+  post.html            single blog post
+  page.html            generic page (about, etc.)
+_posts/              — markdown posts, YYYY-MM-DD-slug.md
+assets/
+  css/main.scss        single stylesheet, all design tokens at the top
+  images/              post images
+  *.png .ico           favicons
+  *.pdf                certifications
+index.html           — home page (uses home layout)
+about.md             — about page
+archive.html         — full post index grouped by year and tag
+404.html             — error page
+```
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+---
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+## How to add a new post
 
-## Documentation
+1. Create `_posts/YYYY-MM-DD-my-slug.md`
+2. Frontmatter like this:
 
-### Start
+   ```yaml
+   ---
+   title: My post title
+   tags: [networking, routing]
+   excerpt_summary: "One-sentence summary used on the featured cards."
+   featured: true    # optional — include to promote on the home page
+   ---
+   ```
 
-- [Quick Start](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start)
-- [Update from 1.x to 2.x](https://tianqi.name/jekyll-TeXt-theme/docs/en/update-from-1-to-2)
+3. Write markdown below the frontmatter. Code blocks, tables, images all work.
+4. Commit and push; GitHub Pages builds and deploys automatically.
 
-### Customization
+### Featuring posts on the home page
 
-- [Configuration](https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration)
-- [Navigation](https://tianqi.name/jekyll-TeXt-theme/docs/en/navigation)
-- [Layouts](https://tianqi.name/jekyll-TeXt-theme/docs/en/layouts)
-- [Logo and Favicon](https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon)
-- [Authors](https://tianqi.name/jekyll-TeXt-theme/docs/en/authors)
-- [Internationalization](https://tianqi.name/jekyll-TeXt-theme/docs/en/i18n)
+Set `featured: true` in frontmatter. The home page shows up to 4 featured posts
+as cards. If no posts are featured, the section hides automatically.
 
-### Content
+### Tags
 
-- [Writing Posts](https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts)
-- [Additional styles](https://tianqi.name/jekyll-TeXt-theme/docs/en/additional-styles)
-- [Extensions](https://tianqi.name/jekyll-TeXt-theme/docs/en/extensions)
-- [Markdown Enhancements](https://tianqi.name/jekyll-TeXt-theme/docs/en/markdown-enhancements)
+Tags are free-form. They link to `/archive/#tag-name`. Keep them lowercase and
+hyphenated. Looking at the current archive, the tag list has grown messy — at
+some point it's worth consolidating (e.g. `ike-v1`, `ike-v2`, `ike` → `ike`).
 
-## Demo Pages
+---
 
-| Name | Description |
-| --- | --- |
-| [Home](https://tianqi.name/jekyll-TeXt-theme/test/) | Home page |
-| [Archive](https://tianqi.name/jekyll-TeXt-theme/archive.html) | Archive page |
-| [Layout Examples](https://tianqi.name/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
+## Design tokens
 
-## License
+All colors and typography live as CSS variables at the top of
+`assets/css/main.scss`. To change the accent colour, edit `--accent` (light)
+and the `--accent` under `@media (prefers-color-scheme: dark)`.
 
-TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+---
+
+## Known things to improve over time
+
+- Post images load from `github.com/alexma2344/sitio/blob/.../?raw=true` URLs.
+  If you ever rename the repo, these all break. Worth moving images into
+  `assets/images/` and updating post links to `/assets/images/foo.jpg`.
+- The tag list is currently noisy (many tags with just one post). Worth
+  consolidating to ~6–8 meaningful tags.
+- No search. If the post count grows past ~30, worth adding something like
+  [pagefind](https://pagefind.app/).
+- No comments. Adding them back (Giscus is the modern Gitalk replacement,
+  GitHub-auth, free) is a one-file change if you want them.
