@@ -1,10 +1,14 @@
 ---
 title: "Roadmaps — what are they good for"
-tags: [professional-services, roadmaps, customer-success, netbrain]
+tags: [professional-services, roadmaps, customer-success]
 excerpt_summary: "Why roadmap formats keep changing, what a roadmap actually is underneath the format, and a one-page template that stops you rebuilding the substance every time the framing shifts."
 ---
 
-Every customer engagement reaches the point where someone asks for "a roadmap." The word does a lot of work. It means one thing to an executive sponsor trying to justify spend, something else to a technical lead planning next quarter's work, and something else again to the engineer doing hands-on delivery. The format that gets asked for evolves as the engagement evolves, as new stakeholders rotate in, and as priorities shift around the edges of the same underlying project. That's not anyone's fault — it reflects the fact that a roadmap serves several audiences at once, and each one wants a slightly different view of the same thing. The cost lands on the engineer in the middle, who's doing technical delivery all day and then reshaping the same underlying truth into yet another layout by the end of the week. It's worth solving.
+ Every customer engagement reaches the point where someone asks for "a roadmap." The word does a lot of work. It means one thing to an executive sponsor  trying to justify spend, something else to a technical lead planning next quarter's work, and something else again to the engineer doing hands-on delivery.
+
+ The format that gets asked for evolves as the engagement evolves, as new stakeholders rotate in, and as priorities shift around the edges of the same underlying project.
+
+ That's not anyone's fault — it reflects the fact that a roadmap serves several audiences at once, and each one wants a slightly different view of the same thing. The cost lands on the engineer in the middle, who's doing technical delivery all day and then reshaping the same underlying truth into yet another layout by the end of the week.
 
 ## What a roadmap actually is
 
@@ -25,7 +29,7 @@ When it works, a roadmap earns its keep in a few specific ways.
 
 It prevents "what have you done for us lately" conversations at renewal, because the value delivered is documented in the customer's own words, against outcomes they agreed to at the start.
 
-It gives the engineer air cover when a phase slips due to a customer-side dependency, because those dependencies were named up front — so the conversation is about the blocker, not about the engineer.
+It gives the engineer cover when a phase slips due to a customer-side dependency, because those dependencies were named up front — so the conversation is about the blocker, not about the engineer.
 
 It forces the conversation about what we're *not* doing. Scope exclusion is as important as scope inclusion, and the best roadmaps have an explicit out-of-scope statement. Without one, expectations drift silently and the engagement ends with someone feeling shortchanged.
 
