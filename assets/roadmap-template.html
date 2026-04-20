@@ -455,7 +455,6 @@ permalink: /assets/roadmap-template.html
 <div class="toolbar">
   <button class="tool primary" onclick="window.print()">Print or save as PDF</button>
   <button class="tool" onclick="resetTemplate()">Reset template</button>
-  <button class="tool" onclick="loadExample()">Load Halliburton example</button>
   <span class="toolbar-hint">Edits live in your browser only — nothing is sent anywhere.</span>
 </div>
 
@@ -689,77 +688,6 @@ permalink: /assets/roadmap-template.html
       el.textContent = el.getAttribute('data-default');
     });
     markPlaceholders();
-  }
-
-  // Load the Halliburton example as a worked illustration
-  function loadExample() {
-    // Values in the same order as editable fields appear in the DOM
-    const values = [
-      // Header (3)
-      'Halliburton × NetBrain',
-      'Year 1 AMS roadmap',
-      'Mar 2025 → Mar 2026',
-      // Objective (1)
-      'Reduce time spent on repeat network operations by 90% on automated tasks, and consolidate network visibility into one platform across all regions by end of Year 1.',
-      // Metric 1 (3)
-      'Hours saved to date',
-      '~1,300',
-      'man-hours vs manual baseline',
-      // Metric 2 (3)
-      'Workflows automated',
-      '15',
-      'of 20 in scope',
-      // Metric 3 (3)
-      'Roadmap progress',
-      '94%',
-      'on track to close',
-      // Phase 1 (5: title, time, outcome, success, owner)
-      'Engage & install',
-      'Mar–Apr 2025',
-      'Platform live, two-server deployment, 4000 nodes licensed.',
-      'All services healthy, admin login working, daily benchmarks scheduled.',
-      'A. Marin / D. Rizvi',
-      // Phase 2
-      'Discover & baseline',
-      'Apr–May 2025',
-      'Network discovered, sites tuned, golden config defined.',
-      '≥95% CLI access target (currently 93%), all sites visible with paths.',
-      'A. Marin / D. Rizvi',
-      // Phase 3
-      'Automate & remediate',
-      'May–Oct 2025',
-      '15 automations live across compliance, security, routing, switching.',
-      '87–99% time reduction per workflow vs manual baseline.',
-      'A. Marin / D. Rizvi',
-      // Phase 4
-      'Continuous assessment & AI',
-      'Oct–Dec 2025',
-      'Recurring assessments, management dashboards, AI diagnosis live.',
-      'Leadership consuming dashboards, AI reducing MTTR on common issues.',
-      'A. Marin / D. Rizvi',
-      // Phase 5
-      'Enable & hand off',
-      'Jan–Mar 2026',
-      'Use case booklet, runbooks for run team, project close.',
-      'Customer self-administers platform, CSM transition signed off.',
-      'A. Marin / D. Rizvi',
-      // Dependencies (3)
-      'AD/SSO admin availability for external auth integration.',
-      'Remote access renewal for NetBrain engineer (internal review).',
-      '254 devices below CLI access target — need credential refresh.',
-      // Out of scope (3)
-      'SDN / ACI / cloud integrations — out of scope this engagement.',
-      'Multi-tenant / multi-domain rollout — candidate for Year 2.',
-      'Admin training modules — deferred to Year 2 enablement.'
-    ];
-
-    const editables = document.querySelectorAll('[contenteditable="true"][data-default]');
-    editables.forEach((el, i) => {
-      if (values[i] !== undefined) {
-        el.textContent = values[i];
-        el.classList.remove('placeholder');
-      }
-    });
   }
 
   // Initialize

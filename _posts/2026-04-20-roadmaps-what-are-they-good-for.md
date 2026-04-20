@@ -55,11 +55,11 @@ The detailed trackers — deployment checklist, training plan, value ledger — 
 
 ## A template you can use
 
-I built a fillable HTML template that captures this structure. Click any field to edit, click the status pills to cycle between Complete, In progress, and Not started, and there's a button to load a worked example from a real engagement so you can see what a filled-in version looks like.
+I built a fillable HTML template that captures this structure. Click any field to edit, click the status pills to cycle between Complete, In progress, and Not started, then print to PDF when you're done. Edits live in your browser only — nothing is sent anywhere.
 
 > **[→ Open the fillable one-page roadmap template](/sitio/assets/roadmap-template.html)**
 >
-> Click any field to edit. Print to PDF when you're done. Hit "Load example" to see it filled in with a real engagement.
+> Click any field to edit. Print to PDF when you're done.
 
 ## Closing thought
 
