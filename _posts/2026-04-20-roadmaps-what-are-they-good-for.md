@@ -17,6 +17,14 @@ Four audiences typically want a look:
 - The vendor's CSM or PS leadership wants risk, adoption health, and some read on the renewal trajectory.
 - The delivery engineer wants to know what to do next Monday.
 
+## A template you can use
+
+I built a fillable HTML template that captures the structure described below. Click any field to edit, click the status pills to cycle between Complete, In progress, and Not started, then print to PDF when you're done. Edits live in your browser only — nothing is sent anywhere.
+
+> **[→ Open the fillable one-page roadmap template](/sitio/assets/roadmap-template.html)**
+>
+> Click any field to edit. Print to PDF when you're done.
+
 ## What a roadmap is good for
 
 When it works, a roadmap earns its keep in a few specific ways.
@@ -52,14 +60,6 @@ Five: open dependencies and risks named explicitly. Environment access, data sou
 Six: an explicit "not in scope" statement. Two or three lines, plain language.
 
 The detailed trackers — deployment checklist, training plan, value ledger — still exist. They just live as backing documents the engineer maintains in parallel. The one-pager is what the sponsor reads.
-
-## A template you can use
-
-I built a fillable HTML template that captures this structure. Click any field to edit, click the status pills to cycle between Complete, In progress, and Not started, then print to PDF when you're done. Edits live in your browser only — nothing is sent anywhere.
-
-> **[→ Open the fillable one-page roadmap template](/sitio/assets/roadmap-template.html)**
->
-> Click any field to edit. Print to PDF when you're done.
 
 ## Closing thought
 
