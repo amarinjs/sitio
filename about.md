@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-I'm a network engineer based in London. My day-to-day is routing, switching, and
-network security — and my evenings are increasingly spent on the tools and
-ideas that bridge networking with cloud and site reliability: Linux, Python,
-Terraform, observability, and the general practice of running systems well.
+I'm a network engineer. My day-to-day is routing, switching, and network
+security — and my evenings are increasingly spent on the tools and ideas that
+bridge networking with cloud and site reliability: Linux, Python, Terraform,
+observability, and the general practice of running systems well.
 
 This site is my notebook in public. Most posts start as notes I took to
 understand something — how DNS really resolves, what's happening inside an IKE

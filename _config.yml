@@ -1,9 +1,9 @@
 # Site
-title: Alejandro Marin
-tagline: Network engineer · notes on infrastructure, automation, and the road to SRE
+title: netgems
+tagline: Notes and thoughts about network technologies and solutions.
 description: >-
-  Personal site and technical notebook of Alejandro Marin — a network engineer based in London,
-  writing about routing, switching, security, and the transition toward SRE and cloud infrastructure.
+  netgems — notes and thoughts about network technologies and solutions
+  by Alejandro Marin.
 url: "https://amarinjs.github.io"
 baseurl: "/sitio"
 lang: en
@@ -12,8 +12,7 @@ timezone: Europe/London
 # Author
 author:
   name: Alejandro Marin
-  location: London, UK
-  bio: Network engineer moving toward SRE and cloud infrastructure.
+  bio: Notes and thoughts about network technologies and solutions.
   email: # add if you want it public
   github: alexma2344
   linkedin: alejandro-marin-768833117

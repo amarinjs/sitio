@@ -82,12 +82,21 @@ body {
   flex-wrap: wrap;
 }
 .site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font-family: var(--font-serif);
   font-size: 17px;
   font-weight: 500;
   color: var(--text);
   text-decoration: none;
   letter-spacing: -0.01em;
+}
+.site-brand-icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+  flex-shrink: 0;
 }
 .site-brand:hover { color: var(--accent); }
 .site-nav { display: flex; gap: 1.5rem; }
