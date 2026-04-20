@@ -2,7 +2,6 @@
 title: IKE states
 tags: [ike, security, architecture]
 excerpt_summary: "Walking through the IKE state machine — phase 1, phase 2, and what each side is actually holding onto."
-featured: true
 ---
 
 ## Overview

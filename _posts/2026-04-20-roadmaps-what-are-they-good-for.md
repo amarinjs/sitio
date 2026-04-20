@@ -2,6 +2,7 @@
 title: "Roadmaps — what are they good for"
 tags: [professional-services, roadmaps, customer-success]
 excerpt_summary: "Why roadmap formats keep changing, what a roadmap actually is underneath the format, and a one-page template that stops you rebuilding the substance every time the framing shifts."
+featured: 1
 ---
 
 Every customer engagement hits a point where someone asks for a roadmap. And the word gets used for a lot of different things. An exec sponsor hears "roadmap" and thinks about whether the money is paying off. A tech lead hears it and thinks about next quarter's work. The engineer doing the delivery hears it and thinks about what's on their plate next Monday. Same word, three different things, and all of them are fair.

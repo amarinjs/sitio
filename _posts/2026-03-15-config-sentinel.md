@@ -2,6 +2,7 @@
 title: "Config Sentinel — unsaved configuration drift detection"
 tags: [netbrain, cisco, ios, automation, configuration-management, network-intent]
 excerpt_summary: "A NetBrain Network Intent that flags devices whose running config has drifted from startup — no scripts, no extra tooling, green/red status on the map."
+featured: 4
 ---
 
 A NetBrain Network Intent solution for automatically detecting configuration drift between running and startup configurations on Cisco IOS / IOS-XE devices.

@@ -2,7 +2,6 @@
 title: Routing reference
 tags: [computer-networks, routing, ospf]
 excerpt_summary: "A reference for link-state routing: neighbour discovery, cost metrics, flooding, and computing the new paths."
-featured: true
 ---
 
 # Routing Algorithms

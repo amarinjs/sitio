@@ -62,7 +62,7 @@ archive.html         — full post index grouped by year and tag
    title: My post title
    tags: [networking, routing]
    excerpt_summary: "One-sentence summary used on the featured cards."
-   featured: true    # optional — include to promote on the home page
+   featured: 1       # optional — 1–4 sets the order of featured cards (lower = first)
    ---
    ```
 
@@ -71,8 +71,10 @@ archive.html         — full post index grouped by year and tag
 
 ### Featuring posts on the home page
 
-Set `featured: true` in frontmatter. The home page shows up to 4 featured posts
-as cards. If no posts are featured, the section hides automatically.
+Set `featured: N` (where N is 1–4) in frontmatter. The home page shows up to 4
+featured posts as cards, sorted ascending by that number — `featured: 1` is
+first, `featured: 4` is last. If no posts are featured, the section hides
+automatically.
 
 ### Tags
 
