@@ -6,10 +6,6 @@ excerpt_summary: "Why roadmap formats keep changing, what a roadmap actually is 
 
  Every customer engagement reaches the point where someone asks for "a roadmap." The word does a lot of work. It means one thing to an executive sponsor  trying to justify spend, something else to a technical lead planning next quarter's work, and something else again to the engineer doing hands-on delivery.
 
- The format that gets asked for evolves as the engagement evolves, as new stakeholders rotate in, and as priorities shift around the edges of the same underlying project.
-
- That's not anyone's fault — it reflects the fact that a roadmap serves several audiences at once, and each one wants a slightly different view of the same thing. The cost lands on the engineer in the middle, who's doing technical delivery all day and then reshaping the same underlying truth into yet another layout by the end of the week.
-
 ## What a roadmap actually is
 
 A roadmap is a shared agreement between a vendor and a customer about what outcomes will be achieved, in what sequence, by when, and how both sides will know it worked. Everything else — Gantts, swimlanes, RAG dashboards, phase tables — is a rendering of that agreement for a particular audience.
@@ -20,8 +16,6 @@ Four audiences typically want a look:
 - The customer's technical lead wants to know what's happening this quarter, who owns what, and what's blocking.
 - The vendor's CSM or PS leadership wants risk, adoption health, and some read on the renewal trajectory.
 - The delivery engineer wants to know what to do next Monday.
-
-When someone asks for the roadmap "in a different format," they're almost never asking for the underlying truth to change. They're asking for a different view of it. The professional skill is recognising that and keeping the structure stable, then re-framing the view on top — rather than rebuilding the substance every time a new audience shows up.
 
 ## What a roadmap is good for
 
@@ -69,4 +63,4 @@ I built a fillable HTML template that captures this structure. Click any field t
 
 ## Closing thought
 
-The reason roadmap formats keep evolving isn't a flaw in the process. It reflects that a roadmap is a political artifact as much as a planning one. Different audiences need different framings of the same underlying truth, and the framing that worked last quarter won't always be the framing that works this quarter. The engineer who understands this stops re-doing the work every time the framing shifts, and instead keeps the underlying structure stable and re-frames the view on top. That's the skill.
+Different audiences need different framings of the same actions and outcomes, and the framing that worked last quarter won't always be the framing that works this quarter. The engineer who understands this stops re-doing the work every time the framing shifts, and instead keeps the underlying structure stable and re-frames the view on top.
