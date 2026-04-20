@@ -44,4 +44,4 @@ When a router is performing main mode Internet Key Exchange (IKE) peering, the I
     101.1.1.1       102.1.1.1       QM_IDLE           1032 ACTIVE
 
 
-<center><img src="https://github.com/alexma2344/sitio/blob/master/assets/images/IKE status.?raw=true"></center>
+<center><img src="https://github.com/amarinjs/sitio/blob/master/assets/images/IKE status.?raw=true"></center>

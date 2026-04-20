@@ -44,8 +44,8 @@ to someone else looking for the same answer.
   <h2>Elsewhere</h2>
   <ul class="cert-list">
     <li>
-      <a href="https://github.com/alexma2344">GitHub</a>
-      <span class="cert-list-meta">@alexma2344</span>
+      <a href="https://github.com/amarinjs">GitHub</a>
+      <span class="cert-list-meta">@amarinjs</span>
     </li>
     <li>
       <a href="https://www.linkedin.com/in/alejandro-marin-768833117">LinkedIn</a>
@@ -66,7 +66,7 @@ to someone else looking for the same answer.
   <h2>About this site</h2>
   <p>
     Built with Jekyll, hosted on GitHub Pages, custom theme. Source is on
-    <a href="https://github.com/alexma2344/sitio">GitHub</a> — pull requests
+    <a href="https://github.com/amarinjs/sitio">GitHub</a> — pull requests
     welcome if you spot a typo or think I'm wrong about something. If you'd
     like to get in touch about work or just to chat about networking, the
     quickest way is LinkedIn.

@@ -14,7 +14,7 @@ author:
   name: Alejandro Marin
   bio: Notes and thoughts about network technologies and solutions.
   email: # add if you want it public
-  github: alexma2344
+  github: amarinjs
   linkedin: alejandro-marin-768833117
   stackoverflow: "9938491"
   rss: "/feed.xml"
@@ -69,5 +69,5 @@ twitter:
 social:
   name: Alejandro Marin
   links:
-    - https://github.com/alexma2344
+    - https://github.com/amarinjs
     - https://www.linkedin.com/in/alejandro-marin-768833117

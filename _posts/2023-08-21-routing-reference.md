@@ -40,7 +40,7 @@ So it sends **HELLO** packets on each of its lines. The router on the other end 
 
 When we have multiple routers on a single broadcast domain *Figure 5-11(a)*, it leads to wasteful messages.
 
-<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/fig-5-11.jpg?raw=true">
+<img src="https://github.com/amarinjs/sitio/blob/master/assets/images/fig-5-11.jpg?raw=true">
 
 So instead we consider the LAN as a node itself: **N** *Figure 5-11(b)*, then one "designated router" on that LAN is selected to play the role of **N**. So going from A to C will be ANC.
 
@@ -63,7 +63,7 @@ To determine the delay an **ECHO** packet is sent over the line, the other side 
 
 If we ping from London to Buenos Aires the round trip time is 245 miliseconds, divided by two is 122 miliseconds. Quick maths.
 
-<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/rtt-average.jpg?raw=true">
+<img src="https://github.com/amarinjs/sitio/blob/master/assets/images/rtt-average.jpg?raw=true">
 
 ### Building link state packets
 
@@ -76,7 +76,7 @@ Packet contains:
 - Age  
 - List of neighbors  
 
-<img src="https://github.com/alexma2344/sitio/blob/master/assets/images/lsa.jpg?raw=true">
+<img src="https://github.com/amarinjs/sitio/blob/master/assets/images/lsa.jpg?raw=true">
 
 
 [OSPF packet capture](https://www.cloudshark.org/captures/293956261434)

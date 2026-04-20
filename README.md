@@ -92,7 +92,7 @@ and the `--accent` under `@media (prefers-color-scheme: dark)`.
 
 ## Known things to improve over time
 
-- Post images load from `github.com/alexma2344/sitio/blob/.../?raw=true` URLs.
+- Post images load from `github.com/amarinjs/sitio/blob/.../?raw=true` URLs.
   If you ever rename the repo, these all break. Worth moving images into
   `assets/images/` and updating post links to `/assets/images/foo.jpg`.
 - The tag list is currently noisy (many tags with just one post). Worth
