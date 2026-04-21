@@ -34,11 +34,23 @@ community.
   <div class="media-grid">
     <img src="{{ '/assets/images/volcano.jpeg' | relative_url }}" alt="">
     <img src="{{ '/assets/images/press.jpg' | relative_url }}" alt="">
+    <img src="{{ '/assets/images/snow.jpeg' | relative_url }}" alt="">
   </div>
-  <video class="about-video" controls muted playsinline preload="metadata">
-    <source src="{{ '/assets/videos/golf.mp4' | relative_url }}" type="video/mp4">
-    Your browser doesn't support embedded video.
-  </video>
+  <div class="video-grid">
+    <figure>
+      <video controls muted playsinline preload="metadata">
+        <source src="{{ '/assets/videos/golf.mp4' | relative_url }}" type="video/mp4">
+        Your browser doesn't support embedded video.
+      </video>
+      <figcaption>Can't break 100 but the swing looks cool.</figcaption>
+    </figure>
+    <figure>
+      <video controls muted playsinline preload="metadata">
+        <source src="{{ '/assets/videos/drive.mp4' | relative_url }}" type="video/mp4">
+        Your browser doesn't support embedded video.
+      </video>
+    </figure>
+  </div>
 </div>
 
 <div class="about-section">
