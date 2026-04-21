@@ -34,11 +34,11 @@ community.
   <div class="media-grid">
     <img src="{{ '/assets/images/volcano.jpeg' | relative_url }}" alt="">
     <img src="{{ '/assets/images/press.jpg' | relative_url }}" alt="">
-    <video controls muted playsinline preload="metadata">
-      <source src="{{ '/assets/videos/golf.mp4' | relative_url }}" type="video/mp4">
-      Your browser doesn't support embedded video.
-    </video>
   </div>
+  <video class="about-video" controls muted playsinline preload="metadata">
+    <source src="{{ '/assets/videos/golf.mp4' | relative_url }}" type="video/mp4">
+    Your browser doesn't support embedded video.
+  </video>
 </div>
 
 <div class="about-section">
