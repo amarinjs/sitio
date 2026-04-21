@@ -511,17 +511,15 @@ article.post { padding: 2rem 0 4rem; }
 
 /* About me — profile + personal media ---------------------------------- */
 .about-me {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
   margin-bottom: 1.5rem;
 }
 .profile-pic {
+  display: block;
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  flex-shrink: 0;
+  margin-bottom: 0.85rem;
 }
 .about-me-bio {
   margin: 0;
@@ -562,7 +560,6 @@ article.post { padding: 2rem 0 4rem; }
   font-style: italic;
 }
 @media (max-width: 640px) {
-  .about-me { flex-direction: column; align-items: flex-start; }
   .media-grid { grid-template-columns: 1fr; }
   .media-grid img { height: auto; max-height: 300px; }
   .video-grid { grid-template-columns: 1fr; }
