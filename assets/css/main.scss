@@ -487,7 +487,8 @@ article.post { padding: 2rem 0 4rem; }
   gap: 1rem;
 }
 .cert-list li:last-child { border-bottom: none; }
-.cert-list a {
+.cert-list a,
+.cert-list-name {
   color: var(--text);
   text-decoration: none;
   font-size: 15px;

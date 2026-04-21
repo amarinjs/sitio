@@ -17,14 +17,11 @@ community.
 <div class="about-section">
   <h2>Certifications</h2>
   <ul class="cert-list">
-    <li>
-      <a href="/assets/NBU-Certificate-Professional%20v3.pdf">Veritas NetBackup — Professional</a>
-      <span class="cert-list-meta">v3 · PDF</span>
-    </li>
-    <li>
-      <a href="/assets/NBU-Certificate-Administrator%20v3.pdf">Veritas NetBackup — Administrator</a>
-      <span class="cert-list-meta">v3 · PDF</span>
-    </li>
+    <li><span class="cert-list-name">Cisco CCNA Routing and Switching</span></li>
+    <li><span class="cert-list-name">Cisco CCNA Security</span></li>
+    <li><span class="cert-list-name">ITIL Foundation Level</span></li>
+    <li><span class="cert-list-name">NetBrain Administrator</span></li>
+    <li><span class="cert-list-name">NetBrain Professional</span></li>
   </ul>
 </div>
 
