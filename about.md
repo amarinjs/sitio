@@ -26,6 +26,22 @@ community.
 </div>
 
 <div class="about-section">
+  <h2>About me</h2>
+  <div class="about-me">
+    <img class="profile-pic" src="{{ '/assets/images/pp.jpeg' | relative_url }}" alt="Alejandro Marin">
+    <p class="about-me-bio">Outside of work I'm usually travelling, outdoors, or on a golf course.</p>
+  </div>
+  <div class="media-grid">
+    <img src="{{ '/assets/images/volcano.jpeg' | relative_url }}" alt="">
+    <img src="{{ '/assets/images/press.jpg' | relative_url }}" alt="">
+    <video controls muted playsinline preload="metadata">
+      <source src="{{ '/assets/videos/golf.mp4' | relative_url }}" type="video/mp4">
+      Your browser doesn't support embedded video.
+    </video>
+  </div>
+</div>
+
+<div class="about-section">
   <h2>Elsewhere</h2>
   <ul class="cert-list">
     <li>
