@@ -4,27 +4,15 @@ title: About
 permalink: /about/
 ---
 
-I'm a network engineer. My day-to-day is routing, switching, and network
-security — and my evenings are increasingly spent on the tools and ideas that
-bridge networking with cloud and site reliability: Linux, Python, Terraform,
-observability, and the general practice of running systems well.
+I'm a network engineer working in professional services for a network
+automation vendor. I've delivered over 50 projects and have a background in IT
+and network support. I'm Cisco-focused and a NetBrain expert, but I also
+dabble in Palo Alto, Arista, end systems, Linux, hypervisors, Cisco UCS,
+VMware, and cloud — I'm interested in technical work in general.
 
-This site is my notebook in public. Most posts start as notes I took to
-understand something — how DNS really resolves, what's happening inside an IKE
-negotiation, why VXLAN exists — and I've cleaned them up enough to be useful
-to someone else looking for the same answer.
-
-<div class="about-section">
-  <h2>What I'm focused on</h2>
-  <p>
-    Moving from network engineering toward SRE and cloud infrastructure roles.
-    The overlap is bigger than people often assume — the habits from networking
-    (rigorous troubleshooting, thinking in layers, protocol-level debugging)
-    carry over well. What I'm adding: comfort with infrastructure-as-code,
-    modern observability stacks, containerised workloads, and cloud-native
-    networking.
-  </p>
-</div>
+I made this page to clear my thoughts and write them down somewhere, share
+useful tips I've picked up working in the field, and give back to the
+community.
 
 <div class="about-section">
   <h2>Certifications</h2>
