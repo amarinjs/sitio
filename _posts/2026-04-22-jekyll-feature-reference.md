@@ -196,7 +196,7 @@ line vty 0 4
 
 ### Line highlighting
 
-Rouge supports per-line highlighting via the Liquid `{% highlight %}` tag with the `mark_lines` option, but not via fenced code blocks on vanilla GitHub Pages. Note: feature is limited on this site — leaving it off by default and using comments (`# <-- note`) inside the code when I need to call out a line.
+Rouge supports per-line highlighting via the Liquid `{% raw %}{% highlight %}{% endraw %}` tag with the `mark_lines` option, but not via fenced code blocks on vanilla GitHub Pages. Note: feature is limited on this site — leaving it off by default and using comments (`# <-- note`) inside the code when I need to call out a line.
 
 ### Inline code and escaping backticks
 
@@ -218,13 +218,13 @@ Pipe tables with mixed alignment. Left for labels, right for numbers, centered f
 
 **MathJax / KaTeX and Mermaid are not enabled on this site.** There's no loader in `_layouts/default.html`, no `mathjax: true` branch, and the `_config.yml` doesn't pull either plugin. Leaving the syntax out of this post so nothing renders as raw `$$…$$` or broken mermaid blocks.
 
-To turn on MathJax later, the minimal change is: add a `<script>` tag to `_layouts/default.html` (or gate it on `{% if page.math %}`) pointing at a MathJax CDN, then set `math: true` in a post's frontmatter. For Mermaid the same shape applies — add the mermaid JS loader and convert `<pre class="mermaid">` blocks to rendered diagrams on `DOMContentLoaded`.
+To turn on MathJax later, the minimal change is: add a `<script>` tag to `_layouts/default.html` (or gate it on `{% raw %}{% if page.math %}{% endraw %}`) pointing at a MathJax CDN, then set `math: true` in a post's frontmatter. For Mermaid the same shape applies — add the mermaid JS loader and convert `<pre class="mermaid">` blocks to rendered diagrams on `DOMContentLoaded`.
 
 ## Liquid and Jekyll-specific
 
 ### Showing Liquid syntax literally
 
-To display Liquid tags on the page without Jekyll executing them, wrap them in `{% raw %}` / `{% endraw %}`. This is how I'd document a template in a future post.
+To display Liquid tags on the page without Jekyll executing them, wrap them in a raw block. The opening and closing tags of that block, plus an example of what goes inside, are shown below — they all render literally because the whole example is itself wrapped in a raw block.
 
 {% raw %}
 ```liquid
@@ -254,7 +254,7 @@ posts = Dir.glob("_posts/*.md").sort
 posts.last(3).each { |p| puts p }
 {% endhighlight %}
 
-### `{% include %}` — skipped
+### `{% raw %}{% include %}{% endraw %}` — skipped
 
 No `_includes/` directory exists in the repo at the moment, so there's nothing to include. Skipping rather than inventing one.
 
@@ -278,4 +278,4 @@ After the post is deployed, I go through this list on the live page and tick wha
 - [ ] Table renders with correct column alignment (left / center / right)
 - [ ] Liquid raw block shows the tag syntax literally
 - [ ] Liquid values (`page.title`, `page.date`, `site.title`, `site.author.name`) resolve to real text
-- [ ] `{% highlight ruby %}` block highlights like a fenced block would
+- [ ] `{% raw %}{% highlight ruby %}{% endraw %}` block highlights like a fenced block would
