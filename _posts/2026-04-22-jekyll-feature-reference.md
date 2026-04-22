@@ -65,27 +65,19 @@ For sidebar facts I don't want to break the flow of a sentence[^1].
 
 [^1]: This is the footnote definition. Kramdown collects all `[^n]` definitions and renders them at the bottom of the post with back-links.
 
-## Abbreviations
+## Abbreviations — not supported
 
-Define once, and kramdown will add a `<abbr>` tooltip every time the term appears. Useful for acronym-heavy network posts.
+Kramdown's abbreviation syntax (`*[HTML]: Hyper Text Markup Language`, which would make `<abbr>` tooltips) is a kramdown extension that GitHub Pages' GFM parser (`kramdown-parser-gfm`) does not process. Broke the first build of this post. Leaving the syntax out and noting it here. If I ever need it, the workaround is inline HTML: `<abbr title="Hyper Text Markup Language">HTML</abbr>`.
 
-*[HTML]: Hyper Text Markup Language
-*[DNS]: Domain Name System
+## Definition list — not supported
 
-This site publishes HTML. Many of the posts here talk about DNS. Hover over either acronym once the page is live.
+Same story: kramdown's `term\n:   definition` definition-list syntax isn't in the GFM parser. For term/definition pairs I use a two-column table or inline HTML `<dl>` instead.
 
-## Definition list
-
-For term/definition pairs where a table would be overkill.
-
-Kramdown
-:   Markdown parser Jekyll uses. Stricter than some, supports footnotes, abbreviations, and attribute lists out of the box.
-
-Rouge
-:   Ruby syntax highlighter. Runs at build time, emits plain HTML with CSS classes — no client-side JS needed.
-
-Liquid
-:   Jekyll's template language. Runs during `jekyll build`.
+| Term     | Definition                                                                          |
+| :------- | :---------------------------------------------------------------------------------- |
+| Kramdown | Markdown parser Jekyll uses.                                                         |
+| Rouge    | Ruby syntax highlighter. Runs at build time, emits plain HTML with CSS classes.      |
+| Liquid   | Jekyll's template language. Runs during `jekyll build`.                              |
 
 ## Links
 
@@ -216,9 +208,9 @@ Pipe tables with mixed alignment. Left for labels, right for numbers, centered f
 
 | Feature              |   Status    | Notes about when to use it |
 | :------------------- | :---------: | -------------------------: |
-| Footnotes            |   enabled   |          sidebar-style facts |
-| Abbreviations        |   enabled   |               acronym posts |
-| Definition lists     |   enabled   |         term/def references |
+| Footnotes            |   enabled   |         sidebar-style facts |
+| Abbreviations        | **not on**  |       kramdown-only, GFM off |
+| Definition lists     | **not on**  |       kramdown-only, GFM off |
 | Math (MathJax/KaTeX) | **not on**  |      would need layout edit |
 | Diagrams (Mermaid)   | **not on**  |      would need layout edit |
 
@@ -277,8 +269,6 @@ After the post is deployed, I go through this list on the live page and tick wha
 - [ ] Horizontal rule shows a line
 - [ ] Blockquote + nested blockquote render with visible nesting
 - [ ] Footnote link jumps to the definition and back
-- [ ] Abbreviation tooltips appear on hover over HTML and DNS
-- [ ] Definition list renders with term on its own line, definition indented
 - [ ] Inline, reference-style, and auto-link all work and underline on hover
 - [ ] Plain image loads and sizes correctly
 - [ ] Captioned figure shows the caption below the image
