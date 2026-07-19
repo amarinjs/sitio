@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where gh *)",
+      "Bash(cmd //c \"where gh\")",
+      "WebFetch(domain:amarinjs.github.io)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(where curl *)",
+      "Bash(cmd //c \"where curl\")",
+      "Bash(curl -s \"https://api.github.com/repos/amarinjs/sitio/check-runs/72436937741/annotations\" -H \"Accept: application/vnd.github+json\")",
+      "Read(//tmp/**)",
+      "Bash(python -c \"import json; d=json.load\\(open\\('/tmp/annotations.json'\\)\\); print\\(d[1]['message'][-4000:] if len\\(d\\)>1 else d[0]['message'][-4000:]\\)\")",
+      "Bash(curl -sL -o /tmp/logs.zip \"https://api.github.com/repos/amarinjs/sitio/actions/runs/24758537624/logs\" -H \"Accept: application/vnd.github+json\" -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s \"https://api.github.com/repos/amarinjs/sitio/commits/37826bb/check-runs?check_name=build\")",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); r=d['check_runs'][0]; print\\('id:', r['id']\\); print\\('status:', r['status'], '/', r['conclusion']\\)\")",
+      "Bash(curl -s \"https://api.github.com/repos/amarinjs/sitio/check-runs/72438728537/annotations\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('/tmp/ann2.json'\\)\\); [print\\(repr\\(a['message'][-3500:]\\)\\) for a in d if a.get\\('annotation_level'\\)=='failure']\")"
+    ]
+  }
+}
