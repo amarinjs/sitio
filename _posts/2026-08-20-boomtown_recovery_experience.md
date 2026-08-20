@@ -1,12 +1,10 @@
 ---
-title: "Jekyll feature reference — a living cheat-sheet"
+title: "Boomtown - The days after and my recovery experience"
 tags: [jekyll, reference, markdown, kramdown]
-excerpt_summary: "One post exercising every Markdown, kramdown, Rouge, and Liquid feature my site currently supports. Kept here so I can see what works, what doesn't, and what I'd need to enable later."
+excerpt_summary: "A report on sensations and struggles after a heavy festival"
 ---
 
-Notes to future me. Each section is a minimal working example plus a one-liner on when I'd actually reach for it. If something renders wrong on the live site, it goes on the checklist at the bottom.
-
-## Headings
+## The final night and the journey home
 
 Use `h2` for top-level sections of a post — `h1` already comes from the frontmatter `title` via `post.html`. `h3` for subsections, `h4` for the occasional nested bit. Deeper than that and the post is trying to be a book.
 
