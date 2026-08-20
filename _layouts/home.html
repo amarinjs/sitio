@@ -18,6 +18,48 @@ layout: default
   </div>
 </section>
 
+<div class="wrap">
+
+  <section class="skills">
+    <div class="skill-group">
+      <span class="skill-group-label">Networking</span>
+      <div>
+        <span class="chip">CIS &amp; NIST assessments</span>
+        <span class="chip">DORA compliance</span>
+        <span class="chip">Cisco IOS-XE</span>
+        <span class="chip">Nexus switches</span>
+        <span class="chip">Palo Alto</span>
+        <span class="chip">Check Point</span>
+        <span class="chip">Fortinet</span>
+        <span class="chip">Azure</span>
+        <span class="chip">Network management</span>
+        <span class="chip">Configuration drift</span>
+        <span class="chip">CVE reports</span>
+        <span class="chip">VPN tunnel migrations</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <span class="skill-group-label">Systems</span>
+      <div>
+        <span class="chip">Windows Server</span>
+        <span class="chip">Red Hat</span>
+        <span class="chip">Python</span>
+        <span class="chip">Bash</span>
+        <span class="chip">Git</span>
+        <span class="chip">MongoDB</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <span class="skill-group-label">Learning</span>
+      <div>
+        <span class="chip learning">Terraform</span>
+        <span class="chip learning">Kubernetes</span>
+        <span class="chip learning">Grafana</span>
+        <span class="chip learning">AI</span>
+      </div>
+    </div>
+  </section>
+
   {% comment %} Featured posts — hand-pick up to 4 by setting `featured: N` (1–4) in post frontmatter. Lower N appears first. {% endcomment %}
   {% assign featured = site.posts | where_exp: "p", "p.featured" | sort: "featured" | limit: 4 %}
   {% if featured.size > 0 %}
