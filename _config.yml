@@ -1,8 +1,8 @@
 # Site
 title: netgems
-tagline: Notes and thoughts about network technologies and solutions.
+tagline: Network engineering, life experiences, thoughts and notes.
 description: >-
-  netgems — notes and thoughts about network technologies and solutions
+  netgems — Network engineering, life experiences, thoughts and notes
   by Alejandro Marin.
 url: "https://amarinjs.github.io"
 baseurl: "/sitio"
@@ -12,7 +12,7 @@ timezone: Europe/London
 # Author
 author:
   name: Alejandro Marin
-  bio: Notes and thoughts about network technologies and solutions.
+  bio: Network Engineering, life experiences, thoughts and notes.
   email: # add if you want it public
   github: amarinjs
   linkedin: alejandro-marin-768833117
